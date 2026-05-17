@@ -49,10 +49,21 @@
     header .brand { display: flex; align-items: center; gap: 12px; }
     header .brand img { width: 32px; height: 32px; }
     header .brand span { font-weight: 600; }
-    header .tabs { display: flex; gap: 4px; flex-wrap: wrap; }
-    header .tabs a { padding: 6px 12px; border-radius: 6px; font-size: 13px; font-weight: 500; color: var(--text-mute); transition: all 0.15s; }
+    header .tabs-wrap { position: relative; }
+    header .tabs { display: flex; gap: 4px; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+    header .tabs::-webkit-scrollbar { display: none; }
+    header .tabs a { padding: 6px 12px; border-radius: 6px; font-size: 13px; font-weight: 500; color: var(--text-mute); transition: all 0.15s; white-space: nowrap; flex-shrink: 0; }
     header .tabs a:hover { background: var(--bg-elev); color: var(--text); }
     header .tabs a.active { background: var(--bg-card); color: var(--text); border: 1px solid var(--border-hi); }
+    @media (max-width: 720px) {
+      header .nav { padding: 10px 12px; gap: 8px; }
+      header .brand span { display: none; }
+      header .tabs-wrap { order: 3; width: 100%; }
+      header .tabs-wrap::after { content: ""; position: absolute; right: 0; top: 0; bottom: 0; width: 24px; background: linear-gradient(to right, transparent, rgba(0,0,0,0.95)); pointer-events: none; }
+      header .tabs { padding: 4px 0; }
+      header .tabs a { padding: 8px 14px; font-size: 14px; }
+      header .actions a.cta { padding: 8px 14px; font-size: 13px; }
+    }
     header .actions a.cta { padding: 8px 16px; border-radius: 8px; font-size: 14px; font-weight: 500; background: var(--ok); color: #fff; }
     header .actions a.cta:hover { background: #15803d; color: #fff; }
 
@@ -121,12 +132,12 @@
       <img src="../../brand/icon-mono-white_512.png" alt="VodaControl">
       <span>VodaControl</span>
     </a>
-    <div class="tabs">
+    <div class="tabs-wrap"><div class="tabs">
       <a href="../">Resumen</a>
       <a href="../pipeline/">Pipeline</a>
       <a href="../programas/" class="active">Programas Vodafone</a>
       <a href="../catalogo/">Catálogo</a>
-    </div>
+    </div></div>
     <div class="actions">
       <a href="../#contacto" class="cta">Solicitar demo</a>
     </div>
