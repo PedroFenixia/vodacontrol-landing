@@ -1,0 +1,914 @@
+bloque,familia,subfamilia,codigo,descripcion,equivalencia_nuevo,equivalencia_existente,equivalencia_unica
+Prima Gross Adds,Red Infinity Smart,,MSDFK,RED Infinity Smart TP sin Datos,1.0,0.5,
+Prima Gross Adds,Red Infinity Smart,,MPFKH,RED Hoteles,1.0,0.5,
+Prima Gross Adds,Red Infinity Pro,,MTXKP,RED Infinity Full Speed,1.0,1.0,
+Prima Gross Adds,Red Infinity Pro,,MX1KP,RED Infinity 10Mbps,1.0,1.0,
+Prima Gross Adds,Red Infinity Pro,,MTXK5,RED Infinity 5GB,1.0,1.0,
+Prima Gross Adds,Red Infinity Pro,,MSDXK,RED Infinity Sólo Voz,1.0,0.5,
+Prima Gross Adds,Red Infinity Pro,,MDTKX,RED Infinity Tablet 5GB,1.0,0.5,
+Prima Gross Adds,Red Infinity Pro,,MDTKW,RED Infinity Tablet 5GB,1.0,0.5,
+Prima Gross Adds,Red Infinity Pro,,MPXKH,RED Infinity Hoteles,1.0,0.5,
+Prima Gross Adds,Red Infinity Pro,,MDYKC,Tarifa Red Infinity Oficinal Móvil 5GB,1.0,0.5,
+Prima Gross Adds,Red infinity Plus,,MTVKG,RED Infinity Plus Tarifa Plana Bono (10 líneas),1.0,1.0,
+Prima Gross Adds,Red infinity Plus,,MTVKP,RED Infinity Plus Tarifa Plana 24H,1.0,1.0,
+Prima Gross Adds,Red infinity Plus,,MTVKS,RED Infinity Plus Tarifa Plana 10Mbps,1.0,1.0,
+Prima Gross Adds,Red infinity Plus,,MTVKV,RED Infinity Plus TP 24 H Speed,1.0,1.0,
+Prima Gross Adds,Red Infinity Lite,,MIKFS,RED Infinity Tarifa ilimitada Full Speed,1.0,1.0,
+Prima Gross Adds,Red Infinity Lite,,MIKDI,RED Infinity Tarifa ilimitada 10Mbps,1.0,1.0,
+Prima Gross Adds,Red Infinity Lite,,MIKDO,RED Infinity Tarifa ilimitada 2Mbps,1.0,1.0,
+Prima Gross Adds,Red Infinity Basic,,MTBKV,RED Infinity TP 24 H Shared,1.0,1.0,
+Prima Gross Adds,Red Infinity Basic,,MTTKB,RED Infinity Tablet,1.0,0.5,
+Prima Gross Adds,Red Infinity 50Gb,,MTSDK,RED Infinity Tarifa Plana sin Datos,1.0,0.5,
+Prima Gross Adds,Red Infinity 50Gb,,MTVKZ,RED Infinity Tarifa Plana 24 horas Bono,1.0,1.0,
+Prima Gross Adds,Red Infinity 50Gb,,MTVK1,Red Infinity Tarifa Plana 24 Horas 1GB,1.0,1.0,
+Prima Gross Adds,Red Infinity 50Gb,,MTVK2,Red Infinity Tarifa Plana 24 Horas 2GB,1.0,1.0,
+Prima Gross Adds,Red Infinity 50Gb,,MTVK5,Red Infinity Tarifa Plana 24 Horas 5GB,1.0,1.0,
+Prima Gross Adds,Red Infinity 50Gb,,MTVK0,Red Infinity Tarifa Plana 24 Horas 10GB,1.0,1.0,
+Prima Gross Adds,Red Infinity 50Gb,,MDTKL,RED Infinity Tablet,1.0,0.5,
+Prima Gross Adds,Red Empresa,,PTPKB,RED Empresa TP 24 Horas,1.0,1.0,
+Prima Gross Adds,Red Empresa,,MTPKB,RED Empresa TP 24 Horas,1.0,1.0,
+Prima Gross Adds,Red Empresa,,MTPKR,RED Empresa TP 24 Horas,1.0,1.0,
+Prima Gross Adds,Red Empresa,,PPMKB,RED Empresa 5,1.0,1.0,
+Prima Gross Adds,Red Empresa,,MPMKB,RED Empresa 5,1.0,0.5,
+Prima Gross Adds,Red Empresa,,MPMKR,RED Empresa 5,1.0,0.5,
+Prima Gross Adds,Red Empresa,,MPMKH,Red Empresa Hoteles,1.0,0.5,
+Prima Gross Adds,Red Empresa,,MTPK5,RED Empresa TP 24 Horas,1.0,1.0,
+Prima Gross Adds,Red Empresa,,MTPK1,Tarifa Plana 24 horas 1GB,1.0,1.0,
+Prima Gross Adds,Red Empresa,,MT2KR,RED Empresa TP 12 Horas,1.0,1.0,
+Prima Gross Adds,Red Empresa,,MT2KB,RED Empresa TP 12 Horas,1.0,1.0,
+Prima Gross Adds,Red Empresa,,PT2KB,RED Empresa TP 12 Horas,1.0,1.0,
+Prima Gross Adds,Red Empresa,,MITPK,RED Empresa TP 24 Horas,1.0,1.0,
+Prima Gross Adds,Red Empresa,,PITPK,RED Empresa TP 24 Horas,1.0,1.0,
+Prima Gross Adds,Red Empresa,,MIT2K,RED Empresa TP 12 Horas,1.0,1.0,
+Prima Gross Adds,Red Empresa,,PIT2K,RED Empresa TP 12 Horas,1.0,1.0,
+Prima Gross Adds,Red Empresa,,PIPMK,RED Empresa 5,1.0,1.0,
+Prima Gross Adds,Red Empresa,,MIPMK,RED Empresa 5,1.0,1.0,
+Prima Gross Adds,Red Empresa,,PIDTK,RED Empresa Tablet,1.0,0.5,
+Prima Gross Adds,Red Empresa,,MIDTK,RED Empresa Tablet,1.0,0.5,
+Prima Gross Adds,Oferta Micro,,MTPK2,Tarifa Plana 24H 20GB Micro Empresa,1.0,1.0,
+Prima Gross Adds,Oferta Micro,,MTPK0,Tarifa Plana 24H 10GB Micro Empresa,1.0,1.0,
+Prima Gross Adds,Oferta Micro,,MPMK6,Tarifa 5 de 6GB Micro Empresa,1.0,1.0,
+Prima Gross Adds,Oferta Micro,,MPMK2,Tarifa 5 de 2GB Micro Empresa,1.0,1.0,
+Prima Gross Adds,DoS*,,MVLCO,Plan Voz LPD corporate VPN,1.0,1.0,
+Prima Gross Adds,DoS*,,MVLD1,PLAN MUDO DE VPN,1.0,1.0,
+Prima Gross Adds,B.A. Fija,,FN1GB,Fibra 1GB NEBA,1.0,1.0,
+Prima Gross Adds,B.A. Fija,,FG1GB,Fibra 1GB NEBA ORO,1.0,1.0,
+Prima Gross Adds,B.A. Fija,,DF4CM,Vodafone Fibra 1Gb,1.0,1.0,
+Prima Gross Adds,B.A. Fija,,DF50M,Vodafone Internet Fibra 100 Mb,1.0,1.0,
+Prima Gross Adds,B.A. Fija,,FG50M,Fibra 100 Mb NEBA ORO,1.0,1.0,
+Prima Gross Adds,B.A. Fija,,DFN3M,Fibra 100 Mb NEBA,1.0,1.0,
+Prima Gross Adds,B.A. Fija,,FN600,Fibra 600 Mb NEBA,1.0,1.0,
+Prima Gross Adds,B.A. Fija,,FG600,Fibra 600 Mb NEBA ORO,1.0,1.0,
+Prima Gross Adds,B.A. Fija,,DF6CM,Fibra 600 Mb Empresas,1.0,1.0,
+Prima Gross Adds,B.A. Fija,,FP6MA,Fibra 600 Mb Empresas Propia,1.0,1.0,
+Prima Gross Adds,B.A. Fija,,FN6MA,Fibra 600 Mb Empresas Neba,1.0,1.0,
+Prima Gross Adds,B.A. Fija,,FG6MA,Fibra 600 Mb Empresas Neba Oro,1.0,1.0,
+Prima Gross Adds,B.A. Fija,,FP1GA,Fibra 1Gb Mb Empresas Propia,1.0,1.0,
+Prima Gross Adds,B.A. Fija,,FN1GA,Fibra 1Gb Mb Empresas Neba,1.0,1.0,
+Prima Gross Adds,B.A. Fija,,FG1GA,Fibra 1Gb Mb Empresas Neba Oro,1.0,1.0,
+Prima Gross Adds,Red Empresa,,MDTKB,RED Empresa Tablet,1.0,0.5,
+Prima Gross Adds,Red Empresa,,MDTKR,RED Empresa Tablet,1.0,0.5,
+Prima Gross Adds,Red Empresa,,PDTKB,RED Empresa Tablet,1.0,0.5,
+Prima Gross Adds,PRO/PRO PRIMA,,MTXKY,RED Infinity Pro Full Speed,1.0,1.0,
+Prima Gross Adds,PRO/PRO PRIMA,,MX1KY,RED Infinity Pro 10Mbps,1.0,1.0,
+Prima Gross Adds,PRO/PRO PRIMA,,MYXK5,RED Infinity Pro 5GB,1.0,1.0,
+Prima Gross Adds,PRO/PRO PRIMA,,MYDXK,RED Infinity Pro Tarifa Plana sin Datos,1.0,0.5,
+Prima Gross Adds,PRO/PRO PRIMA,,MDYKW,RED Infinity Pro Tablet 5GB,1.0,0.5,
+Prima Gross Adds,SMART,,MTFKY,RED Infinity Smart Ilimitada Full Speed,1.0,1.0,
+Prima Gross Adds,LITE,,MIKFY,RED Infinity Lite ilimitada Full Speed,1.0,1.0,
+Prima Gross Adds,LITE,,MIKDY,RED Infinity Lite ilimitada 10Mbps,1.0,1.0,
+Prima Gross Adds,SMART,,MYFK5,RED Infinity Smart Ilimitada 5GB,1.0,1.0,
+Prima Gross Adds,SMART,,MYFVK,RED Infinity Smart Ilimitada sin Datos,1.0,0.5,
+Prima Gross Adds,SMART,,MDYKT,RED Infinity Smart Tablet 5GB,1.0,0.5,
+Prima Gross Adds,Lite,,MIK30,RED Infinity Lite 30 GB,0.5,0.5,
+Nuevos Negocios,APP,Agro,397272,Vodafone Agro - Premium,,,1713.5
+Nuevos Negocios,APP,Agro,397273,Vodafone Agro - Enterprise,,,4409.0
+Nuevos Negocios,APP,Agro,397274,Vodafone Agro - Estacion,,,1323.0
+Nuevos Negocios,APP,Agro,397275,Vodafone Agro Usuario adicional - Usuario Premium,,,23.0
+Nuevos Negocios,APP,Agro,397276,Vodafone Agro Usuario adicional - Paquete 5 usuarios Enterprise,,,214.0
+Nuevos Negocios,APP,Agro,397277,Vodafone Agro Usuario adicional - Paquete 10 usuarios Enterprise,,,406.0
+Nuevos Negocios,APP,Agro,397278,Vodafone Agro Usuario adicional - Paquete 15 usuarios Enterprise,,,576.0
+Nuevos Negocios,APP,Agro,397279,Vodafone Agro Usuario adicional - Paquete 25 usuarios Enterprise,,,846.0
+Nuevos Negocios,APP,Agro,397280,Vodafone Agro Usuario adicional - Paquete 50 usuarios Enterprise,,,1128.0
+Nuevos Negocios,APP,Agro,397281,Vodafone Agro Usuario adicional - Paquete 100 usuarios Enterprise,,,1354.0
+Nuevos Negocios,APP,Billin,470234,Billin Pro – 12 meses,,,46.8
+Nuevos Negocios,APP,Billin Pro,470235,Billin Pro – 24 meses,,,78.0
+Nuevos Negocios,APP,Billin Pro Anual,470236,Billin Pro Anual – 24 meses,,,90.0
+Nuevos Negocios,APP,Firma Digital,58743,3G MOBILE SIGN BONO 50,,,2.5
+Nuevos Negocios,APP,Firma Digital,58747,3G MOBILE SIGN BONO 500,,,20.83
+Nuevos Negocios,APP,Firma Digital,58751,3G MOBILE SIGN BONO 5.000,,,50.0
+Nuevos Negocios,APP,Firma Digital,181572,3G mobile sms 200,,,1.25
+Nuevos Negocios,APP,Firma Digital,181575,3G mobile desarrollo,,,20.83
+Nuevos Negocios,APP,Firma Digital,181578,3G mobile Comunicaciones Certificadas,,,6.0
+Nuevos Negocios,APP,Firma Digital,181581,3G mobile Certificado,,,10.0
+Nuevos Negocios,APP,Firma Digital,198598,3G mobile Store 20,,,300.0
+Nuevos Negocios,APP,Firma Digital,198601,3G mobile Store 50,,,492.0
+Nuevos Negocios,APP,Firma Digital,198604,3G mobile form,,,3.0
+Nuevos Negocios,APP,Gestión Laboral,126675,SESAME TIME 20 USUARIOS ANUAL CP,,,243.0
+Nuevos Negocios,APP,Gestión Laboral,126679,SESAME TIME 40 USUARIOS ANUAL CP,,,405.0
+Nuevos Negocios,APP,Gestión Laboral,126683,SESAME TIME 70 USUARIOS ANUAL CP,,,657.0
+Nuevos Negocios,APP,Gestión Laboral,126687,SESAME TIME 99 USUARIOS ANUAL CP,,,819.0
+Nuevos Negocios,APP,Gestión Laboral,397344,Vodafone Gestion Laboral - Time,,,21.0
+Nuevos Negocios,APP,Gestión Laboral,397345,Vodafone Gestion Laboral - Advanced,,,27.0
+Nuevos Negocios,APP,Gestión Laboral,397346,Vodafone Gestion Laboral - HR Starter,,,36.0
+Nuevos Negocios,APP,Gestión Laboral,397347,Vodafone Gestion Laboral - HR Professional,,,42.0
+Nuevos Negocios,APP,Gestión Laboral,466156,Vodafone Gestion Laboral - Time Mensual- Pago x Uso,,,3.0
+Nuevos Negocios,APP,Gestión Laboral,466157,Vodafone Gestion Laboral - Advanced Mensual - Pago x Uso,,,3.5
+Nuevos Negocios,APP,Gestión Laboral,466158,Vodafone Gestion Laboral - HR Starter Mensual- Pago x Uso,,,4.75
+Nuevos Negocios,APP,Gestión Laboral,466159,Vodafone Gestion Laboral - HR Profesional Mensual - Pago x Uso,,,5.5
+Nuevos Negocios,APP,Gestión Laboral,466160,Vodafone Gestion Laboral - Time Anual - 24 meses,,,15.96
+Nuevos Negocios,APP,Gestión Laboral,466161,Vodafone Gestion Laboral - Advanced Anual - 24 meses,,,21.96
+Nuevos Negocios,APP,Gestión Laboral,466162,Vodafone Gestion Laboral - HR Starter Anual- 24 meses,,,27.96
+Nuevos Negocios,APP,Gestión Laboral,466163,Vodafone Gestion Laboral - HR Profesional Anual - 24 meses,,,33.96
+Nuevos Negocios,APP,Gestión Laboral,466164,Vodafone Gestion Laboral - Time Temporal - 24 meses,,,18.0
+Nuevos Negocios,APP,Gestión Laboral,466165,Vodafone Gestion Laboral - Advanced Temporal - 24 meses,,,21.96
+Nuevos Negocios,APP,Gestión Laboral,466166,Vodafone Gestion Laboral - HR Starter Temporal - 24 meses,,,27.96
+Nuevos Negocios,APP,Gestión Laboral,466167,Vodafone Gestion Laboral - HR Profesional Temporal - 24 meses,,,32.04
+Nuevos Negocios,APP,Gestión Laboral,466168,Vodafone Gestion Laboral - Time Mensual - Sin Permanencia,,,3.0
+Nuevos Negocios,APP,Gestión Laboral,466169,Vodafone Gestion Laboral - Advanced Mensual - Sin Permanencia,,,3.5
+Nuevos Negocios,APP,Gestión Laboral,466170,Vodafone Gestion Laboral - HR Starter Mensual - Sin Permanencia,,,4.75
+Nuevos Negocios,APP,Gestión Laboral,466171,Vodafone Gestion Laboral - HR Profesional Mensual - Sin Permanencia,,,5.5
+Nuevos Negocios,APP,Gestión Laboral,466172,Vodafone Gestion Laboral - Time Mensual- 12 meses,,,14.4
+Nuevos Negocios,APP,Gestión Laboral,466173,Vodafone Gestion Laboral - Advanced Mensual - 12 meses,,,18.0
+Nuevos Negocios,APP,Gestión Laboral,466174,Vodafone Gestion Laboral - HR Starter Mensual- 12 meses,,,23.4
+Nuevos Negocios,APP,Gestión Laboral,466175,Vodafone Gestion Laboral - HR Profesional Mensual - 12 meses,,,28.8
+Nuevos Negocios,APP,Hilo Musical,74466,Soundmachine Business (Hilo musical),,,15.83
+Nuevos Negocios,APP,Hilo Musical,74470,Soundmachine Business Premium (Hilo musical),,,22.83
+Nuevos Negocios,APP,Hilo Musical,181312,HILO MUSICAL - Edición Business,,,24.83
+Nuevos Negocios,APP,Hilo Musical,181315,HILO MUSICAL- Edición Business Premium,,,30.83
+Nuevos Negocios,APP-IoT,Ascensores,60355,LiftEye Servicio Ascensor M2M,,,5.0
+Nuevos Negocios,APP-IoT,Ascensores,60359,Lifteye: Solucion de ascensores de Tamedbytes,,,2.5
+Nuevos Negocios,APP-IoT,Locatel,64119,Locatel básico,,,96.0
+Nuevos Negocios,APP-IoT,Locatel,444465,Dietagest - Aplicaciones,,,36.0
+Nuevos Negocios,APP-IoT,Locatel,444466,Opticarga - Aplicaciones,,,36.0
+Nuevos Negocios,APP-IoT,Locatel,444467,Databus - Aplicaciciones,,,36.0
+Nuevos Negocios,APP-IoT,Locatel,444468,Optiflota - Aplicaciones,,,36.0
+Nuevos Negocios,APP-IoT,Locatel,444469,Licencia Basico - Flotas IoT,,,96.0
+Nuevos Negocios,APP-IoT,Locatel,444472,Licencia Mini - Flotas IoT,,,60.0
+Nuevos Negocios,APP-IoT,Tacogest,64111,Tacogest,,,110.0
+Nuevos Negocios,APP-IoT,Tacogest,444464,Tacogest - Aplicaciones,,,36.0
+Nuevos Negocios,APP-IoT,Tacogest,444475,Licencia Pro - Tacogest IoT,,,110.0
+Nuevos Negocios,APP-IoT,Tacogest,479184,Licencia Pro- Tacogest IoT – 36 meses,,,132.0
+Nuevos Negocios,APP-IoT,Locatel,479181,Licencia Básico - Flotas IoT - 36 meses,,,108.0
+Nuevos Negocios,APP-IoT,Locatel,479182,Licencia Mini - Flotas IoT - 36 meses,,,72.0
+Nuevos Negocios,APP-IoT,Tacogest,479186,Tacogest+ - Aplicaciones,,,15.0
+Nuevos Negocios,Cloud,Google,91403,Enterprise Plus Pago Mensual,,,243.36
+Nuevos Negocios,Cloud,Google,91407,Enterprise Plus Flexible,,,40.5
+Nuevos Negocios,Cloud,Google,186258,Business Standard Pago Anual,,,81.6
+Nuevos Negocios,Cloud,Google,186261,Business Plus Pago Anual,,,126.6
+Nuevos Negocios,Cloud,Google,186264,Enterprise Plus Pago Anual,,,202.8
+Nuevos Negocios,Cloud,Google,186267,Business Starter Flexible,,,8.1
+Nuevos Negocios,Cloud,Google,186270,Business Standard Flexible,,,16.2
+Nuevos Negocios,Cloud,Google,186273,Business Starter Pago Mensual,,,44.06
+Nuevos Negocios,Cloud,Google,186276,Business Standard Pago Mensual,,,62.14
+Nuevos Negocios,Cloud,Google,186279,Business Plus Pago Mensual,,,129.13
+Nuevos Negocios,Cloud,Google,186285,Enterprise Standard Pago Mensual,,,187.92
+Nuevos Negocios,Cloud,Google,186288,Enterprise Standard Pago Anual,,,156.6
+Nuevos Negocios,Cloud,Google,186291,Business Starter Pago Anual,,,40.8
+Nuevos Negocios,Cloud,Google,186294,Business Plus Flexible,,,25.3
+Nuevos Negocios,Cloud,Google,186297,Enterprise Standard Flexible,,,31.3
+Nuevos Negocios,Cloud,Google,377364,Business Standard Pago Mensual (Bundle),,,117.3
+Nuevos Negocios,Cloud,M365,273545,Power BI Pro NCE Compromiso Anual -Pago Mensual,,,99.07
+Nuevos Negocios,Cloud,M365,287672,Microsoft 365 Business Basic NCE Compromiso Anual -Pago Mensual,,,42.34
+Nuevos Negocios,Cloud,M365,287675,Microsoft 365 Business Basic NCE Flexible,,,6.72
+Nuevos Negocios,Cloud,M365,287678,Microsoft 365 Business Standard NCE Compromiso Anual -Pago Mensual,,,88.49
+Nuevos Negocios,Cloud,M365,287681,Microsoft 365 Business Standard NCE Flexible,,,14.04
+Nuevos Negocios,Cloud,M365,287684,Microsoft 365 Business Premium NCE Compromiso Anual -Pago Mensual,,,155.74
+Nuevos Negocios,Cloud,M365,287687,Microsoft 365 Business Premium NCE Flexible,,,24.72
+Nuevos Negocios,Cloud,M365,287690,Microsoft 365 Apps for Business NCE Compromiso Anual -Pago Mensual,,,74.09
+Nuevos Negocios,Cloud,M365,287693,Microsoft 365 Apps for Business NCE Flexible,,,11.76
+Nuevos Negocios,Cloud,M365,287726,Office 365 Enterprise E1 NCE Pago Mensual,,,71.06
+Nuevos Negocios,Cloud,M365,287729,Office 365 Enterprise E1 NCE Flexible,,,11.28
+Nuevos Negocios,Cloud,M365,287732,Microsoft 365 Apps for Enterprise NCE Compromiso Anual -Pago Mensual,,,108.14
+Nuevos Negocios,Cloud,M365,287735,Microsoft 365 Apps for Enterprise NCE Flexible,,,17.16
+Nuevos Negocios,Cloud,M365,287738,Office 365 Enterprise E3 NCE Compromiso Anual -Pago Mensual,,,189.79
+Nuevos Negocios,Cloud,M365,287741,Office 365 Enterprise E3 NCE Flexible,,,30.12
+Nuevos Negocios,Cloud,M365,287762,Exchange Online Plan 1 NCE Compromiso Anual -Pago Mensual,,,28.01
+Nuevos Negocios,Cloud,M365,287765,Exchange Online Plan 1 NCE Flexible,,,4.44
+Nuevos Negocios,Cloud,M365,287768,Exchange Online Plan 2 NCE Compromiso Anual -Pago Mensual,,,56.74
+Nuevos Negocios,Cloud,M365,287771,Exchange Online Plan 2 NCE Flexible,,,9.0
+Nuevos Negocios,Cloud,M365,287792,Exchange Online Kiosk NCE Compromiso Anual -Pago Mensual,,,14.11
+Nuevos Negocios,Cloud,M365,287795,Exchange Online Kiosk NCE Flexible,,,2.24
+Nuevos Negocios,Cloud,M365,287864,Power Apps per user plan NCE Compromiso Anual -Pago Mensual,,,141.41
+Nuevos Negocios,Cloud,M365,287867,Power Apps per user plan NCE Flexible,,,22.44
+Nuevos Negocios,Cloud,M365,287888,Azure Active Directory Premium P1 NCE Compromiso Anual -Pago Mensual,,,42.34
+Nuevos Negocios,Cloud,M365,287891,Azure Active Directory Premium P1 NCE Flexible,,,6.79
+Nuevos Negocios,Cloud,M365,287948,Project Plan 5 NCE Compromiso Anual -Pago Mensual,,,389.38
+Nuevos Negocios,Cloud,M365,287951,Project Plan 5 NCE Flexible,,,61.8
+Nuevos Negocios,Cloud,M365,287954,Project Plan 3 NCE Compromiso Anual -Pago Mensual,,,212.47
+Nuevos Negocios,Cloud,M365,287957,Project Plan 3 NCE Flexible,,,33.72
+Nuevos Negocios,Cloud,M365,287960,Project Online Essentials Compromiso Anual -Pago Mensual,,,49.9
+Nuevos Negocios,Cloud,M365,287963,Project Online Essentials Flexible,,,7.92
+Nuevos Negocios,Cloud,M365,287999,Power BI Pro NCE Flexible,,,11.8
+Nuevos Negocios,Cloud,M365,288014,OneDrive for Business (Plan 1) NCE Compromiso Anual -Pago Mensual,,,35.57
+Nuevos Negocios,Cloud,M365,288017,OneDrive for Business (Plan 1) NCE Flexible,,,5.64
+Nuevos Negocios,Cloud,M365,288092,Microsoft 365 E3 NCE Pago Mensual,,,285.05
+Nuevos Negocios,Cloud,M365,288095,Microsoft 365 E3 NCE Flexible,,,47.16
+Nuevos Negocios,Cloud,M365,288494,Visio Online Plan 2 NCE Compromiso Anual - Pago Mensual,,,105.84
+Nuevos Negocios,Cloud,M365,288497,Visio Online Plan 2 NCE Flexible,,,16.8
+Nuevos Negocios,Cloud,M365,288500,Visio Online Plan 1 NCE Compromiso Anual - Pago Mensual,,,35.57
+Nuevos Negocios,Cloud,M365,288503,Visio Online Plan 1 NCE Flexible,,,5.64
+Nuevos Negocios,Cloud,M365,288959,Microsoft 365 F3 NCE Compromiso Anual - Pago Mensual,,,56.74
+Nuevos Negocios,Cloud,M365,288962,Microsoft 365 F3 NCE Flexible,,,9.0
+Nuevos Negocios,Cloud,M365,289508,Intune NCE Compromiso Anual -Pago Mensual,,,54.0
+Nuevos Negocios,Cloud,M365,289511,Intune NCE Flexible,,,9.0
+Nuevos Negocios,Cloud,M365,289514,Intune Device NCE Compromiso Anual -Pago Mensual,,,18.0
+Nuevos Negocios,Cloud,M365,289517,Intune Device NCE Flexible,,,3.0
+Nuevos Negocios,Cloud,M365,289523,Microsoft Defender for Office 365 (Plan 1) NCE Compromiso Anual -Pago Mensual,,,14.11
+Nuevos Negocios,Cloud,M365,291986,Microsoft Defender for Office 365 (Plan 1) NCE Flexible,,,2.24
+Nuevos Negocios,Cloud,M365,292184,Office 365 Extra File Storage NCE Compromiso Anual -Pago Mensual,,,1.44
+Nuevos Negocios,Cloud,M365,292187,Office 365 Extra File Storage NCE Flexible,,,0.23
+Nuevos Negocios,Cloud,M365,369711,Vodafone M365 Business Standard NCE Compromiso Anual -Pago Mensual,,,132.73
+Nuevos Negocios,Cloud,M365,370275,Vodafone M365 Business Basic NCE Compromiso Anual -Pago Mensual,,,63.5
+Nuevos Negocios,Cloud,M365,370276,Vodafone M365 Business Premium NCE Compromiso Anual -Pago Mensual,,,233.6
+Nuevos Negocios,Cloud,M365,387174,Vodafone M365 Business Standard NCE Flexible actualizada,,,14.04
+Nuevos Negocios,Cloud,M365,389037,M365 Business Basic NCE Compromiso Anual -Pago Mensual SinTeams,,,34.78
+Nuevos Negocios,Cloud,M365,389038,M365 Business Basic NCE Flexible SinTeams,,,5.52
+Nuevos Negocios,Cloud,M365,389039,M365 Business Standard NCE Compromiso Anual -Pago Mensual SinTeams,,,73.37
+Nuevos Negocios,Cloud,M365,389040,M365 Business Standard NCE Flexible SinTeams,,,11.64
+Nuevos Negocios,Cloud,M365,389041,M365 Business Premium NCE Compromiso Anual -Pago Mensual SinTeams,,,140.62
+Nuevos Negocios,Cloud,M365,389042,M365 Business Premium NCE Flexible SinTeams,,,22.32
+Nuevos Negocios,Cloud,M365,389049,Vodafone M365 Business Basic NCE Anual SinTeams,,,52.16
+Nuevos Negocios,Cloud,M365,389050,Vodafone M365 Business Basic NCE Flexible SinTeams,,,5.52
+Nuevos Negocios,Cloud,M365,389051,Vodafone M365 Business Standard NCE Anual SinTeams,,,110.05
+Nuevos Negocios,Cloud,M365,389052,Vodafone M365 Business Standard NCE Flexible SinTeams,,,11.64
+Nuevos Negocios,Cloud,M365,389053,Vodafone M365 Business Premium NCE Anual SinTeams,,,210.92
+Nuevos Negocios,Cloud,M365,389054,Vodafone M365 Business Premium NCE Flexible SinTeams,,,22.32
+Nuevos Negocios,Cloud,M365,389067,Office 365 E1 NCE Compromiso Anual -Pago Mensual SinTeams,,,55.94
+Nuevos Negocios,Cloud,M365,389068,Office 365 E1 NCE Flexible SinTeams,,,8.88
+Nuevos Negocios,Cloud,M365,389069,Office 365 E3 NCE Compromiso Anual -Pago Mensual SinTeams,,,174.67
+Nuevos Negocios,Cloud,M365,389070,Office 365 E3 NCE Flexible SinTeams,,,27.72
+Nuevos Negocios,Cloud,M365,389071,Office 365 E5 NCE Compromiso Anual -Pago Mensual SinTeams,,,298.66
+Nuevos Negocios,Cloud,M365,389072,Office 365 E5 NCE Flexible SinTeams,,,47.4
+Nuevos Negocios,Cloud,M365,389081,Microsoft 365 F3 NCE Compromiso Anual - Pago Mensual SinTeams,,,52.92
+Nuevos Negocios,Cloud,M365,389082,Microsoft 365 F3 NCE Flexible SinTeams,,,8.4
+Nuevos Negocios,Cloud,M365,389083,Microsoft 365 E5 NCE Compromiso Anual - Pago Mensual SinTeams,,,436.25
+Nuevos Negocios,Cloud,M365,389084,Microsoft 365 E5 NCE Flexible SinTeams,,,69.24
+Nuevos Negocios,Cloud,M365,389085,Microsoft 365 E3 NCE Compromiso Anual - Pago Mensual SinTeams,,,269.93
+Nuevos Negocios,Cloud,M365,389086,Microsoft 365 E3 NCE Flexible SinTeams,,,42.84
+Nuevos Negocios,Cloud,M365,389087,Microsoft 365 F1 NCE Compromiso Anual - Pago Mensual SinTeams,,,12.1
+Nuevos Negocios,Cloud,M365,389088,Microsoft 365 F1 NCE Flexible SinTeams,,,1.92
+Nuevos Negocios,Cloud,M365,389221,Office 365 F3 NCE Compromiso Anual -Pago Mensual SinTeams,,,24.19
+Nuevos Negocios,Cloud,M365,389222,Office 365 F3 NCE Flexible SinTeams,,,3.84
+Nuevos Negocios,Cloud,M365,389225,Microsoft Teams NCE Compromiso Anual - Pago Mensual,,,37.8
+Nuevos Negocios,Cloud,M365,389226,Microsoft Teams NCE Flexible,,,6.0
+Nuevos Negocios,Cloud,M365,391834,Vodafone M365 Business Basic NCE Flexible actualizada,,,6.72
+Nuevos Negocios,Cloud,M365,391835,Vodafone M365 Business Premium NCE Flexible actualizada,,,24.72
+Nuevos Negocios,Cloud,M365,398991,Vodafone M365 Business Premium NCE PAGO ANUAL,,,233.64
+Nuevos Negocios,Cloud,M365,461356,Vodafone M365 Business Standard NCE PAGO ANUAL SinTeams,,,110.04
+Nuevos Negocios,Cloud,M365,461357,Vodafone M365 Business Basic NCE PAGO ANUAL,,,63.48
+Nuevos Negocios,Cloud,M365,461358,Vodafone M365 Business Premium NCE PAGO ANUAL SinTeams,,,210.96
+Nuevos Negocios,Cloud,M365,461359,Vodafone M365 Business Basic NCE PAGO ANUAL SinTeams,,,52.2
+Nuevos Negocios,Cloud,M365,461887,Vodafone M365 Business Standard NCE PAGO ANUAL,,,132.72
+Nuevos Negocios,Cloud,M365,337001,Microsoft Teams Essentials NCE,,,28.01
+Nuevos Negocios,Cloud,M365,337004,Microsoft Teams Essentials NCE Flexible,,,4.44
+Nuevos Negocios,IA,IAgente,487686,IAgente - Paquete estándar,,,1602.12
+Nuevos Negocios,IA,IAgente,487691,IAgente - Puerto de voz adicional,,,85.0
+Nuevos Negocios,IA,IAgente,488743,IAgente - Configuración a Medida,,,0.4
+Nuevos Negocios,IPVPN,CA,258803,CA Camara MV12W,,,1042.8
+Nuevos Negocios,IPVPN,CA,258806,CA Camara MV32,,,1143.6
+Nuevos Negocios,IPVPN,CA,258809,CA Camara MV2,,,843.6
+Nuevos Negocios,IPVPN,CA,258824,CA Cloud Talla M 2Y,,,1612.8
+Nuevos Negocios,IPVPN,CA,258827,CA Cloud Talla S 2Y,,,495.6
+Nuevos Negocios,IPVPN,CA,258842,CA Wifi MR36,,,650.4
+Nuevos Negocios,IPVPN,CA,258845,CA Wifi MR20,,,499.2
+Nuevos Negocios,IPVPN,CA,258860,CA Switch MS120-48P,,,1663.2
+Nuevos Negocios,IPVPN,CA,258863,CA Switch MS120-24P,,,1058.4
+Nuevos Negocios,IPVPN,CA,258866,CA Switch MS120-8P,,,550.8
+Nuevos Negocios,Seguridad,Auditoría,461438,Auditoria Ciberseguridad,,,630.0
+Nuevos Negocios,Seguridad,Auditoría,474626,Auditoria Ciberseguridad Avanzada,,,630.0
+Nuevos Negocios,Seguridad,Auditoría,474628,Auditoria Ciberseguridad Avanzada Mensualizada (6 meses),,,580.0
+Nuevos Negocios,Seguridad,Lookout,167428,Lookout MTD for Small Business 12 meses,,,21.84
+Nuevos Negocios,Seguridad,Lookout,167431,Lookout MTD for Small Business 24 meses,,,21.84
+Nuevos Negocios,Seguridad,Lookout,167434,Lookout MTD for Small Business 36 meses,,,21.84
+Nuevos Negocios,Seguridad,Lookout,238525,Lookout MTD Essentials 12 meses,,,31.2
+Nuevos Negocios,Seguridad,Lookout,238528,Lookout MTD Essentials 24 meses,,,31.2
+Nuevos Negocios,Seguridad,Lookout,238531,Lookout MTD Essentials 36 meses,,,31.2
+Nuevos Negocios,Seguridad,Seguridad Digital,454342,Seguridad Digital - 24 meses,,,98.16
+Nuevos Negocios,Seguridad,Seguridad Digital Plus,359222,Seguridad Digital Plus (Empleado),,,60.0
+Nuevos Negocios,Seguridad,Seguridad Digital Plus,359225,Seguridad Digital Plus (Empresa),,,223.44
+Nuevos Negocios,Seguridad,Seguridad Digital Plus,363919,EDR Worry Free Services 12 Meses (SD +),,,35.76
+Nuevos Negocios,Seguridad,Seguridad Digital Plus,402538,Small Business 12 meses (SD +),,,27.36
+Nuevos Negocios,Seguridad,Seguridad Digital Plus,402539,Essentials 12 meses (SD +),,,39.0
+Nuevos Negocios,Seguridad,Seguridad Digital Plus,408863,Cisco As a Service Advance,,,720.0
+Nuevos Negocios,Seguridad,Seguridad Digital Plus,408865,Cisco As a Service Premium,,,900.0
+Nuevos Negocios,Seguridad,Seguridad Digital Plus,408867,Cisco As a Service Essential,,,560.0
+Nuevos Negocios,Seguridad,Seguridad Digital Plus,457973,Seguridad Digital Plus (Empleado) - 24 meses,,,60.0
+Nuevos Negocios,Seguridad,Seguridad Digital Plus,457974,Seguridad Digital Plus (Empresa) - 24 meses,,,223.44
+Nuevos Negocios,Seguridad,Seguridad Digital Plus,464950,EDR Worry Free Services Advanced 24 Meses (SD +),,,35.76
+Nuevos Negocios,Seguridad,SOC,479203,Seguridad Digital Plus SOC (Empresa Premium) - 24 meses,,,824.76
+Nuevos Negocios,Seguridad,SOC,479202,Seguridad Digital Plus SOC (Empresa Avanzado) - 24 meses,,,326.4
+Nuevos Negocios,Seguridad,SOC,479204,Seguridad Digital Plus SOC - 24 meses,,,42.0
+Nuevos Negocios,Seguridad,TrendMicro,175459,Worry-Free XDR (36 Months),,,98.64
+Nuevos Negocios,Seguridad,TrendMicro,175462,Worry Free Services XDR 2 Años,,,87.84
+Nuevos Negocios,Seguridad,TrendMicro,175465,Worry Free Services XDR 1 Año,,,87.84
+Nuevos Negocios,Seguridad,TrendMicro,175471,Worry-Free Services Advanced (36 Months),,,68.04
+Nuevos Negocios,Seguridad,TrendMicro,175474,EDR Worry Free Services Advanced 2 Años,,,57.24
+Nuevos Negocios,Seguridad,TrendMicro,175477,EDR Worry Free Services Advanced 1 Año,,,57.24
+Nuevos Negocios,Seguridad,TrendMicro,175483,Worry-Free Services (36 Months),,,42.0
+Nuevos Negocios,Seguridad,TrendMicro,175486,EDR Worry Free Services 2 Años,,,31.2
+Nuevos Negocios,Seguridad,TrendMicro,175489,EDR Worry Free Services 1 Año,,,31.2
+Nuevos Negocios,Seguridad,TrendMicro,182575,Cloud App Security 2 Años,,,38.4
+Nuevos Negocios,Seguridad,TrendMicro,182581,Cloud App Security 1 Año,,,38.4
+Nuevos Negocios,Seguridad,TrendMicro,183793,Email Security Standard 2 Años,,,36.0
+Nuevos Negocios,Seguridad,TrendMicro,183799,Email Security Standard 1 Año,,,36.0
+Nuevos Negocios,Seguridad,VSDM,284009,Mobile Essentials 36 Meses/UEM Essentials 36 Meses/Advanced 36 Meses/Standard 36 Meses/Desktop Essentials 36 Meses,,,4.2
+Nuevos Negocios,Seguridad,VSDM,284012,Mobile Essentials 24 Meses/UEM Essentials 24 Meses/Advanced 24 Meses/Standard 24 Meses/Desktop Essentials 24 Meses,,,4.2
+Nuevos Negocios,Seguridad,VSDM,284015,Mobile Essentials 12 Meses/UEM Essentials 12 Meses/Advanced 12 Meses/Standard 12 Meses/Desktop Essentials 12 Meses,,,2.52
+Nuevos Negocios,Seguridad,VSDM,324656,VSDM Workspace One SME UEM Essentials 12 Meses,,,24.48
+Nuevos Negocios,Seguridad,VSDM,324659,VSDM Workspace One SME UEM Essentials 24 Meses,,,40.8
+Nuevos Negocios,Seguridad,VSDM,324662,VSDM Workspace One SME UEM Essentials 36 Meses,,,40.8
+Nuevos Negocios,Seguridad,VSDM,324728,VSDM Workspace One SME Desktop Essentials 12 Meses,,,21.46
+Nuevos Negocios,Seguridad,VSDM,324731,VSDM Workspace One SME Desktop Essentials 24 Meses,,,35.76
+Nuevos Negocios,Seguridad,VSDM,324734,VSDM Workspace One SME Desktop Essentials 36 Meses,,,35.76
+Nuevos Negocios,Seguridad,VSDM,324740,VSDM Workspace One SME Mobile Essentials 1 Mes,,,2.6
+Nuevos Negocios,Seguridad,VSDM,329852,Mobile Essentials 36 Meses/UEM Essentials 36 Meses,,,5.4
+Nuevos Negocios,Seguridad,VSDM,329855,Mobile Essentials 24 Meses/UEM Essentials 24 Meses,,,5.4
+Nuevos Negocios,Seguridad,VSDM,329858,Mobile Essentials 12 Meses/UEM Essentials 12 Meses,,,3.24
+Nuevos Negocios,Seguridad,VSDM,360032,VSDM Workspace One SME Mobile Essentials 12 Meses,,,15.91
+Nuevos Negocios,Seguridad,VSDM,360035,VSDM Workspace One SME Mobile Essentials 24 Meses,,,26.52
+Nuevos Negocios,Seguridad,VSDM,360038,VSDM Workspace One SME Mobile Essentials 36 Meses,,,26.52
+Nuevos Negocios,Seguridad,VSDM,360353,Advanced 36 Meses/Standard 36 Meses,,,24.0
+Nuevos Negocios,Seguridad,VSDM,361571,Mobile Essentials 12 Meses/UEM Essentials 12 Meses/Desktop Essentials 12 Meses,,,5.04
+Nuevos Negocios,Seguridad,VSDM,361580,Advanced 24 Meses/Standard 24 Meses,,,24.0
+Nuevos Negocios,Seguridad,VSDM,362897,Advanced 12 Meses/Standard 12 Meses,,,14.4
+Nuevos Negocios,Seguridad,VSDM,362914,Mobile Essentials 36 Meses/UEM Essentials 36 Meses/Desktop Essentials 36 Meses,,,24.0
+Nuevos Negocios,Seguridad,VSDM,362915,Mobile Essentials 24 Meses/UEM Essentials 24 Meses/Desktop Essentials 24 Meses,,,24.0
+Nuevos Negocios,Seguridad,VSDM,362916,Mobile Essentials 12 Meses/UEM Essentials 12 Meses/Desktop Essentials 12 Meses,,,14.4
+Nuevos Negocios,Seguridad,VSDM,362927,Mobile Essentials 36 Meses/UEM Essentials 36 Meses/Desktop Essentials 36 Meses,,,8.4
+Nuevos Negocios,Seguridad,VSDM,362928,Mobile Essentials 24 Meses/UEM Essentials 24 Meses/Desktop Essentials 24 Meses,,,8.4
+Nuevos Negocios,Soporte IT,Soporte IT,63458,Red Empresa Soporte IT 20,,,1680.0
+Nuevos Negocios,Soporte IT,Soporte IT,63462,Red Empresa Soporte IT 30,,,2640.0
+Nuevos Negocios,Soporte IT,Soporte IT,63466,Red Empresa Soporte IT 40,,,3840.0
+Nuevos Negocios,Soporte IT,Soporte IT,63470,Red Empresa Soporte IT 60,,,4920.0
+Nuevos Negocios,Soporte IT,Soporte IT,63474,Red Empresa Soporte IT 80,,,7200.0
+Nuevos Negocios,Soporte IT,Soporte IT,63478,Red Empresa Soporte IT 100,,,8880.0
+Nuevos Negocios,Soporte IT,Soporte IT,95823,Addone Soporte IT SOPORTE SERVIDORES,,,224.0
+Nuevos Negocios,Soporte IT,Soporte IT,95827,Addone Soporte IT SEDE EXTRA,,,17.0
+Nuevos Negocios,Soporte IT,Worry Free,81358,RED Infinity Worry Free Soporte IT 20,,,2160.0
+Nuevos Negocios,Soporte IT,Worry Free,81362,RED Infinity Worry Free Soporte IT 30,,,3540.0
+Nuevos Negocios,Soporte IT,Worry Free,81366,RED Infinity Worry Free Soporte IT 40,,,5040.0
+Nuevos Negocios,Soporte IT,Worry Free,81370,RED Infinity Worry Free Soporte IT 60,,,6120.0
+Nuevos Negocios,Soporte IT,Worry Free,81374,RED Infinity Worry Free Soporte IT 80,,,8640.0
+Nuevos Negocios,Soporte IT,Worry Free,81378,RED Infinity Worry Free Soporte IT 100,,,10560.0
+Nuevos Negocios,Soporte IT,Soporte IT,489819,Soporte IT - Usuario adicional,,,19.2
+Nuevos Negocios,Soporte IT,Soporte IT,489820,Soporte IT - Paquete 5 usuarios,,,96.0
+Nuevos Negocios,Soporte IT,Soporte IT,489821,Soporte IT - Paquete 20 usuarios,,,324.0
+Nuevos Negocios,SSDD,Negocio Digital,160512,Vodafone Business Negocio Digital – Landing Next,,,240.0
+Nuevos Negocios,SSDD,Negocio Digital,160515,Vodafone Business Negocio Digital – Web Next,,,720.0
+Nuevos Negocios,SSDD,Negocio Digital,180817,Vodafone Business Negocio Digital - E- Commerce,,,996.0
+Nuevos Negocios,SSDD,Negocio Digital,466326,Vodafone Business Negocio Digital - Start Next,,,138.0
+Nuevos Negocios,SSDD,Negocio Digital,466327,Vodafone Business Negocio Digital - Start Plus Next,,,276.0
+Nuevos Negocios,SSDD,Negocio Digital,466328,Vodafone Business Negocio Digital - Redes Lite Next,,,504.0
+Nuevos Negocios,SSDD,Negocio Digital,466329,Vodafone Business Negocio Digital - Redes Sociales Next,,,1200.0
+Bonos CSG,CSG,,PKFLX,Vodafone RED Infinity Smart,,,6.0
+Bonos CSG,CSG,,PKFX2,Vodafone RED Infinity Pro,,,6.0
+Bonos CSG,CSG,,PKFXY,RED Infinity Pro,,,6.0
+Bonos CSG,CSG,,PK50B,Pack Compartido 50GB (Bono Vodafone RED Infinity),,,11.0
+Bonos CSG,CSG,,PK05B,Pack Compartido 5 GB (Bono #OneNet),,,4.0
+Bonos CSG,CSG,,PKPRB,Bono Red Infinity Securizado Plus,,,8.0
+Bonos CSG,CSG,,PKPRF,Bono Red Infinity Avanzado,,,6.0
+Bonos CSG,CSG,,PKPRS,Bono Red Infinity Securizado,,,7.0
+Bonos CSG,CSG,,ACI15,Bono 150 Minutos Internacionales Z2 y Z3,,,4.0
+Bonos CSG,CSG,,ACI50,Bono 500 Minutos Internacionales Z2 y Z3,,,11.0
+Bonos CSG,CSG,,ACI3C,Bono 300 Minutos Internacionales,,,3.0
+Bonos CSG,CSG,,ACI5C,Bono 500 Minutos Internacionales,,,4.0
+Bonos CSG,CSG,,ACI3Y,RED Infinity Bono 300 min Internacional Z1,,,3.0
+Bonos CSG,CSG,,ACI5Y,RED Infinity Bono 500 min Internacional Z1,,,4.0
+Bonos CSG,CSG,,AK100,Add on Pack Compartido 100GB,,,11.0
+Bonos CSG,CSG,,AK200,Add on Pack Compartido 200GB,,,22.0
+CA & SVAs,SVA,APP,62434,ADDON API BEYOND UP 120.000 PETICIONES/MES,,,15.0
+CA & SVAs,SVA,APP,62446,ADDON API BEYOND UP 120.000 PETICIONES/MES +,,,15.0
+CA & SVAs,SVA,APP,62470,ADDON GESTOR DOCUMENTAL HASTA 500 GB,,,0.75
+CA & SVAs,SVA,APP,62478,ADDON GESTOR DOCUMENTAL HASTA 500 GB +,,,0.75
+CA & SVAs,SVA,APP,62482,ADDON MAILING 200.000 CORREOS,,,4.5
+CA & SVAs,SVA,APP,62486,ADDON MAILING 100.000 CORREOS,,,2.25
+CA & SVAs,SVA,APP,62494,ADDON MAILING 200.000 CORREOS +,,,4.5
+CA & SVAs,SVA,APP,62498,ADDON MAILING 100.000 CORREOS +,,,2.25
+CA & SVAs,SVA,APP,62558,CDR ONE R2,,,0.06
+CA & SVAs,SVA,APP,63562,CDR ONE INTERNACIONAL,,,0.01
+CA & SVAs,SVA,APP,63566,CDR ONE DATOS,,,0.02
+CA & SVAs,SVA,APP,63774,CDR ONE - INTEGRACION CISCO CALL MANAGER,,,95.0
+CA & SVAs,SVA,APP,63778,CDR ONE - INTEGRACION ALCATEL OXE,,,95.0
+CA & SVAs,SVA,APP,63574,COMPLEMENTO PACK TAREAS+,,,0.13
+CA & SVAs,SVA,APP,63782,COMPLEMENTO PACK GPS+,,,0.13
+CA & SVAs,SVA,APP,84342,SAWAMBA CATALOGO CON CONEXIÓN CMS,,,2.7
+CA & SVAs,SVA,APP,126715,SESAME TIME 750 USUARIOS ANUAL CP,,,53.5
+CA & SVAs,SVA,APP,71814,WIFI ON ENTERPRISE - PAGO MENSUAL 12,,,0.05
+CA & SVAs,CA,APP,258806,CA Camara MV32,,,9.53
+CA & SVAs,CA,APP,258809,CA Camara MV2,,,7.03
+CA & SVAs,SVA,APP,258803,CA Camara MV12W,,,8.69
+CA & SVAs,SVA,APP,183961,Pack Starter,,,0.05
+CA & SVAs,SVA,APP,183964,Pack Business,,,0.25
+CA & SVAs,CA,APP,258827,CA Cloud S,,,4.13
+CA & SVAs,CA,APP,258824,CA Cloud M,,,13.44
+CA & SVAs,SVA,APP,399025,Canal de Denuncias (101-250),,,13.0
+CA & SVAs,SVA,APP,397344,Vodafone Gestion Laboral - Time,,,0.18
+CA & SVAs,SVA,APP,397345,Vodafone Gestion Laboral - Advanced,,,0.23
+CA & SVAs,SVA,APP,397346,Vodafone Gestion Laboral - HR Starter,,,0.3
+CA & SVAs,SVA,APP,397347,Vodafone Gestion Laboral - HR Profesional,,,0.35
+CA & SVAs,SVA,APP,397274,Vodafone Agro - Estacion,,,11.03
+CA & SVAs,SVA,APP,397272,Vodafone Agro - Premium,,,14.28
+CA & SVAs,SVA,APP,397273,Vodafone Agro - Enterprise,,,36.74
+CA & SVAs,SVA,APP,397275,Vodafone Agro Usuario adicional - Usuario Premium,,,0.19
+CA & SVAs,SVA,APP,397276,Vodafone Agro Usuario adicional - Paquete 5 usuarios Enterprise,,,1.78
+CA & SVAs,SVA,APP,397277,Vodafone Agro Usuario adicional - Paquete 10 usuarios Enterprise,,,3.38
+CA & SVAs,SVA,APP,397278,Vodafone Agro Usuario adicional - Paquete 15 usuarios Enterprise,,,4.8
+CA & SVAs,SVA,APP,397279,Vodafone Agro Usuario adicional - Paquete 25 usuarios Enterprise,,,7.05
+CA & SVAs,SVA,APP,397280,Vodafone Agro Usuario adicional - Paquete 50 usuarios Enterprise,,,9.4
+CA & SVAs,SVA,APP,397281,Vodafone Agro Usuario adicional - Paquete 100 usuarios Enterprise,,,11.28
+CA & SVAs,SVA,APP,397282,Vodafone Agro Usuario adicional - Paquete 500 usuarios Enterprise,,,24.45
+CA & SVAs,SVA,APP,397283,Vodafone Agro Usuario adicional - Paquete 1000 usuarios Enterprise,,,37.62
+CA & SVAs,SVA,APP,60399,Bi2go - MODULO BASE 01,,,3.75
+CA & SVAs,SVA,APP,60403,Bi2go - MODULO BASE 02,,,7.5
+CA & SVAs,SVA,APP,93889,Bi2go - SAAS 10 AN,,,2.5
+CA & SVAs,SVA,APP,60423,Bi2go - MODULO BASE 01/MODULO BASE 02/SAAS 10 AN - PACK ACCESO NOMINADO,,,0.25
+CA & SVAs,SVA,APP,60419,Bi2go - MODULO BASE 01/MODULO BASE 02/SAAS 10 AN - PACK MULTIEMPRESA,,,2.25
+CA & SVAs,SVA,APP,60415,Bi2go - MODULO BASE 01/MODULO BASE 02/SAAS 10 AN - PACK EMPRESA ADICIONAL,,,0.75
+CA & SVAs,SVA,APP,393617,Bi2go - MODULO BASE 01/MODULO BASE 02/SAAS 10 AN - LICENCIA PARA USUARIO CONCURRENTE ADICIONAL,,,2.25
+CA & SVAs,SVA,APP,393618,Bi2go - MODULO BASE 01/MODULO BASE 02/SAAS 10 AN - ACTUALIZACION DEL DATO DIARIA ADICIONAL,,,1.5
+CA & SVAs,SVA,APP,393611,Bi2go - MODULO BASE 01/MODULO BASE 02/SAAS 10 AN - ACTUALIZACION DE DATO POR MICROPROCESO PERIODICO CONTINUO DIARIO,,,3.75
+CA & SVAs,CA,APP,123953,CA Estándar 2Y,,,10.0
+CA & SVAs,CA,APP,157161,Talla S Sec 3Y CA CORPORATE,,,8.08
+CA & SVAs,CA,APP,258908,CA Lite,,,4.8
+CA & SVAs,CA,APP,258905,CA Estándar +2Y Renovacion PYME,,,6.5
+CA & SVAs,SVA,APP,58527,SESAME TIME 20 USUARIOS,,,2.9
+CA & SVAs,SVA,APP,58531,SESAME TIME 40 USUARIOS,,,4.9
+CA & SVAs,CA,APP,157125,Talla S Sec 2Y CA CORPORATE,,,8.08
+CA & SVAs,CA,APP,157164,Talla M Sec 3Y CA CORPORATE,,,37.5
+CA & SVAs,SVA,APP,58535,SESAME TIME 70 USUARIOS,,,7.9
+CA & SVAs,SVA,APP,62550,CDR ONE,,,0.07
+CA & SVAs,SVA,APP,58539,SESAME TIME 99 USUARIOS,,,9.9
+CA & SVAs,SVA,APP,126679,SESAME TIME 40 USUARIOS ANUAL CP,,,4.5
+CA & SVAs,SVA,APP,126675,SESAME TIME 20 USUARIOS ANUAL CP,,,2.7
+CA & SVAs,CA,APP,157143,Talla S 3Y CA CORPORATE,,,8.08
+CA & SVAs,CA,APP,157107,Talla S 2Y CA CORPORATE,,,8.08
+CA & SVAs,SVA,APP,126695,SESAME TIME 150 USUARIOS,,,14.4
+CA & SVAs,SVA,APP,62382,CRM BEYOND UP,,,3.0
+CA & SVAs,CA,APP,258845,CA Wifi MR20,,,4.16
+CA & SVAs,SVA,APP,126691,SESAME TIME 150 USUARIOS ANUAL CP,,,13.2
+CA & SVAs,SVA,APP,126683,SESAME TIME 70 USUARIOS ANUAL CP,,,7.3
+CA & SVAs,SVA,APP,126687,SESAME TIME 99 USUARIOS ANUAL CP,,,9.1
+CA & SVAs,CA,APP,157170,Talla S Sec HA 3Y CA CORPORATE,,,8.08
+CA & SVAs,SVA,APP,62402,CRM BEYOND UP+,,,4.5
+CA & SVAs,SVA,APP,123419,TVIDI PYME,,,3.6
+CA & SVAs,SVA,APP,126699,SESAME TIME 250 USUARIOS,,,22.9
+CA & SVAs,SVA,APP,126711,SESAME TIME 500 USUARIOS,,,39.9
+CA & SVAs,CA,APP,157167,Talla L Sec 3Y CA CORPORATE,,,77.0
+CA & SVAs,CA,APP,157128,Talla M Sec 2Y CA CORPORATE,,,52.0
+CA & SVAs,CA,APP,383253,CONECTIVIDAD AUMENTADA - ESTANDAR (3 años) CA PYME,,,8.5
+CA & SVAs,SVA,APP,126723,SESAME TIME 1000 USUARIOS,,,75.9
+CA & SVAs,SVA,APP,93659,BILLING PRO,,,0.33
+CA & SVAs,SVA,APP,58383,3 Globe Premium,,,0.03
+CA & SVAs,SVA,APP,71806,WIFI ON 36,,,2.04
+CA & SVAs,CA,APP,383254,ESSENTIAL (2 años) CA PYME,,,8.0
+CA & SVAs,SVA,APP,74470,Soundmachine Business Premium (Hilo musical),,,0.19
+CA & SVAs,SVA,APP,72383,WIFI ON ENTERPRISE - PAGO MENSUAL 36,,,0.1
+CA & SVAs,SVA,APP,61115,Works,,,0.33
+CA & SVAs,CA,APP,383255,ESSENTIAL (3 años) CA PYME,,,6.5
+CA & SVAs,CA,APP,157173,Talla M Sec HA 3Y CA CORPORATE,,,37.5
+CA & SVAs,CA,APP,258902,CA Estándar +1Y Renovacion PYME,,,7.5
+CA & SVAs,SVA,APP,104481,SESAME TIME 500 USUARIOS ANUAL CP,,,36.5
+CA & SVAs,SVA,APP,62590,GPS+ ESTANDAR,,,0.75
+CA & SVAs,SVA,APP,71802,WIFI ON 24,,,2.04
+CA & SVAs,SVA,APP,104477,SESAME TIME 250 USUARIOS ANUAL CP,,,20.9
+CA & SVAs,SVA,APP,63570,CDR ONE CTI INTEGRACION CRM BASICA,,,0.04
+CA & SVAs,SVA,APP,71798,WIFI ON 12,,,2.04
+CA & SVAs,CA,APP,258842,CA Wifi MR36,,,5.42
+CA & SVAs,SVA,APP,63546,CDR ONE CLICK2CALL INTEGRACION CRM BASICA,,,0.04
+CA & SVAs,CA,APP,157149,Talla L 3Y CA CORPORATE,,,56.0
+CA & SVAs,CA,APP,157146,Talla M 3Y CA CORPORATE,,,27.0
+CA & SVAs,SVA,APP,63558,CDR ONE PRESENCIA BASICA,,,0.02
+CA & SVAs,SVA,APP,74466,Soundmachine Business (Hilo musical),,,0.13
+CA & SVAs,SVA,APP,61119,SERVICES,,,0.33
+CA & SVAs,CA,APP,157152,Talla S HA 3Y CA CORPORATE,,,8.08
+CA & SVAs,CA,APP,258863,CA Switch MS120-24P,,,8.82
+CA & SVAs,CA,APP,258866,CA Switch MS120-8P,,,4.59
+CA & SVAs,SVA,APP,126703,SESAME TIME 350 USUARIOS ANUAL CP,,,27.8
+CA & SVAs,SVA,APP,62598,GPS+ GEO,,,0.49
+CA & SVAs,CA,APP,258860,CA Switch MS120-48P,,,13.86
+CA & SVAs,SVA,APP,104485,SESAME TIME 1000 USUARIOS ANUAL CP,,,69.5
+CA & SVAs,CA,APP,258854,WiFi MR20 3Y CA CORPORATE,,,3.5
+CA & SVAs,SVA,APP,62594,GPS+ BÁSICA,,,0.67
+CA & SVAs,SVA,APP,212695,SESAME TIME,,,0.05
+CA & SVAs,CA,APP,258848,WiFi MR36 3Y CA CORPORATE,,,6.5
+CA & SVAs,SVA,APP,267785,Edición Alta 500 SMS,,,0.16
+CA & SVAs,SVA,APP,64391,CDR ONE API,,,2.77
+CA & SVAs,SVA,APP,183940,Pack Alta bono business,,,1.5
+CA & SVAs,CA,APP,258911,Lite 3Y CA CORPORATE,,,3.33
+CA & SVAs,SVA,APP,71766,TVIDI - Cartelería Digital,,,3.17
+CA & SVAs,SVA,APP,62490,ADDON MAILING 50.000 CORREOS,,,1.25
+CA & SVAs,SVA,APP,74726,Hilo Musical cuota Alquiler Player,,,1.0
+CA & SVAs,SVA,APP,62466,ADDON GESTOR DOCUMENTAL HASTA 1 TB,,,1.0
+CA & SVAs,SVA,APP,398887,Canal de Denuncias (1-100),,,10.0
+CA & SVAs,SVA,APP,61911,WINGU PREMIUM,,,5.9
+CA & SVAs,SVA,APP,63878,GRABADOR+,,,0.02
+CA & SVAs,SVA,APP,62554,CDR ONE R1,,,0.06
+CA & SVAs,SVA,APP,126719,SESAME TIME 750 USUARIOS,,,58.4
+CA & SVAs,CA,APP,258914,Lite 2Y CA CORPORATE,,,3.33
+CA & SVAs,SVA,APP,181312,HILO MUSICAL - Edición Business,,,0.21
+CA & SVAs,SVA,APP,181578,3G mobile Comunicaciones Certificadas,,,0.05
+CA & SVAs,SVA,APP,63554,CDR ONE PRESENCIA SUITE,,,0.05
+CA & SVAs,SVA,APP,62562,CDR ONE R3,,,0.06
+CA & SVAs,SVA,APP,61907,WINGU PROFESIONAL,,,1.65
+CA & SVAs,SVA,APP,181315,HILO MUSICAL- Edición Business Premium,,,0.26
+CA & SVAs,CA,APP,258851,WiFi MR36 2Y CA CORPORATE,,,6.5
+CA & SVAs,CA,APP,258881,MS120-8P 3Y CA CORPORATE,,,4.5
+CA & SVAs,SVA,APP,183943,Pack Alta bono starter,,,0.15
+CA & SVAs,SVA,APP,126707,SESAME TIME 350 USUARIOS,,,1.22
+CA & SVAs,SVA,APP,62502,ADDON MAILING 50.000 CORREOS +,,,1.25
+CA & SVAs,SVA,APP,267788,Edición Alta CL@VE 500 SMS,,,0.71
+CA & SVAs,SVA,APP,62474,ADDON GESTOR DOCUMENTAL HASTA 1 TB +,,,1.0
+CA & SVAs,SVA,APP,84334,SAWAMBA CATALOGO CON CONEXIÓN ERP,,,2.7
+CA & SVAs,SVA,APP,198604,3G mobile form,,,0.03
+CA & SVAs,SVA,APP,72379,WIFI ON ENTERPRISE - PAGO MENSUAL 24,,,0.1
+CA & SVAs,SVA,APP-IoT,60375,Miniflotas,,,1.93
+CA & SVAs,SVA,APP-IoT,58419,Oysta Teleasitencia (Sensor de cama),,,0.53
+CA & SVAs,SVA,APP-IoT,64239,Vehicle Defense 1 año,,,0.5
+CA & SVAs,SVA,APP-IoT,369826,Vodafone Business Fleet IOT ProPlus,,,1.83
+CA & SVAs,SVA,APP-IoT,64111,Tacogest,,,1.88
+CA & SVAs,SVA,APP-IoT,64119,Locatel básico,,,1.0
+CA & SVAs,SVA,APP-IoT,131271,Vodafone Business Fleet IOTStandard <200 unidades,,,1.15
+CA & SVAs,SVA,APP-IoT,131263,Vodafone Business Fleet IOTPro <200 unidades,,,1.62
+CA & SVAs,SVA,APP-IoT,60355,LiftEye Servicio Ascensor M2M,,,0.04
+CA & SVAs,SVA,APP-IoT,61123,Vehículo conectado (innova),,,1.8
+CA & SVAs,SVA,APP-IoT,369824,Vodafone Business Fleet IOT Standard,,,0.89
+CA & SVAs,SVA,APP-IoT,182613,MYOYSTA CAR IOT,,,0.85
+CA & SVAs,SVA,APP-IoT,58431,Oysta Teleasitencia (Perla),,,0.75
+CA & SVAs,SVA,APP-IoT,58439,Oysta Loneworker,,,0.75
+CA & SVAs,SVA,APP-IoT,60359,Lifteye: Solucion de ascensores de Tamedbytes,,,0.02
+CA & SVAs,SVA,APP-IoT,60490,Track GPS 5 (Innova),,,0.5
+CA & SVAs,SVA,APP-IoT,131275,Vodafone Business Fleet IOTStandard >200 unidades,,,0.83
+CA & SVAs,SVA,APP-IoT,60494,Track GPS 10 (Innova),,,1.0
+CA & SVAs,SVA,APP-IoT,58423,Oysta Teleasitencia (botón),,,0.53
+CA & SVAs,SVA,APP-IoT,181356,Control de Frío,,,0.45
+CA & SVAs,SVA,APP-IoT,384466,MYOYSTA CAR PYME OBD,,,1.6
+CA & SVAs,SVA,APP-IoT,60518,Track GPS 10 IoT (Innova),,,0.5
+CA & SVAs,SVA,APP-IoT,369825,Vodafone Business Fleet IOT Pro,,,1.26
+CA & SVAs,SVA,APP-IoT,60522,Track GPS 5 IoT (Innova),,,1.0
+CA & SVAs,SVA,APP-IoT,58435,Oysta Teleasitencia (Reloj),,,1.15
+CA & SVAs,SVA,APP-IoT,61731,DataLogger cadena de frio,,,1.42
+CA & SVAs,SVA,APP-IoT,127427,DataLogger cadena de frio EU Pyme 2020 CP,,,1.23
+CA & SVAs,SVA,APPS,60367,Mensajería cuota mensual,,,0.3
+CA & SVAs,SVA,APPS,58427,Oysta Flotas,,,0.75
+CA & SVAs,SVA,Cloud,51558,G-Suite Business pago mensual,,,0.8
+CA & SVAs,SVA,Cloud,51570,G-Suite Business pago anual,,,0.4
+CA & SVAs,SVA,Cloud,91407,Enterprise Plus Flexible,,,0.34
+CA & SVAs,SVA,Cloud,186258,Business Standard Pago Anual,,,0.68
+CA & SVAs,SVA,Cloud,186261,Business Plus Pago Anual,,,1.06
+CA & SVAs,SVA,Cloud,186264,Enterprise Plus Pago Anual,,,1.69
+CA & SVAs,SVA,Cloud,186282,Enterprise Essentials Pago Mensual,,,0.96
+CA & SVAs,SVA,Cloud,186288,Enterprise Standard Pago Anual,,,1.31
+CA & SVAs,SVA,Cloud,230167,Azure IaaS Personalizada - SIN PERMA,,,0.35
+CA & SVAs,SVA,Cloud,230170,Azure IaaS S - 24 MESES PERMA,,,3.05
+CA & SVAs,SVA,Cloud,230148,BBDD,,,2.0
+CA & SVAs,SVA,Cloud,230154,IaaS (Migración),,,4.0
+CA & SVAs,SVA,Cloud,288962,Microsoft 365 F3 NCE Flexible,,,0.23
+CA & SVAs,SVA,Cloud,289511,Intune NCE Flexible,,,0.23
+CA & SVAs,SVA,Cloud,287867,Power Apps per user plan NCE Flexible,,,0.56
+CA & SVAs,SVA,Cloud,287735,Microsoft 365 Apps for Enterprise NCE Flexible,,,0.43
+CA & SVAs,SVA,Cloud,288014,OneDrive for Business (Plan 1) NCE Compromiso Anual -Pago Mensual,,,0.3
+CA & SVAs,SVA,Cloud,287951,Project Plan 5 NCE Flexible,,,1.55
+CA & SVAs,SVA,Cloud,288497,Visio Online Plan 2 NCE Flexible,,,0.42
+CA & SVAs,SVA,Cloud,289517,Intune Device NCE Flexible,,,0.08
+CA & SVAs,SVA,Cloud,389037,M365 Business Basic NCE Compromiso Anual -Pago Mensual SinTeams,,,0.29
+CA & SVAs,SVA,Cloud,389039,M365 Business Standard NCE Compromiso Anual -Pago Mensual SinTeams,,,0.61
+CA & SVAs,SVA,Cloud,389040,M365 Business Standard NCE Flexible SinTeams,,,0.29
+CA & SVAs,SVA,Cloud,389041,M365 Business Premium NCE Compromiso Anual -Pago Mensual SinTeams,,,1.17
+CA & SVAs,SVA,Cloud,389042,M365 Business Premium NCE Flexible SinTeams,,,0.56
+CA & SVAs,SVA,Cloud,389049,Vodafone M365 Business Basic NCE Anual SinTeams,,,0.43
+CA & SVAs,SVA,Cloud,389051,Vodafone M365 Business Standard NCE Anual SinTeams,,,0.92
+CA & SVAs,SVA,Cloud,389053,Vodafone M365 Business Premium NCE Anual SinTeams,,,1.76
+CA & SVAs,SVA,Cloud,389054,Vodafone M365 Business Premium NCE Flexible SinTeams,,,0.56
+CA & SVAs,SVA,Cloud,389067,Office 365 E1 NCE Compromiso Anual -Pago Mensual SinTeams,,,0.47
+CA & SVAs,SVA,Cloud,389068,Office 365 E1 NCE Flexible SinTeams,,,0.22
+CA & SVAs,SVA,Cloud,389085,Microsoft 365 E3 NCE Compromiso Anual -Pago Mensual SinTeams,,,2.25
+CA & SVAs,SVA,Cloud,389086,Microsoft 365 E3 NCE Flexible SinTeams,,,1.07
+CA & SVAs,SVA,Cloud,389081,Microsoft 365 F3 NCE Compromiso Anual -Pago Mensual SinTeams,,,0.7
+CA & SVAs,SVA,Cloud,389082,Microsoft 365 F3 NCE Flexible SinTeams,,,0.21
+CA & SVAs,SVA,Cloud,389226,Microsoft Teams NCE Flexible,,,0.15
+CA & SVAs,SVA,Cloud,391835,Vodafone M365 Business Premium NCE FLEXIBLE,,,0.62
+CA & SVAs,SVA,Cloud,389071,Office 365 E5 NCE Compromiso Anual -Pago Mensual SinTeams,,,2.49
+CA & SVAs,SVA,Cloud,389072,Office 365 E5 NCE Flexible SinTeams,,,1.19
+CA & SVAs,SVA,Cloud,389083,Microsoft 365 E5 NCE Compromiso Anual -Pago Mensual SinTeams,,,3.64
+CA & SVAs,SVA,Cloud,389084,Microsoft 365 E5 NCE Flexible SinTeams,,,1.73
+CA & SVAs,SVA,Cloud,389087,Microsoft 365 F1 NCE Compromiso Anual -Pago Mensual SinTeams,,,0.1
+CA & SVAs,SVA,Cloud,389088,Microsoft 365 F1 NCE Flexible SinTeams,,,0.05
+CA & SVAs,SVA,Cloud,389221,Office 365 F3 NCE Compromiso Anual -Pago Mensual SinTeams,,,0.2
+CA & SVAs,SVA,Cloud,389222,Office 365 F3 NCE Flexible SinTeams,,,0.1
+CA & SVAs,SVA,Cloud,287678,Microsoft 365 Business Standard NCE Compromiso Anual - Pago Mensual,,,0.74
+CA & SVAs,SVA,Cloud,287672,Microsoft 365 Business Basic NCE Compromiso Anual -Pago Mensual,,,0.35
+CA & SVAs,SVA,Cloud,230145,Backup,,,1.5
+CA & SVAs,SVA,Cloud,186276,Business Standard Pago Mensual,,,0.52
+CA & SVAs,SVA,Cloud,44693,Microsfot 365 Business Standard,,,1.06
+CA & SVAs,SVA,Cloud,289148,Vodafone M365 Business Standard NCE Compromiso Anual - Pago Mensual,,,1.05
+CA & SVAs,SVA,Cloud,186273,Business Starter Pago Mensual,,,0.37
+CA & SVAs,SVA,Cloud,238425,Vodafone M365 Business Standard,,,1.06
+CA & SVAs,SVA,Cloud,287738,Office 365 Enterprise E3 NCE Compromiso Anual -Pago Mensual,,,1.58
+CA & SVAs,SVA,Cloud,369711,Vodafone M365 Business Standard NCE Compromiso Anual - Pago Mensual,,,1.11
+CA & SVAs,SVA,Cloud,273371,Vodafone M365 Business Standard NCE Flexible,,,0.79
+CA & SVAs,SVA,Cloud,44685,Microsfot 365 Business Básic,,,0.42
+CA & SVAs,SVA,Cloud,91379,G-Suite Basic pago mensual 2019,,,0.52
+CA & SVAs,SVA,Cloud,287684,Microsoft 365 Business Premium NCE Compromiso Anual - Pago Mensual,,,1.3
+CA & SVAs,SVA,Cloud,289136,Vodafone M365 Business Basic NCE Compromiso Anual -Pago Mensual,,,0.51
+CA & SVAs,SVA,Cloud,387174,Vodafone M365 Business Standard NCE FLEXIBLE,,,0.35
+CA & SVAs,SVA,Cloud,287762,Exchange Online Plan 1 NCE Compromiso Anual -Pago Mensual,,,0.23
+CA & SVAs,SVA,Cloud,91399,G-Suite Business pago mensual 2019,,,1.04
+CA & SVAs,SVA,Cloud,186270,Business Standard Flexible,,,0.14
+CA & SVAs,SVA,Cloud,238422,Vodafone M365 Business Basic,,,0.42
+CA & SVAs,SVA,Cloud,289142,Vodafone M365 Business Premium NCE Compromiso Anual - Pago Mensual,,,1.86
+CA & SVAs,SVA,Cloud,186285,Enterprise Standard Pago Mensual,,,1.57
+CA & SVAs,SVA,Cloud,370275,Vodafone M365 Business Basic NCE Compromiso Anual -Pago Mensual,,,0.53
+CA & SVAs,SVA,Cloud,289145,Vodafone M365 Business Premium NCE Flexible,,,1.4
+CA & SVAs,SVA,Cloud,288092,Microsoft 365 E3 NCE Compromiso Anual -Pago Mensual,,,2.38
+CA & SVAs,SVA,Cloud,273545,Power BI Pro NCE Compromiso Anual -Pago Mensual,,,0.83
+CA & SVAs,SVA,Cloud,370276,Vodafone M365 Business Premium NCE Compromiso Anual - Pago Mensual,,,1.95
+CA & SVAs,SVA,Cloud,287681,Microsoft 365 Business Standard NCE Flexible,,,0.35
+CA & SVAs,SVA,Cloud,287792,Exchange Online Kiosk NCE Compromiso Anual -Pago Mensual,,,0.12
+CA & SVAs,SVA,Cloud,287741,Office 365 Enterprise E3 NCE Flexible,,,0.75
+CA & SVAs,SVA,Cloud,287999,Power BI Pro NCE Flexible,,,0.1
+CA & SVAs,SVA,Cloud,289139,Vodafone M365 Business Basic NCE Flexible,,,0.38
+CA & SVAs,SVA,Cloud,287954,Project Plan 3 NCE Compromiso Anual -Pago Mensual,,,1.77
+CA & SVAs,SVA,Cloud,287732,Microsoft 365 Apps for Enterprise NCE Compromiso Anual - Pago Mensual,,,0.9
+CA & SVAs,SVA,Cloud,287690,Microsoft 365 Apps for Business NCE Compromiso Anual -Pago Mensual,,,0.62
+CA & SVAs,SVA,Cloud,186267,Business Starter Flexible,,,0.07
+CA & SVAs,SVA,Cloud,230185,Backup,,,1.35
+CA & SVAs,SVA,Cloud,238428,Vodafone M365 Business Premium,,,1.69
+CA & SVAs,SVA,Cloud,186279,Business Plus Pago Mensual,,,1.08
+CA & SVAs,SVA,Cloud,230058,IaaS,,,1.0
+CA & SVAs,SVA,Cloud,57271,Microsoft 365 Business Premium,,,1.69
+CA & SVAs,SVA,Cloud,287765,Exchange Online Plan 1 NCE Flexible,,,0.11
+CA & SVAs,SVA,Cloud,288095,Microsoft 365 E3 NCE Flexible,,,3.19
+CA & SVAs,SVA,Cloud,44641,Office 365 E3 (Enterprise),,,1.97
+CA & SVAs,SVA,Cloud,287768,Exchange Online Plan 2 NCE Compromiso Anual -Pago Mensual,,,0.47
+CA & SVAs,SVA,Cloud,289523,Microsoft Defender for Office 365 (Plan 1) NCE Compromiso Anual -Pago Mensual,,,0.12
+CA & SVAs,SVA,Cloud,287675,Microsoft 365 Business Basic NCE Flexible,,,0.17
+CA & SVAs,SVA,Cloud,287726,Office 365 Enterprise E1 NCE Compromiso Anual -Pago Mensual,,,0.59
+CA & SVAs,SVA,Cloud,292184,Office 365 Extra File Storage NCE Compromiso Anual -Pago Mensual,,,0.01
+CA & SVAs,SVA,Cloud,43869,Google Drive storage upgrade - 200 GB,,,1.13
+CA & SVAs,SVA,Cloud,287687,Microsoft 365 Business Premium NCE Flexible,,,0.62
+CA & SVAs,SVA,Cloud,397368,Microsoft 365 Copilot,,,1.41
+CA & SVAs,SVA,Cloud,288494,Visio Online Plan 2 NCE Compromiso Anual -Pago Mensual,,,0.88
+CA & SVAs,SVA,Cloud,287888,Azure Active Directory Premium P1 NCE Compromiso Anual - Pago Mensual,,,0.35
+CA & SVAs,SVA,Cloud,287693,Microsoft 365 Apps for Business NCE Flexible,,,0.29
+CA & SVAs,SVA,Cloud,287795,Exchange Online Kiosk NCE Flexible,,,0.06
+CA & SVAs,SVA,Cloud,91391,G Suite Business Flexible,,,1.04
+CA & SVAs,SVA,Cloud,230164,Azure IaaS XL - SIN PERMA,,,0.35
+CA & SVAs,SVA,Cloud,54585,Project Online Professional,,,2.53
+CA & SVAs,SVA,Cloud,44713,O365 Exchange Plan 1,,,0.34
+CA & SVAs,SVA,Cloud,287948,Project Plan 5 NCE Compromiso Anual -Pago Mensual,,,3.24
+CA & SVAs,SVA,Cloud,292187,Office 365 Extra File Storage NCE Flexible,,,0.01
+CA & SVAs,SVA,Cloud,57211,Microsoft 365 E3,,,2.86
+CA & SVAs,SVA,Cloud,288959,Microsoft 365 F3 NCE Compromiso Anual -Pago Mensual,,,0.47
+CA & SVAs,SVA,Cloud,43873,Google Drive storage upgrade - 50 GB,,,0.5
+CA & SVAs,SVA,Cloud,291986,Microsoft Defender for Office 365 (Plan 1) NCE Flexible,,,0.06
+CA & SVAs,SVA,Cloud,43877,Google Drive storage upgrade - 20 GB,,,0.25
+CA & SVAs,SVA,Cloud,186291,Business Starter Pago Anual,,,0.34
+CA & SVAs,SVA,Cloud,91403,Enterprise Plus Pago Mensual,,,2.03
+CA & SVAs,SVA,Cloud,287957,Project Plan 3 NCE Flexible,,,0.84
+CA & SVAs,SVA,Cloud,186297,Enterprise Standard Flexible,,,0.26
+CA & SVAs,SVA,Cloud,287771,Exchange Online Plan 2 NCE Flexible,,,0.23
+CA & SVAs,SVA,Cloud,91383,G Suite Basic Flexible,,,0.52
+CA & SVAs,SVA,Cloud,186294,Business Plus Flexible,,,0.21
+CA & SVAs,SVA,Cloud,238434,Vodafone M365 Business Standard FLEX,,,1.06
+CA & SVAs,SVA,Cloud,287858,PowerApps per app plan NCE Compromiso Anual -Pago Mensual,,,0.94
+CA & SVAs,SVA,Cloud,143402,G Suite Basic pago anual,,,0.26
+CA & SVAs,SVA,Cloud,230161,Azure IaaS L - SIN PERMA,,,0.35
+CA & SVAs,SVA,Cloud,287864,Power Apps per user plan NCE Compromiso Anual -Pago Mensual,,,1.18
+CA & SVAs,SVA,Cloud,43865,Google Drive storage upgrade - 400 GB,,,2.21
+CA & SVAs,SVA,Cloud,43897,Google Drive storage upgrade - 1 TB,,,5.57
+CA & SVAs,SVA,Cloud,230179,Azure IaaS XL - 24 MESES PERMA,,,19.45
+CA & SVAs,SVA,Cloud,43893,Google Drive storage upgrade - 2 TB,,,11.17
+CA & SVAs,SVA,Cloud,238431,Vodafone M365 Business Basic FLEX,,,0.42
+CA & SVAs,SVA,Cloud,51566,G-Suite Basic Suite pago anual,,,0.1
+CA & SVAs,SVA,Cloud,51554,G-Suite Basic pago mensual,,,0.3
+CA & SVAs,SVA,Cloud,377364,Business Standard Pago Mensual (Bundle),,,0.98
+CA & SVAs,SVA,Cloud,44609,O365 Exchange Kiosk,,,0.17
+CA & SVAs,SVA,Cloud,56106,Azure Active Directory Premium P1,,,0.51
+CA & SVAs,SVA,Cloud,288500,Visio Online Plan 1 NCE Compromiso Anual -Pago Mensual,,,0.3
+CA & SVAs,SVA,Cloud,44637,Office 365 E1 (Enterprise),,,0.68
+CA & SVAs,SVA,Cloud,44617,O365 Exchange online Kiosk for Government,,,0.17
+CA & SVAs,SVA,Cloud,44633,Aplicaciones de Microsfot 365 para Empresa,,,1.29
+CA & SVAs,SVA,Cloud,57259,Visio Online Plan 2,,,0.33
+CA & SVAs,SVA,Cloud,287963,Project Online Essentials Flexible,,,0.2
+CA & SVAs,SVA,Cloud,54589,Project Online Premium,,,1.22
+CA & SVAs,SVA,Cloud,230158,Azure IaaS M - SIN PERMA,,,0.35
+CA & SVAs,SVA,Cloud,230155,Azure IaaS S - SIN PERMA,,,0.35
+CA & SVAs,SVA,Cloud,230176,Azure IaaS L - 24 MESES PERMA,,,10.45
+CA & SVAs,SVA,Cloud,44717,O365 Exchange Plan 2,,,0.62
+CA & SVAs,SVA,Cloud,289514,Intune Device NCE Compromiso Anual -Pago Mensual,,,0.15
+CA & SVAs,SVA,Cloud,230173,Azure IaaS M - 24 MESES PERMA,,,5.95
+CA & SVAs,SVA,Cloud,287861,PowerApps per app plan NCE Flexible,,,0.76
+CA & SVAs,SVA,Cloud,238437,Vodafone M365 Business Premium FLEX,,,1.69
+CA & SVAs,SVA,Cloud,389069,Office 365 E3 NCE Compromiso Anual -Pago Mensual SinTeams,,,1.46
+CA & SVAs,SVA,Cloud,288503,Visio Online Plan 1 NCE Flexible,,,0.14
+CA & SVAs,SVA,Cloud,287891,Azure Active Directory Premium P1 NCE Flexible,,,0.17
+CA & SVAs,SVA,Cloud,287729,Office 365 Enterprise E1 NCE Flexible,,,0.76
+CA & SVAs,SVA,Cloud,289508,Intune NCE Compromiso Anual -Pago Mensual,,,0.45
+CA & SVAs,SVA,Cloud,230182,Azure IaaS Personalizada - 24 MESES PERMA,,,3.05
+CA & SVAs,SVA,Cloud,288017,OneDrive for Business (Plan 1) NCE Flexible,,,0.14
+CA & SVAs,SVA,Cloud,44538,Visio Pro for Office 365,,,1.1
+CA & SVAs,SVA,Cloud,391834,Vodafone M365 Business Basic NCE FLEXIBLE,,,0.17
+CA & SVAs,SVA,Cloud,305538,NCE PowerApps per app plan (1 app or portal) Pago Mensual,,,0.94
+CA & SVAs,SVA,Cloud,389038,M365 Business Basic NCE Flexible SinTeams,,,0.14
+CA & SVAs,SVA,Cloud,389050,Vodafone M365 Business Basic NCE Flexible SinTeams,,,0.14
+CA & SVAs,SVA,Cloud,389070,Office 365 E3 NCE Flexible SinTeams,,,0.69
+CA & SVAs,SVA,Cloud,287960,Project Online Essentials Compromiso Anual -Pago Mensual,,,0.42
+CA & SVAs,SVA,Cloud,389052,Vodafone M365 Business Standard NCE Flexible SinTeams,,,0.29
+CA & SVAs,SVA,Cloud,389225,Microsoft Teams NCE Compromiso Anual -Pago Mensual,,,0.32
+CA & SVAs,SVA,Cloud,398991,Vodafone M365 Business Premium NCE Compromiso Anual - Pago Anual,,,1.95
+CA & SVAs,SVA,Cloud,461358,Vodafone M365 Business Premium NCE Compromiso Anual - Pago Anual SinTeams,,,1.76
+CA & SVAs,SVA,Cloud,461357,Vodafone M365 Business Basic NCE Compromiso Anual - Pago Anual,,,0.53
+CA & SVAs,SVA,Cloud,461359,Vodafone M365 Business Basic NCE Compromiso Anual - Pago Anual SinTeams,,,0.44
+CA & SVAs,SVA,Cloud,461887,Vodafone M365 Business Standard NCE Compromiso Anual - Pago Anual,,,1.11
+CA & SVAs,SVA,Cloud,461356,Vodafone M365 Business Standard NCE Compromiso Anual - Pago Anual SinTeams,,,0.92
+CA & SVAs,SVA,Seguridad,249458,Seguridad Digital Plus - Backup Extra 50GB (Empleado),,,0.18
+CA & SVAs,SVA,Seguridad,249455,Seguridad Digital Plus - Backup Extra 100GB (Empleado),,,0.37
+CA & SVAs,SVA,Seguridad,249452,Seguridad Digital Plus - Backup Extra 500GB (Empleado),,,1.83
+CA & SVAs,SVA,Seguridad,324728,VSDM Workspace One SME Desktop Essentials 12 Meses,,,0.18
+CA & SVAs,SVA,Seguridad,324731,VSDM Workspace One SME Desktop Essentials 24 Meses,,,0.3
+CA & SVAs,SVA,Seguridad,324734,VSDM Workspace One SME Desktop Essentials 36 Meses,,,0.3
+CA & SVAs,SVA,Seguridad,324740,VSDM Workspace One SME Mobile Essentials 1 Mes,,,0.02
+CA & SVAs,SVA,Seguridad,360032,VSDM Workspace One SME Mobile Essentials 12 Meses,,,0.13
+CA & SVAs,SVA,Seguridad,360035,VSDM Workspace One SME Mobile Essentials 24 Meses,,,0.22
+CA & SVAs,SVA,Seguridad,360038,VSDM Workspace One SME Mobile Essentials 36 Meses,,,0.22
+CA & SVAs,SVA,Seguridad,324656,VSDM Workspace One SME UEM Essentials 12 Meses,,,0.2
+CA & SVAs,SVA,Seguridad,324659,VSDM Workspace One SME UEM Essentials 24 Meses,,,0.34
+CA & SVAs,SVA,Seguridad,324662,VSDM Workspace One SME UEM Essentials 36 Meses,,,0.34
+CA & SVAs,SVA,Seguridad,284009,Mobile Essentials 36 Meses/UEM Essentials 36 Meses/Advanced 36 Meses/Standard 36 Meses/Desktop Essentials 36 Meses,,,0.04
+CA & SVAs,SVA,Seguridad,284012,Mobile Essentials 24 Meses/UEM Essentials 24 Meses/Advanced 24 Meses/Standard 24 Meses/Desktop Essentials 24 Meses,,,0.04
+CA & SVAs,SVA,Seguridad,284015,Mobile Essentials 12 Meses/UEM Essentials 12 Meses/Advanced 12 Meses/Standard 12 Meses/Desktop Essentials 12 Meses,,,0.02
+CA & SVAs,SVA,Seguridad,329852,Mobile Essentials 36 Meses/UEM Essentials 36 Meses,,,0.05
+CA & SVAs,SVA,Seguridad,329855,Mobile Essentials 24 Meses/UEM Essentials 24 Meses,,,0.05
+CA & SVAs,SVA,Seguridad,329858,Mobile Essentials 12 Meses/UEM Essentials 12 Meses,,,0.03
+CA & SVAs,SVA,Seguridad,360353,Advanced 36 Meses/Standard 36 Meses,,,0.2
+CA & SVAs,SVA,Seguridad,361571,Mobile Essentials 12 Meses/UEM Essentials 12 Meses/Desktop Essentials 12 Meses,,,0.04
+CA & SVAs,SVA,Seguridad,361580,Advanced 24 Meses/Standard 24 Meses,,,0.2
+CA & SVAs,SVA,Seguridad,362897,Advanced 12 Meses/Standard 12 Meses,,,0.12
+CA & SVAs,SVA,Seguridad,362914,Mobile Essentials 36 Meses/UEM Essentials 36 Meses/Desktop Essentials 36 Meses,,,0.2
+CA & SVAs,SVA,Seguridad,362915,Mobile Essentials 24 Meses/UEM Essentials 24 Meses/Desktop Essentials 24 Meses,,,0.2
+CA & SVAs,SVA,Seguridad,362916,Mobile Essentials 12 Meses/UEM Essentials 12 Meses/Desktop Essentials 12 Meses,,,0.12
+CA & SVAs,SVA,Seguridad,362927,Mobile Essentials 36 Meses/UEM Essentials 36 Meses/Desktop Essentials 36 Meses,,,0.07
+CA & SVAs,SVA,Seguridad,362928,Mobile Essentials 24 Meses/UEM Essentials 24 Meses/Desktop Essentials 24 Meses,,,0.07
+CA & SVAs,SVA,Seguridad,387727,Servicios de Implantacion Básica (Remoto) Mensual 12 meses - Ediciones Lookout y VSDM Mobile y Desktop,,,0.6
+CA & SVAs,SVA,Seguridad,387728,Servicios de Implantacion Básica (Remoto) Mensual 24 meses - Ediciones Lookout y VSDM Mobile y Desktop,,,0.6
+CA & SVAs,SVA,Seguridad,387731,Servicios de Implantacion Básica UEM (Remoto) Mensual 12 meses - Ediciones VSDM UEM,,,1.23
+CA & SVAs,SVA,Seguridad,387732,Servicios de Implantacion Básica UEM (Remoto) Mensual 24 meses - Ediciones VSDM UEM,,,1.23
+CA & SVAs,SVA,Seguridad,402539,Essentials 12 meses (SD +),,,0.33
+CA & SVAs,SVA,Seguridad,402538,Small Business 12 meses (SD +),,,0.23
+CA & SVAs,SVA,Seguridad,175468,Worry Free Services XDR Mensual,,,0.92
+CA & SVAs,SVA,Seguridad,211113,Seguridad Digital,,,0.41
+CA & SVAs,SVA,Seguridad,175474,EDR Worry Free Services Advanced 2 Años,,,0.48
+CA & SVAs,SVA,Seguridad,175480,EDR Worry Free Services Advanced Mensual,,,0.6
+CA & SVAs,SVA,Seguridad,175462,Worry Free Services XDR 2 Años,,,0.73
+CA & SVAs,SVA,Seguridad,175486,EDR Worry Free Services 2 Años,,,0.26
+CA & SVAs,SVA,Seguridad,141169,Licencia VSDM VM express,,,0.51
+CA & SVAs,SVA,Seguridad,175492,EDR Worry Free Services Mensual,,,0.33
+CA & SVAs,SVA,Seguridad,81174,VSDM Básico,,,0.48
+CA & SVAs,SVA,Seguridad,175477,EDR Worry Free Services Advanced 1 Año,,,0.48
+CA & SVAs,SVA,Seguridad,359222,Seguridad Digital Plus (Empleado),,,0.5
+CA & SVAs,SVA,Seguridad,363919,EDR Worry Free Services Advanced 12 Meses,,,0.3
+CA & SVAs,SVA,Seguridad,359225,Seguridad Digital Plus (Empresa),,,1.86
+CA & SVAs,SVA,Seguridad,175465,Worry Free Services XDR 1 Año,,,0.73
+CA & SVAs,SVA,Seguridad,175489,EDR Worry Free Services 1 Año,,,0.26
+CA & SVAs,SVA,Seguridad,167431,Lookout MTD for Small Business 24 meses,,,0.18
+CA & SVAs,SVA,Seguridad,182584,Cloud App Security Mensual,,,0.4
+CA & SVAs,SVA,Seguridad,183793,Email Security Standard 2 Años,,,0.3
+CA & SVAs,SVA,Seguridad,238528,Lookout MTD Essentials 24 meses,,,0.26
+CA & SVAs,SVA,Seguridad,167428,Lookout MTD for Small Business 12 meses,,,0.18
+CA & SVAs,SVA,Seguridad,167455,Lookout MTD for Small Business Mensual,,,0.12
+CA & SVAs,SVA,Seguridad,182575,Cloud App Security 2 Años,,,0.32
+CA & SVAs,SVA,Seguridad,183802,Email Security Standard Mensual,,,0.38
+CA & SVAs,SVA,Seguridad,183799,Email Security Standard 1 Año,,,0.3
+CA & SVAs,SVA,Seguridad,238525,Lookout MTD Essentials 12 meses,,,0.26
+CA & SVAs,SVA,Seguridad,238531,Lookout MTD Essentials 36 meses,,,0.26
+CA & SVAs,SVA,Seguridad,167434,Lookout MTD for Small Business 36 meses,,,0.18
+CA & SVAs,SVA,Seguridad,182581,Cloud App Security 1 Año,,,0.32
+CA & SVAs,SVA,Seguridad,359231,Servicios de Implantacion - Worry Free Services Advanced/XDR,,,0.19
+CA & SVAs,SVA,Seguridad,454342,Seguridad Digital,,,0.82
+CA & SVAs,SVA,Soporte IT,63474,Red Empresa Soporte IT 80,,,60.0
+CA & SVAs,SVA,Soporte IT,95823,Addone Soporte IT SOPORTE SERVIDORES,,,1.87
+CA & SVAs,SVA,Soporte IT,81378,RED Infinity Worry Free Soporte IT 100,,,88.0
+CA & SVAs,SVA,Soporte IT,81358,RED Infinity Worry Free Soporte IT 20,,,18.0
+CA & SVAs,SVA,Soporte IT,81362,RED Infinity Worry Free Soporte IT 30,,,29.5
+CA & SVAs,SVA,Soporte IT,81366,RED Infinity Worry Free Soporte IT 40,,,42.0
+CA & SVAs,SVA,Soporte IT,63458,Red Empresa Soporte IT 20,,,14.0
+CA & SVAs,SVA,Soporte IT,81370,RED Infinity Worry Free Soporte IT 60,,,51.0
+CA & SVAs,SVA,Soporte IT,81374,RED Infinity Worry Free Soporte IT 80,,,72.0
+CA & SVAs,SVA,Soporte IT,63466,Red Empresa Soporte IT 40,,,32.0
+CA & SVAs,SVA,Soporte IT,63478,Red Empresa Soporte IT 100,,,74.0
+CA & SVAs,SVA,Soporte IT,63462,Red Empresa Soporte IT 30,,,22.0
+CA & SVAs,SVA,Soporte IT,95827,Addone Soporte IT SEDE EXTRA,,,0.14
+CA & SVAs,SVA,Soporte IT,63470,Red Empresa Soporte IT 60,,,41.0
+CA & SVAs,SVA,SSDD,180952,Campaña Google Ads500 €,,,4.17
+CA & SVAs,SVA,SSDD,180958,Campaña Google Ads 50 €,,,2.5
+CA & SVAs,SVA,SSDD,180964,Campaña Google Ads 300 €,,,2.5
+CA & SVAs,SVA,SSDD,180967,Campaña Google Ads 100 €,,,2.5
+CA & SVAs,SVA,SSDD,180970,Campaña Facebook 500 €,,,4.17
+CA & SVAs,SVA,SSDD,180973,Campaña Facebook 300 €,,,2.5
+CA & SVAs,SVA,SSDD,180975,Campaña Facebook 100 €,,,2.5
+CA & SVAs,SVA,SSDD,160515,Vodafone Business Negocio Digital - Web,,,6.0
+CA & SVAs,SVA,SSDD,80742,Red Empresa Digital Base (Red inf),,,10.6
+CA & SVAs,SVA,SSDD,160512,Vodafone Business Negocio Digital - Landing,,,2.0
+CA & SVAs,SVA,SSDD,56579,Red Empresa Digital Base,,,10.6
+CA & SVAs,SVA,SSDD,160509,Vodafone Business Negocio Digital - Start,,,0.99
+CA & SVAs,SVA,SSDD,80738,Red Empresa Digital SEM Lite (Red Inf),,,11.3
+CA & SVAs,SVA,SSDD,160518,Vodafone Business Negocio Digital - Social,,,15.9
+CA & SVAs,SVA,SSDD,160521,Vodafone Business Negocio Digital - Web +,,,17.9
+CA & SVAs,SVA,SSDD,160524,Vodafone Business Negocio Digital - Social +,,,34.9
+CA & SVAs,SVA,SSDD,56583,Red Empresa Digital SEM Lite,,,11.3
+CA & SVAs,SVA,SSDD,180817,Vodafone Business Negocio Digital - E-Commerce,,,8.3
+CA & SVAs,SVA,SSDD,80746,Red Empresa Digital SEM (Red Inf),,,25.0
+CA & SVAs,SVA,VIWP,219099,VSDM basico 12 meses,,,0.7
+CA & SVAs,SVA,VIWP,219102,O365 PYME 12 meses,,,0.4
+CA & SVAs,SVA,VIWP,219120,O365 PYME 36 meses,,,0.4
+CA & SVAs,SVA,VIWP,219105,G-suite lite PYME 12 meses,,,0.4
+CA & SVAs,SVA,VIWP,219114,G-suite lite PYME 24 meses,,,0.4
+CA & SVAs,SVA,VIWP,219123,G-suite lite PYME 36 meses,,,0.4
+CA & SVAs,SVA,VIWP,219135,G-suite PYME gold 12 meses,,,0.5
+CA & SVAs,SVA,VIWP,219138,G-suite PYME gold 24 meses,,,0.5
+CA & SVAs,SVA,VIWP,219141,G-suite PYME gold 36 meses,,,0.5
+CA & SVAs,SVA,VIWP,273875,Solución de Seguridad para Endpoint Trendmicro Worry Free,,,0.13
+CA & SVAs,SVA,VIWP,273878,Solución de Seguridad para Endpoint Trendmicro Cloud Security,,,0.1
+CA & SVAs,SVA,VIWP,273881,Solución de Seguridad para Endpoint Trendmicro Cloud Advance,,,0.19
+CA & SVAs,SVA,VIWP,219049,Cuota Tipo 32,,,3.92
+CA & SVAs,SVA,VIWP,165798,Portátil Gama Avanzada,,,0.29
+CA & SVAs,SVA,VIWP,165792,Soporte 24x7 Remoto,,,1.7
+CA & SVAs,SVA,VIWP,207823,Gama Avanzada 36 meses,,,2.6
+CA & SVAs,SVA,VIWP,165795,Portátil Gama Media,,,3.0
+CA & SVAs,SVA,VIWP,173689,Portátil Gama Premium,,,4.1
+CA & SVAs,SVA,VIWP,165784,Backup Solución O365,,,0.4
+CA & SVAs,SVA,VIWP,162561,Licencia VSDM Pyme IWP,,,0.35
+CA & SVAs,SVA,VIWP,165781,Solución de Seguridad para Endpoint,,,0.3
+CA & SVAs,SVA,VIWP,207835,Gama Premium 48 meses,,,0.42
+CA & SVAs,SVA,VIWP,219019,Cuota Tipo 15,,,5.23
+CA & SVAs,SVA,VIWP,219108,VSDM basico 24 meses,,,0.7
+CA & SVAs,SVA,VIWP,219025,Cuota Tipo 17,,,3.92
+CA & SVAs,SVA,VIWP,173677,Certificado SSL,,,0.3
+CA & SVAs,SVA,VIWP,219117,VSDM basico 36 meses,,,0.7
+CA & SVAs,SVA,VIWP,219126,VSDM basico 48 meses,,,0.7
+CA & SVAs,SVA,VIWP,219111,O365 PYME 24 meses,,,0.4
+CA & SVAs,SVA,VIWP,219129,O365 PYME 48 meses,,,0.4
+CA & SVAs,SVA,VIWP,165787,Backup Solución G-Suite,,,0.4
+CA & SVAs,SVA,VIWP,175483,Worry-Free Services (36 months),,,0.35
+CA & SVAs,SVA,VIWP,175471,Worry-Free Services Advanced (36 months),,,0.57
+CA & SVAs,SVA,VIWP,175459,Worry-Free Services XDR (36 months),,,0.82
+CA & SVAs,SVA,APP,198598,3G Mobile Store 20,,,2.5
+CA & SVAs,SVA,APP,198601,3G Mobile Store 50,,,4.1
+CA & SVAs,SVA,APP,212698,TRY AND BUY CONTROL LABORAL,,,0.0
+CA & SVAs,SVA,APP,466160,Vodafone Gestion Laboral - Time Anual - 24 meses,,,0.13
+CA & SVAs,SVA,APP,466161,Vodafone Gestion Laboral - Advanced Anual - 24 meses,,,0.18
+CA & SVAs,SVA,APP,466162,Vodafone Gestion Laboral - HR Starter Anual- 24 meses,,,0.23
+CA & SVAs,SVA,APP,466163,Vodafone Gestion Laboral - HR Profesional Anual - 24 meses,,,0.28
+CA & SVAs,SVA,APP,466164,Vodafone Gestion Laboral - Time Temporal - 24 meses,,,0.15
+CA & SVAs,SVA,APP,466165,Vodafone Gestion Laboral - Advanced Temporal - 24 meses,,,0.18
+CA & SVAs,SVA,APP,466166,Vodafone Gestion Laboral - HR Starter Temporal - 24 meses,,,0.23
+CA & SVAs,SVA,APP,466167,Vodafone Gestion Laboral - HR Profesional Temporal - 24 meses,,,0.27
+CA & SVAs,SVA,APP,466168,Vodafone Gestion Laboral - Time Mensual - Sin Permanencia,,,0.03
+CA & SVAs,SVA,APP,466169,Vodafone Gestion Laboral - Advanced Mensual - Sin Permanencia,,,0.03
+CA & SVAs,SVA,APP,466170,Vodafone Gestion Laboral - HR Starter Mensual - Sin Permanencia,,,0.04
+CA & SVAs,SVA,APP,466171,Vodafone Gestion Laboral - HR Profesional Mensual - Sin Permanencia,,,0.05
+CA & SVAs,SVA,APP,466172,Vodafone Gestion Laboral - Time Mensual- 12 meses,,,0.12
+CA & SVAs,SVA,APP,466173,Vodafone Gestion Laboral - Advanced Mensual - 12 meses,,,0.15
+CA & SVAs,SVA,APP,466174,Vodafone Gestion Laboral - HR Starter Mensual- 12 meses,,,0.2
+CA & SVAs,SVA,APP,466175,Vodafone Gestion Laboral - HR Profesional Mensual - 12 meses,,,0.24
+CA & SVAs,SVA,APP,466156,Vodafone Gestion Laboral - Time Mensual- Pago x Uso,,,0.03
+CA & SVAs,SVA,APP,466157,Vodafone Gestion Laboral - Advanced Mensual - Pago x Uso,,,0.03
+CA & SVAs,SVA,APP,466158,Vodafone Gestion Laboral - HR Starter Mensual- Pago x Uso,,,0.04
+CA & SVAs,SVA,APP,466159,Vodafone Gestion Laboral - HR Profesional Mensual - Pago x Uso,,,0.05
+CA & SVAs,SVA,SSDD,466326,Vodafone Business Negocio Digital - Start Next,,,1.15
+CA & SVAs,SVA,SSDD,466327,Vodafone Business Negocio Digital - Start Plus Next,,,2.3
+CA & SVAs,SVA,SSDD,466328,Vodafone Business Negocio Digital - Redes Lite Next,,,4.2
+CA & SVAs,SVA,SSDD,466329,Vodafone Business Negocio Digital - Redes Sociales Next,,,10.0
+CA & SVAs,SVA,APP-IoT,444475,Licencia Pro Tacogest IoT,,,0.92
+CA & SVAs,SVA,APP-IoT,444469,Licencia Básico Flotas IoT,,,0.8
+CA & SVAs,SVA,APP-IoT,444472,Licencia Mini Flotas IoT,,,0.5
+CA & SVAs,SVA,APP-IoT,444464,Tacogest Aplicaciones,,,0.3
+CA & SVAs,SVA,APP-IoT,444465,Dietagest Aplicaciones,,,0.3
+CA & SVAs,SVA,APP-IoT,444466,Opticarga Aplicaciones,,,0.3
+CA & SVAs,SVA,APP-IoT,444467,Databus Aplicaciones,,,0.3
+CA & SVAs,SVA,APP-IoT,479184,Licencia Pro- Tacogest IoT - 36 meses,,,1.1
+CA & SVAs,SVA,APP,470234,Billin Pro – 12 meses,,,0.39
+CA & SVAs,SVA,APP,470235,Billin Pro – 24 meses,,,0.65
+CA & SVAs,SVA,APP,470236,Billin Pro Anual – 24 meses,,,0.75
+CA & SVAs,SVA,APP,58743,3G MOBILE SIGN BONO 50,,,0.02
+CA & SVAs,SVA,APP,58747,Firma Digital 3G MOBILE SIGN BONO 500,,,0.17
+CA & SVAs,SVA,APP,58751,Firma Digital 3G MOBILE SIGN BONO 5.000,,,0.42
+CA & SVAs,SVA,APP,181572,Firma Digital 3G mobile sms 200,,,0.01
+CA & SVAs,SVA,APP,181575,Firma Digital 3G mobile desarrollo,,,0.17
+CA & SVAs,SVA,APP,181581,Firma Digital 3G mobile Certificado,,,0.08
+CA & SVAs,SVA,Cloud,337001,Microsoft Teams Essentials NCE,,,0.23
+CA & SVAs,SVA,Cloud,337004,Microsoft Teams Essentials NCE Flexible,,,0.04
+CA & SVAs,SVA,Seguridad,408863,Seguridad Digital Cisco As a Service Advance,,,6.0
+CA & SVAs,SVA,Seguridad,408865,Seguridad Digital Cisco As a Service Premium,,,7.5
+CA & SVAs,SVA,Seguridad,408867,Seguridad Digital Cisco As a Service Essential,,,4.67
+CA & SVAs,SVA,Seguridad,457973,Seguridad Digital Plus (Empleado) - 24 meses,,,0.5
+CA & SVAs,SVA,Seguridad,457974,Seguridad Digital Plus (Empresa) - 24 meses,,,1.86
+CA & SVAs,SVA,Seguridad,464950,Seguridad Digital EDR Worry Free Services Advanced 24 Meses (SD +),,,0.3
+CA & SVAs,CA,APP,474802,Talla M Lite CA CORPORATE,,,12.5
+CA & SVAs,SVA,APP-IoT,479181,Licencia Básico - Flotas IoT - 36 meses,,,0.9
+CA & SVAs,SVA,APP-IoT,479182,Licencia Mini - Flotas IoT - 36 meses,,,0.6
+CA & SVAs,SVA,APP-IoT,479186,Tacogest+ - Aplicaciones,,,0.13
+CA & SVAs,SVA,Seguridad,479203,Seguridad Digital Plus SOC (Empresa Premium) - 24 meses,,,6.87
+CA & SVAs,SVA,Seguridad,479202,Seguridad Digital Plus SOC (Empresa Avanzado) - 24 meses,,,2.72
+CA & SVAs,SVA,Seguridad,479204,Seguridad Digital Plus SOC - 24 meses,,,0.35

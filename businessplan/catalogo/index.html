@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow">
+  <title>VodaControl · Catálogo Vodafone FY2627 (913 SKUs)</title>
+  <meta name="description" content="Catálogo oficial de productos Vodafone Business España con equivalencias del programa Acciones Comerciales FY2627. 913 SKUs descargables en CSV.">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../../brand/icon_32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../brand/icon_16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../brand/icon_180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../../brand/icon_192.png">
+
+  <style>
+    :root {
+      --bg: #000000; --bg-elev: #0F0F0F; --bg-card: #141414;
+      --border: #1F1F1F; --border-hi: #2a2a2a;
+      --text: #F5F5F5; --text-mute: #9CA3AF; --text-dim: #646464;
+      --accent: #D60000; --ok: #16A34A; --ok-hi: #4ADE80; --info: #2563EB;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 15px; line-height: 1.6; }
+    a { color: var(--text); text-decoration: none; }
+    a:hover { color: var(--ok-hi); }
+    .container { max-width: 1400px; margin: 0 auto; padding: 0 24px; }
+    .container-narrow { max-width: 800px; margin: 0 auto; padding: 0 24px; }
+    section { padding: 60px 0; border-bottom: 1px solid var(--border); }
+    h1 { font-size: clamp(32px, 4.5vw, 48px); margin-bottom: 16px; font-weight: 700; letter-spacing: -0.02em; }
+    h2 { font-size: 24px; margin-bottom: 16px; font-weight: 700; letter-spacing: -0.02em; }
+    p { margin-bottom: 14px; color: var(--text-mute); }
+    p strong { color: var(--text); font-weight: 600; }
+    .lede { font-size: 18px; }
+
+    header { position: sticky; top: 0; z-index: 10; background: rgba(0,0,0,0.85); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
+    header .nav { display: flex; align-items: center; justify-content: space-between; padding: 16px 24px; max-width: 1400px; margin: 0 auto; flex-wrap: wrap; gap: 16px; }
+    header .brand { display: flex; align-items: center; gap: 12px; }
+    header .brand img { width: 32px; height: 32px; }
+    header .brand span { font-weight: 600; }
+    header .tabs { display: flex; gap: 4px; flex-wrap: wrap; }
+    header .tabs a { padding: 6px 12px; border-radius: 6px; font-size: 13px; font-weight: 500; color: var(--text-mute); transition: all 0.15s; }
+    header .tabs a:hover { background: var(--bg-elev); color: var(--text); }
+    header .tabs a.active { background: var(--bg-card); color: var(--text); border: 1px solid var(--border-hi); }
+    header .actions a.cta { padding: 8px 16px; border-radius: 8px; font-size: 14px; font-weight: 500; background: var(--ok); color: #fff; }
+
+    .hero { padding: 60px 0 40px; text-align: center; background: radial-gradient(ellipse at top, #0F172A 0%, #000000 60%); }
+    .eyebrow { display: inline-block; padding: 6px 14px; border-radius: 20px; background: var(--bg-card); border: 1px solid var(--border-hi); font-size: 12px; font-weight: 600; color: var(--ok-hi); letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 20px; }
+
+    .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 24px 0; }
+    @media (max-width: 720px) { .kpi-grid { grid-template-columns: repeat(2, 1fr); } }
+    .kpi-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; padding: 16px; text-align: center; }
+    .kpi-card .value { font-size: 28px; font-weight: 700; color: var(--ok-hi); line-height: 1.1; }
+    .kpi-card .label { font-size: 11px; color: var(--text-mute); text-transform: uppercase; letter-spacing: 0.04em; margin-top: 6px; }
+
+    .download-bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; background: var(--bg-card); border: 1px solid var(--border-hi); border-radius: 12px; padding: 18px 24px; margin-top: 24px; flex-wrap: wrap; }
+    .download-bar .desc { font-size: 14px; color: var(--text-mute); }
+    .download-bar a.btn { padding: 10px 18px; border-radius: 8px; background: var(--ok); color: #fff; font-weight: 600; font-size: 14px; text-decoration: none; transition: background 0.15s; }
+    .download-bar a.btn:hover { background: #15803d; }
+
+    /* Filters */
+    .filters { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 12px; margin: 20px 0 12px; }
+    @media (max-width: 720px) { .filters { grid-template-columns: 1fr; } }
+    .filters input, .filters select {
+      width: 100%; padding: 10px 14px; background: var(--bg-card); border: 1px solid var(--border-hi);
+      border-radius: 8px; color: var(--text); font-size: 14px; font-family: inherit;
+    }
+    .filters input:focus, .filters select:focus { outline: none; border-color: var(--ok); }
+    .filter-meta { font-size: 13px; color: var(--text-mute); padding: 8px 0 16px; }
+    .filter-meta strong { color: var(--ok-hi); }
+
+    .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; max-height: 70vh; overflow-y: auto; background: var(--bg-card); border-radius: 10px; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 900px; }
+    th, td { border-bottom: 1px solid var(--border); padding: 8px 12px; text-align: left; vertical-align: top; }
+    th { background: var(--bg-elev); color: var(--text-mute); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; position: sticky; top: 0; z-index: 1; }
+    td.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; color: var(--ok-hi); font-weight: 600; }
+    td.codigo { font-family: ui-monospace, Menlo, monospace; color: var(--info); }
+    tr:hover td { background: rgba(255,255,255,0.03); }
+
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; color: #fff; text-transform: uppercase; letter-spacing: 0.04em; }
+    .b-pga { background: var(--accent); }
+    .b-nn { background: var(--info); }
+    .b-csg { background: #7c3aed; }
+    .b-casva { background: #d97706; }
+
+    .loading, .empty { padding: 60px 20px; text-align: center; color: var(--text-mute); font-size: 16px; }
+
+    footer { background: #000; padding: 40px 0 60px; text-align: center; border-top: 1px solid var(--border); }
+    footer p { font-size: 13px; color: var(--text-dim); }
+    footer a { color: var(--text-mute); margin: 0 8px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a href="/" class="brand">
+      <img src="../../brand/icon-mono-white_512.png" alt="VodaControl">
+      <span>VodaControl</span>
+    </a>
+    <div class="tabs">
+      <a href="../">Resumen</a>
+      <a href="../pipeline/">Pipeline</a>
+      <a href="../programas/">Programas Vodafone</a>
+      <a href="../catalogo/" class="active">Catálogo</a>
+    </div>
+    <div class="actions">
+      <a href="../#contacto" class="cta">Solicitar demo</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container-narrow">
+    <span class="eyebrow">Catálogo oficial · 913 SKUs · FY2627</span>
+    <h1>Productos Vodafone con equivalencias</h1>
+    <p class="lede">Extracto del documento <strong>Acciones Comerciales UNE-CI Q1 FY2627</strong> (Vodafone Business España). 4 bloques: Prima Gross Adds + Nuevos Negocios + Bonos CSG + CA &amp; SVAs.</p>
+
+    <div class="kpi-grid">
+      <div class="kpi-card"><div class="value">913</div><div class="label">SKUs totales</div></div>
+      <div class="kpi-card"><div class="value">82</div><div class="label">Prima Gross Adds</div></div>
+      <div class="kpi-card"><div class="value">280</div><div class="label">Nuevos Negocios</div></div>
+      <div class="kpi-card"><div class="value">551</div><div class="label">CA &amp; SVAs + CSG</div></div>
+    </div>
+
+    <div class="download-bar">
+      <div class="desc">📊 <strong>Catálogo completo en CSV</strong> — formato listo para importar a `producto_equivalencias` de app-vdf</div>
+      <a href="catalogo-vodafone-fy2627.csv" download class="btn">Descargar CSV (69 KB)</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Buscador</h2>
+    <p>Filtra por código, descripción, familia o bloque. Las equivalencias son los puntos que cuentan al objetivo del Agente Vodafone en cada programa.</p>
+
+    <div class="filters">
+      <input type="search" id="q" placeholder="Buscar por código o descripción (ej: M365, IAgente, fibra…)">
+      <select id="bloque"><option value="">Todos los bloques</option></select>
+      <select id="familia"><option value="">Todas las familias</option></select>
+      <select id="subfamilia"><option value="">Todas las subfamilias</option></select>
+    </div>
+
+    <div class="filter-meta">Mostrando <strong id="cnt">0</strong> de <strong id="total">0</strong> productos.</div>
+
+    <div class="table-wrap">
+      <table id="tbl">
+        <thead><tr><th>Bloque</th><th>Familia</th><th>Subfamilia</th><th>Código</th><th>Descripción</th><th class="num">Eq.Nuevo</th><th class="num">Eq.Existente</th><th class="num">Equivalencia</th></tr></thead>
+        <tbody id="tbody"><tr><td colspan="8" class="loading">Cargando catálogo…</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section style="background:#050505;">
+  <div class="container-narrow">
+    <h2>¿Para qué sirve cada bloque?</h2>
+    <ul style="list-style:none;padding:0;margin:0;">
+      <li style="padding:16px 0;border-bottom:1px solid var(--border);"><span class="badge b-pga">PRIMA GROSS ADDS</span><br><strong style="display:block;margin-top:8px;color:var(--text)">Planes Voz/Datos/Fibra (Anexo 1)</strong>Computan al modulador trimestral de altas. Doble equivalencia: <em>Cliente Nuevo</em> (1.0) y <em>Cliente Existente</em> (0.5-1.0). 82 SKUs.</li>
+      <li style="padding:16px 0;border-bottom:1px solid var(--border);"><span class="badge b-nn">NUEVOS NEGOCIOS</span><br><strong style="display:block;margin-top:8px;color:var(--text)">SVA + SCA (Anexo 2)</strong>Apps (M365, Google, Sesame, IAgente, Agro…), Cloud, Seguridad, IPVPN, M2M, One Net, SSDD, Soporte IT. Equivalencia unique (puntos al PNN trimestral). 280 SKUs.</li>
+      <li style="padding:16px 0;border-bottom:1px solid var(--border);"><span class="badge b-csg">BONOS CSG</span><br><strong style="display:block;margin-top:8px;color:var(--text)">Cuenta Servicios Gestionados</strong>Packs compartidos cuenta: PKBSC, PKFLX, AK200… Multiplican el alta de un cliente como bono. 16 SKUs.</li>
+      <li style="padding:16px 0;"><span class="badge b-casva">CA &amp; SVAs</span><br><strong style="display:block;margin-top:8px;color:var(--text)">Tabla 4.3 — Conectividad Avanzada + SVAs</strong>Códigos NN con valor unitario para imputación de la <strong>Tasa de Bajas</strong> (Programa 5 — el más rentable). 535 SKUs.</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="container-narrow">
+    <p>VodaControl · Fenix IA Solutions · Catálogo extraído 17 mayo 2026</p>
+    <p style="margin-top:8px;">Fuente: <strong>Acciones Comerciales UNE-CI Q1 FY2627 BORRADOR</strong> (Vodafone Business España, marzo 2026, 88 págs). Datos meramente referenciales.</p>
+    <p style="margin-top:16px;"><a href="../">← Volver al resumen</a> · <a href="catalogo-vodafone-fy2627.csv" download>Descargar CSV</a></p>
+  </div>
+</footer>
+
+<script>
+(async () => {
+  const res = await fetch("catalogo-vodafone-fy2627.csv");
+  const text = await res.text();
+  const lines = text.trim().split(/\r?\n/);
+  const headers = lines[0].split(",");
+  const rows = lines.slice(1).map(line => {
+    // Simple CSV split — descripcion may contain commas if quoted, but our CSV is comma-only.
+    // Our parser produced plain values without quoting, so split-on-comma works.
+    const cols = line.split(",");
+    const obj = {};
+    headers.forEach((h, i) => obj[h] = cols[i] || "");
+    return obj;
+  });
+
+  // Populate filter dropdowns
+  const uniq = (arr) => [...new Set(arr)].filter(Boolean).sort();
+  const bloques = uniq(rows.map(r => r.bloque));
+  const familias = uniq(rows.map(r => r.familia));
+  const subfamilias = uniq(rows.map(r => r.subfamilia));
+
+  const $b = document.getElementById("bloque");
+  const $f = document.getElementById("familia");
+  const $s = document.getElementById("subfamilia");
+  bloques.forEach(v => { const o = document.createElement("option"); o.value = v; o.textContent = v; $b.appendChild(o); });
+  familias.forEach(v => { const o = document.createElement("option"); o.value = v; o.textContent = v; $f.appendChild(o); });
+  subfamilias.forEach(v => { const o = document.createElement("option"); o.value = v; o.textContent = v; $s.appendChild(o); });
+
+  const $q = document.getElementById("q");
+  const $tbody = document.getElementById("tbody");
+  const $cnt = document.getElementById("cnt");
+  const $total = document.getElementById("total");
+  $total.textContent = rows.length;
+
+  const badgeClass = (b) => {
+    if (b === "Prima Gross Adds") return "b-pga";
+    if (b === "Nuevos Negocios") return "b-nn";
+    if (b === "Bonos CSG") return "b-csg";
+    return "b-casva";
+  };
+  const fmtNum = (s) => {
+    if (!s) return "";
+    const n = parseFloat(s);
+    if (isNaN(n)) return s;
+    return n.toLocaleString("es-ES", { minimumFractionDigits: n % 1 === 0 ? 0 : 2, maximumFractionDigits: 2 });
+  };
+
+  const render = () => {
+    const q = $q.value.trim().toLowerCase();
+    const fb = $b.value, ff = $f.value, fs = $s.value;
+    const filtered = rows.filter(r => {
+      if (fb && r.bloque !== fb) return false;
+      if (ff && r.familia !== ff) return false;
+      if (fs && r.subfamilia !== fs) return false;
+      if (q) {
+        const hay = (r.codigo + " " + r.descripcion + " " + r.familia + " " + r.subfamilia).toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
+    $cnt.textContent = filtered.length;
+    if (filtered.length === 0) {
+      $tbody.innerHTML = '<tr><td colspan="8" class="empty">Sin resultados — prueba a aflojar los filtros</td></tr>';
+      return;
+    }
+    // Cap render at 500 rows for perf; user can refine filter to see specific items
+    const cap = filtered.slice(0, 500);
+    $tbody.innerHTML = cap.map(r => `
+      <tr>
+        <td><span class="badge ${badgeClass(r.bloque)}">${r.bloque}</span></td>
+        <td>${r.familia}</td>
+        <td>${r.subfamilia}</td>
+        <td class="codigo">${r.codigo}</td>
+        <td>${r.descripcion}</td>
+        <td class="num">${fmtNum(r.equivalencia_nuevo)}</td>
+        <td class="num">${fmtNum(r.equivalencia_existente)}</td>
+        <td class="num">${fmtNum(r.equivalencia_unica)}</td>
+      </tr>`).join("");
+    if (filtered.length > 500) {
+      $tbody.innerHTML += `<tr><td colspan="8" style="text-align:center;color:var(--text-dim);padding:16px;">… mostrando primeras 500 de ${filtered.length}. Refina el filtro para ver más.</td></tr>`;
+    }
+  };
+
+  [$q, $b, $f, $s].forEach(el => el.addEventListener("input", render));
+  render();
+})();
+</script>
+
+</body>
+</html>

@@ -78,7 +78,8 @@
     }
     header .nav {
       display: flex; align-items: center; justify-content: space-between;
-      padding: 16px 24px; max-width: 1200px; margin: 0 auto;
+      padding: 16px 24px; max-width: 1400px; margin: 0 auto;
+      flex-wrap: wrap; gap: 16px;
     }
     header .brand { display: flex; align-items: center; gap: 12px; }
     header .brand img { width: 32px; height: 32px; }
@@ -92,6 +93,10 @@
       background: var(--ok); color: #fff;
     }
     header .actions a.cta:hover { background: #15803d; color: #fff; }
+    header .tabs { display: flex; gap: 4px; flex-wrap: wrap; }
+    header .tabs a { padding: 6px 12px; border-radius: 6px; font-size: 13px; font-weight: 500; color: var(--text-mute); transition: all 0.15s; }
+    header .tabs a:hover { background: var(--bg-elev); color: var(--text); }
+    header .tabs a.active { background: var(--bg-card); color: var(--text); border: 1px solid var(--border-hi); }
 
     /* ===== Hero ===== */
     .hero {
@@ -421,6 +426,12 @@
       <img src="../brand/icon-mono-white_512.png" alt="VodaControl">
       <span>VodaControl</span>
     </a>
+    <div class="tabs">
+      <a href="./" class="active">Resumen</a>
+      <a href="pipeline/">Pipeline</a>
+      <a href="programas/">Programas Vodafone</a>
+      <a href="catalogo/">Catálogo</a>
+    </div>
     <div class="actions">
       <a href="#contacto" class="cta">Solicitar demo</a>
     </div>

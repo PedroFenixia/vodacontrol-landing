@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow">
+  <title>VodaControl · Pipeline B2B Vodafone España</title>
+  <meta name="description" content="32 distribuidores B2B Vodafone España identificados: tier, plantilla, comerciales, cuota VodaControl estimada y datos de contacto.">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../../brand/icon_32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../brand/icon_16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../brand/icon_180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../../brand/icon_192.png">
+
+  <style>
+    :root {
+      --bg: #000000; --bg-elev: #0F0F0F; --bg-card: #141414;
+      --border: #1F1F1F; --border-hi: #2a2a2a;
+      --text: #F5F5F5; --text-mute: #9CA3AF; --text-dim: #646464;
+      --accent: #D60000; --accent-hover: #B30000;
+      --ok: #16A34A; --ok-hi: #4ADE80;
+      --info: #2563EB; --warn: #F59E0B;
+      --platinum: #b00020; --gold: #d97706; --silver: #64748b; --diamond: #7c3aed;
+      --levante: #0891b2;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    a { color: var(--text); text-decoration: none; }
+    a:hover { color: var(--ok-hi); }
+    .container { max-width: 1400px; margin: 0 auto; padding: 0 24px; }
+    .container-narrow { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+    section { padding: 60px 0; border-bottom: 1px solid var(--border); }
+    section:last-of-type { border-bottom: 0; }
+    h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; }
+    h1 { font-size: clamp(32px, 4.5vw, 48px); margin-bottom: 16px; }
+    h2 { font-size: clamp(24px, 3vw, 32px); margin-bottom: 24px; }
+    h3 { font-size: clamp(18px, 1.8vw, 22px); margin-bottom: 12px; color: var(--ok-hi); }
+    p { margin-bottom: 16px; color: var(--text-mute); }
+    p strong { color: var(--text); font-weight: 600; }
+    .lede { font-size: 18px; line-height: 1.5; }
+    .small { font-size: 13px; color: var(--text-dim); }
+
+    /* Header con tabs */
+    header { position: sticky; top: 0; z-index: 10; background: rgba(0,0,0,0.85); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
+    header .nav { display: flex; align-items: center; justify-content: space-between; padding: 16px 24px; max-width: 1400px; margin: 0 auto; flex-wrap: wrap; gap: 16px; }
+    header .brand { display: flex; align-items: center; gap: 12px; }
+    header .brand img { width: 32px; height: 32px; }
+    header .brand span { font-weight: 600; letter-spacing: -0.01em; }
+    header .tabs { display: flex; gap: 4px; flex-wrap: wrap; }
+    header .tabs a { padding: 6px 12px; border-radius: 6px; font-size: 13px; font-weight: 500; color: var(--text-mute); transition: all 0.15s; }
+    header .tabs a:hover { background: var(--bg-elev); color: var(--text); }
+    header .tabs a.active { background: var(--bg-card); color: var(--text); border: 1px solid var(--border-hi); }
+    header .actions a.cta { padding: 8px 16px; border-radius: 8px; font-size: 14px; font-weight: 500; background: var(--ok); color: #fff; transition: background 0.15s; }
+    header .actions a.cta:hover { background: #15803d; color: #fff; }
+
+    /* Hero */
+    .hero { padding: 60px 0 40px; text-align: center; background: radial-gradient(ellipse at top, #0F172A 0%, #000000 60%); }
+    .eyebrow { display: inline-block; padding: 6px 14px; border-radius: 20px; background: var(--bg-card); border: 1px solid var(--border-hi); font-size: 12px; font-weight: 600; color: var(--ok-hi); letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 20px; }
+
+    /* KPIs grid */
+    .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin: 32px 0; }
+    @media (max-width: 720px) { .kpi-grid { grid-template-columns: repeat(2, 1fr); } }
+    .kpi-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+    .kpi-card .label { font-size: 12px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 6px; }
+    .kpi-card .value { font-size: 26px; font-weight: 700; color: var(--ok-hi); line-height: 1.1; }
+    .kpi-card .sub { font-size: 12px; color: var(--text-mute); margin-top: 6px; }
+
+    /* Tabla */
+    .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 1200px; }
+    th, td { border-bottom: 1px solid var(--border); padding: 10px 12px; vertical-align: top; text-align: left; }
+    th { background: var(--bg-elev); color: var(--text-mute); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; position: sticky; top: 0; }
+    tr:hover td { background: rgba(255,255,255,0.02); }
+    td.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+    .row-cli { background: rgba(74, 222, 128, 0.04); }
+    .row-cli:hover td { background: rgba(74, 222, 128, 0.07) !important; }
+    .row-prio { background: rgba(217, 119, 6, 0.04); }
+    .row-descart { opacity: 0.5; }
+
+    /* Badges */
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; color: #fff; letter-spacing: 0.02em; }
+    .b-platinum { background: var(--platinum); }
+    .b-gold { background: var(--gold); }
+    .b-silver { background: var(--silver); }
+    .b-levante { background: var(--levante); }
+    .b-cli { background: var(--ok); }
+    .b-descart { background: #57534e; }
+    .b-prio { background: var(--accent); }
+
+    .legend { display: flex; gap: 16px; flex-wrap: wrap; padding: 12px 16px; background: var(--bg-card); border-radius: 8px; margin-bottom: 16px; font-size: 12px; color: var(--text-mute); }
+    .legend span { display: flex; align-items: center; gap: 6px; }
+    .legend .dot { width: 10px; height: 10px; border-radius: 50%; }
+
+    /* Tier section header */
+    .tier-header { display: flex; align-items: center; gap: 12px; margin: 32px 0 16px; }
+    .tier-header h2 { margin: 0; font-size: 24px; }
+    .tier-header .count { font-size: 14px; color: var(--text-mute); }
+
+    /* Footer */
+    footer { background: #000; padding: 40px 0 60px; text-align: center; border-top: 1px solid var(--border); }
+    footer p { font-size: 13px; color: var(--text-dim); }
+    footer a { color: var(--text-mute); margin: 0 8px; }
+    footer a:hover { color: var(--text); }
+
+    .waves { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 24px; }
+    @media (max-width: 720px) { .waves { grid-template-columns: 1fr; } }
+    .wave-card { background: var(--bg-card); border: 1px solid var(--border-hi); border-radius: 12px; padding: 20px; }
+    .wave-card .num { font-size: 12px; color: var(--accent); font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
+    .wave-card h4 { font-size: 16px; margin: 4px 0 8px; color: var(--text); }
+    .wave-card ul { list-style: none; padding: 0; font-size: 13px; color: var(--text-mute); }
+    .wave-card ul li { padding: 4px 0; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a href="/" class="brand">
+      <img src="../../brand/icon-mono-white_512.png" alt="VodaControl">
+      <span>VodaControl</span>
+    </a>
+    <div class="tabs">
+      <a href="../">Resumen</a>
+      <a href="../pipeline/" class="active">Pipeline</a>
+      <a href="../programas/">Programas Vodafone</a>
+      <a href="../catalogo/">Catálogo</a>
+    </div>
+    <div class="actions">
+      <a href="../#contacto" class="cta">Solicitar demo</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container-narrow">
+    <span class="eyebrow">Mercado · Pipeline · Estimación ARR</span>
+    <h1>32 distribuidores B2B Vodafone España</h1>
+    <p class="lede">Universo cerrado identificado. Tier oficial, comerciales B2B estimados, cuota VodaControl y datos de contacto para cada uno. <strong>2 ya son clientes (Penta + GMC).</strong></p>
+
+    <div class="kpi-grid">
+      <div class="kpi-card"><div class="label">Universo total</div><div class="value">32</div><div class="sub">distribuidores B2B España</div></div>
+      <div class="kpi-card"><div class="label">Pipeline activo</div><div class="value">31</div><div class="sub">+ 1 descartado (Nexcom)</div></div>
+      <div class="kpi-card"><div class="label">ARR potencial</div><div class="value">~378 k€</div><div class="sub">si los 31 firmaran tarifa pública</div></div>
+      <div class="kpi-card"><div class="label">ARR realista año 1</div><div class="value">~75-100 k€</div><div class="sub">conversión 30-40% nuevo + 38 k€ Penta/GMC</div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Contexto Vodafone España</h2>
+    <p class="lede">
+      Vodafone España opera bajo una sola sociedad operativa: <strong>VODAFONE ESPAÑA S.A.U.</strong> (CIF A80907397). No hay SL diferentes residencial/empresa — son unidades internas. Tras la compra por <strong>Zegona (2024)</strong>, la sociedad operativa sigue siendo única.
+    </p>
+    <p>
+      El canal indirecto B2B usa la nomenclatura oficial <strong>AGENTE</strong> (no "Partner"). Tres tiers:
+      <span class="badge b-platinum">PLATINUM</span>
+      <span class="badge b-gold">GOLD</span>
+      <span class="badge b-silver">SILVER</span>
+      decididos al inicio de cada semestre (H1 abr-sep · H2 oct-mar) según rendimiento del semestre anterior en 3 bloques: Gross Adds, Nuevos Negocios y Tasa de Bajas.
+    </p>
+
+    <div style="background:var(--bg-card);border-left:3px solid var(--accent);border-radius:8px;padding:16px 20px;margin-top:20px;font-size:14px;">
+      <strong style="color:var(--text)">Criterios oficiales H1 FY2627 (los 3 obligatorios):</strong>
+      <ul style="margin:8px 0 0 18px;color:var(--text-mute)">
+        <li><strong style="color:var(--text)">Gross Adds:</strong> Platinum ≥2.000 · Gold ≥1.000 · Silver resto</li>
+        <li><strong style="color:var(--text)">Nuevos Negocios:</strong> Platinum ≥ 350k objetivo · Gold ≥ 140k</li>
+        <li><strong style="color:var(--text)">Tasa de Bajas:</strong> Platinum ≤3% · Gold ≤3,5%</li>
+        <li><strong style="color:var(--text)">Adicional Platinum:</strong> cartera Permanece ≥200.000 € en M6 H1</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Pipeline completo</h2>
+
+    <div class="legend">
+      <span><span class="dot" style="background:var(--ok)"></span> Cliente</span>
+      <span><span class="dot" style="background:var(--gold)"></span> Prioritario refinado con LinkedIn</span>
+      <span><span class="dot" style="background:var(--levante)"></span> Zona Levante (fortaleza Fenix)</span>
+      <span><span class="dot" style="background:#57534e"></span> Descartado tras due diligence</span>
+    </div>
+
+    <!-- TIER PLATINUM -->
+    <div class="tier-header"><span class="badge b-platinum">PLATINUM</span><h2>Tier Alto</h2><span class="count">— 3 cuentas (1 descartada)</span></div>
+    <div class="table-wrap"><table>
+      <thead><tr><th>#</th><th>Distribuidor</th><th>Tier</th><th>Zona</th><th class="num">Plantilla</th><th class="num">Com. B2B</th><th class="num">Cuota/mes</th><th class="num">Setup</th><th>CIF</th><th>Web</th><th>Teléfono</th><th>Email</th></tr></thead>
+      <tbody>
+        <tr class="row-cli"><td>1</td><td><strong>Grupo Móvil (GMC)</strong> <span class="badge b-cli">CLIENTE</span></td><td><span class="badge b-platinum">Platinum</span></td><td>Alicante/Murcia/Albacete/Madrid · 35-40 PdV</td><td class="num">—</td><td class="num">80</td><td class="num"><strong>3.229 €</strong></td><td class="num">condonado</td><td>B53627311</td><td><a href="https://grupomovil.com">grupomovil.com</a></td><td>645 70 70 70</td><td>—</td></tr>
+        <tr class="row-prio"><td>2</td><td><strong>Axafone</strong></td><td><span class="badge b-platinum">Platinum</span></td><td>Málaga + Granada + Madrid</td><td class="num">62</td><td class="num">~30-35</td><td class="num"><strong>1.279-1.474 €</strong></td><td class="num">999 €</td><td>B93052249</td><td><a href="https://axafone.com">axafone.com</a></td><td>+34 951 105 770</td><td>info@axafone.com</td></tr>
+        <tr class="row-descart"><td>3</td><td>Nexcom Integral <span class="badge b-descart">DESCARTADO</span></td><td><span class="badge b-platinum">Platinum*</span></td><td>Asturias/Cantabria/León/Vizcaya/Madrid · 5 emp, micro</td><td class="num">5</td><td class="num">&lt;10</td><td class="num">499 €</td><td class="num">499 €</td><td>B87060760</td><td><a href="https://www.nexcom.es">nexcom.es</a></td><td>+34 911 291 008</td><td>info@nexcom.es</td></tr>
+      </tbody>
+    </table></div>
+
+    <!-- TIER GOLD -->
+    <div class="tier-header"><span class="badge b-gold">GOLD</span><h2>Tier Medio-Alto</h2><span class="count">— 8 cuentas refinadas con LinkedIn</span></div>
+    <div class="table-wrap"><table>
+      <thead><tr><th>#</th><th>Distribuidor</th><th>Tier prob.</th><th>Zona</th><th class="num">Plantilla</th><th class="num">Com. B2B</th><th class="num">Cuota/mes</th><th class="num">Setup</th><th>CIF</th><th>Web</th><th>Teléfono</th><th>Email</th></tr></thead>
+      <tbody>
+        <tr class="row-prio"><td>4</td><td><strong>Servitel XXI</strong></td><td><span class="badge b-gold">Gold</span></td><td>Sevilla + Córdoba · 17 tiendas · desde 1999</td><td class="num">150</td><td class="num">~25-30</td><td class="num"><strong>1.084-1.279 €</strong></td><td class="num">999 €</td><td>B91029660</td><td><a href="https://www.servitelxxi.com">servitelxxi.com</a></td><td>955 455 121</td><td>info@servitelxxi.com</td></tr>
+        <tr class="row-prio"><td>5</td><td><strong>Moviten</strong> (matriz Mederos)</td><td><span class="badge b-gold">Gold</span>/<span class="badge b-platinum">Plat</span></td><td>Canarias + Madrid + CyL · 36 tiendas</td><td class="num">145</td><td class="num">~35-45</td><td class="num"><strong>1.474-1.864 €</strong></td><td class="num">999 €</td><td>B38490983</td><td><a href="http://moviten.com">moviten.com</a></td><td>922 571 726</td><td>administracion@moviten.com</td></tr>
+        <tr class="row-prio"><td>6</td><td><strong>Moviten Atlántico</strong> (filial B2B)</td><td><span class="badge b-gold">Gold</span></td><td>Canarias · B2B puro</td><td class="num">75</td><td class="num">~40-50</td><td class="num"><strong>1.669-2.059 €</strong></td><td class="num">999 €</td><td>B76640135</td><td><a href="https://www.grupomoviten.com">grupomoviten.com</a></td><td>—</td><td>administracion@moviten.com</td></tr>
+        <tr><td>7</td><td>MKTel Vodafone</td><td><span class="badge b-silver">Silver</span></td><td>Barcelona · Grupo MGC</td><td class="num">22</td><td class="num">~15</td><td class="num"><strong>694 €</strong></td><td class="num">999 €</td><td>B60458973</td><td><a href="https://mktelvodafone.wordpress.com">mktelvodafone.wp</a></td><td>+34 93 508 11 00</td><td>info@mktel.com</td></tr>
+        <tr class="row-prio"><td>8</td><td><strong>Ondas System</strong></td><td><span class="badge b-gold">Gold</span></td><td>Barcelona · 20+ PdV · hermana MKTel (Grupo MGC)</td><td class="num">100-150</td><td class="num">~30-40</td><td class="num"><strong>1.279-1.669 €</strong></td><td class="num">999 €</td><td>B61082525</td><td><a href="https://ondassystem.es">ondassystem.es</a></td><td>93 207 02 17</td><td>info@ondassystem.com</td></tr>
+        <tr class="row-prio"><td>9</td><td><strong>Red Chain</strong></td><td><span class="badge b-platinum">Plat</span>/<span class="badge b-gold">Gold</span></td><td>9 provincias (Madrid+Norte) · +65 tiendas · división Business</td><td class="num">300+</td><td class="num">~50-70</td><td class="num"><strong>2.059-2.839 €</strong></td><td class="num">999 €</td><td>B09555194</td><td><a href="https://redchain.es">redchain.es</a></td><td>+34 91 504 74 55</td><td>redchain@redchain.es</td></tr>
+        <tr><td>10</td><td>Ceblanal</td><td><span class="badge b-gold">Gold</span></td><td>A Coruña · desde 2000</td><td class="num">70</td><td class="num">~20-25</td><td class="num"><strong>889-1.084 €</strong></td><td class="num">999 €</td><td>B15730526</td><td><a href="https://www.ceblanal.es">ceblanal.es</a></td><td>981 107 000</td><td>ceblanal@ceblanal.es</td></tr>
+        <tr><td>11</td><td>Grupo Duatel</td><td><span class="badge b-gold">Gold</span></td><td>Galicia + Salamanca · +200 PdV (Duarizan)</td><td class="num">—</td><td class="num">~30</td><td class="num"><strong>1.279 €</strong></td><td class="num">999 €</td><td>B15895782</td><td><a href="https://www.duatel.es">duatel.es</a></td><td>986 342 160</td><td>contacto@duatel.net</td></tr>
+      </tbody>
+    </table></div>
+
+    <!-- TIER LEVANTE -->
+    <div class="tier-header"><span class="badge b-levante">LEVANTE</span><h2>Zona fortaleza Fenix</h2><span class="count">— 7 cuentas en Alicante/Valencia/Murcia</span></div>
+    <p style="font-size:14px;margin-bottom:12px;">Penta+GMC ya están aquí → testimonios creíbles en el mismo mercado + networking compartido + visitas presenciales fáciles. <strong>Pipeline prioritario aunque algunos sean Silver/Gold medianos.</strong></p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>#</th><th>Distribuidor</th><th>Tier</th><th>Zona</th><th class="num">Plantilla</th><th class="num">Com. B2B</th><th class="num">Cuota/mes</th><th class="num">Setup</th><th>CIF</th><th>Web</th><th>Teléfono</th><th>Email</th></tr></thead>
+      <tbody>
+        <tr class="row-cli"><td>L1</td><td><strong>Grupo Móvil (GMC)</strong> <span class="badge b-cli">CLIENTE</span></td><td><span class="badge b-platinum">Platinum</span></td><td>Alicante/Murcia/Albacete (+Madrid)</td><td class="num">—</td><td class="num">80</td><td class="num"><strong>3.229 €</strong></td><td class="num">condonado</td><td>B53627311</td><td><a href="https://grupomovil.com">grupomovil.com</a></td><td>645 70 70 70</td><td>—</td></tr>
+        <tr class="row-cli"><td>L2</td><td><strong>Penta Tres60</strong> <span class="badge b-cli">CLIENTE</span></td><td><span class="badge b-silver">Silver</span></td><td>Alicante / Murcia · Elche sede</td><td class="num">—</td><td class="num">14</td><td class="num"><strong>655 €</strong></td><td class="num">condonado</td><td>B54847199</td><td><a href="https://www.penta.es">penta.es</a></td><td>+34 965 685 106</td><td>info@penta.es</td></tr>
+        <tr class="row-prio"><td>L3</td><td><strong>Grupo Bonatel</strong></td><td><span class="badge b-platinum">Platinum</span></td><td>Valencia (Catarroja) + Castellón/Alicante/BCN · 33 PdV · +50 consultores B2B</td><td class="num">134</td><td class="num">~50</td><td class="num"><strong>2.059 €</strong></td><td class="num">999 €</td><td>B96998406</td><td><a href="https://www.grupobonatel.com">grupobonatel.com</a></td><td>647 898 708</td><td>protecciondatos@grupobonatel.com</td></tr>
+        <tr class="row-prio"><td>L4</td><td><strong>Bonatel Business</strong></td><td><span class="badge b-gold">Gold</span></td><td>Valencia + Castellón/Alicante/BCN · B2B puro</td><td class="num">42</td><td class="num">~35-40</td><td class="num"><strong>1.474-1.669 €</strong></td><td class="num">999 €</td><td>B98982093</td><td><a href="https://bonatelbusiness.com">bonatelbusiness.com</a></td><td>602 222 012</td><td>contacto.web@bonatelbusiness.com</td></tr>
+        <tr><td>L5</td><td>Agentis (Sociphone)</td><td><span class="badge b-silver">Silver</span></td><td>Alicante / Murcia · 13 tiendas</td><td class="num">49</td><td class="num">~15-20</td><td class="num"><strong>694-889 €</strong></td><td class="num">999 €</td><td>B53697611</td><td><a href="https://www.agentis.es">agentis.es</a></td><td>965 242 525</td><td>info@agentisred.es</td></tr>
+        <tr><td>L6</td><td>Synergy Telecom</td><td><span class="badge b-silver">Silver</span></td><td>Alicante (Distrito Digital) · cobertura nacional</td><td class="num">—</td><td class="num">~15</td><td class="num"><strong>694 €</strong></td><td class="num">999 €</td><td>B42697003</td><td><a href="https://synergytelecom.es">synergytelecom.es</a></td><td>—</td><td>info@synergytelecom.es</td></tr>
+        <tr><td>L7</td><td>Garalut Comunicación</td><td><span class="badge b-silver">Silver</span></td><td>Alicante · Calle Churruca 23</td><td class="num">—</td><td class="num">~10</td><td class="num"><strong>499 €</strong></td><td class="num">499 €</td><td>B54064787</td><td>sin web</td><td>965 125 832</td><td>—</td></tr>
+      </tbody>
+    </table></div>
+
+    <!-- TIER SILVER -->
+    <div class="tier-header"><span class="badge b-silver">SILVER</span><h2>Resto del mercado</h2><span class="count">— 13 cuentas Silver / regional</span></div>
+    <div class="table-wrap"><table>
+      <thead><tr><th>#</th><th>Distribuidor</th><th>Tier</th><th>Zona</th><th class="num">Plantilla</th><th class="num">Com. B2B</th><th class="num">Cuota/mes</th><th class="num">Setup</th><th>CIF</th><th>Web</th><th>Teléfono</th><th>Email</th></tr></thead>
+      <tbody>
+        <tr><td>12</td><td>Arizan</td><td><span class="badge b-silver">Silver</span></td><td>Getxo (Bizkaia) · Duarizan con Duatel</td><td class="num">—</td><td class="num">~15</td><td class="num"><strong>694 €</strong></td><td class="num">999 €</td><td>B95989687</td><td><a href="https://arizan.net/site/">arizan.net</a></td><td>846 664 439</td><td>info@arizan.net</td></tr>
+        <tr><td>13</td><td>Grupo Solivesa</td><td><span class="badge b-silver">Silver</span></td><td>Alcoy + Madrid/Granada/A Coruña</td><td class="num">4</td><td class="num">~10</td><td class="num"><strong>499 €</strong></td><td class="num">499 €</td><td>B40548588</td><td><a href="https://www.gruposolivesa.com">gruposolivesa.com</a></td><td>+34 800 700 136</td><td>hola@gruposolivesa.com</td></tr>
+        <tr><td>14</td><td>Connect VF</td><td><span class="badge b-silver">Silver</span></td><td>Madrid + Sur · +20 años</td><td class="num">—</td><td class="num">~20</td><td class="num"><strong>889 €</strong></td><td class="num">999 €</td><td>n/d</td><td><a href="https://www.connectvf.com">connectvf.com</a></td><td>—</td><td>—</td></tr>
+        <tr><td>15</td><td>Grupo Enertel (Telvacom)</td><td><span class="badge b-silver">Silver</span></td><td>Alcorcón (Madrid) + 12 provincias</td><td class="num">—</td><td class="num">~15</td><td class="num"><strong>694 €</strong></td><td class="num">999 €</td><td>B42838854</td><td><a href="https://grupoenertel.com">grupoenertel.com</a></td><td>942 304 045</td><td>info@grupoenertel.com</td></tr>
+        <tr><td>16</td><td>Lupatel</td><td><span class="badge b-silver">Silver</span></td><td>Albacete · cobertura nacional</td><td class="num">—</td><td class="num">~15</td><td class="num"><strong>694 €</strong></td><td class="num">999 €</td><td>B02590909</td><td>web caída</td><td>607 375 050</td><td>—</td></tr>
+        <tr><td>17</td><td>Grupcom Retail</td><td><span class="badge b-silver">Silver</span></td><td>Mataró (BCN)</td><td class="num">39</td><td class="num">~15</td><td class="num"><strong>694 €</strong></td><td class="num">999 €</td><td>B61598256</td><td><a href="https://www.grupcom.es">grupcom.es</a></td><td>974 212 235</td><td>grupcom@grupcom.es</td></tr>
+        <tr><td>18</td><td>Gualda Comunicaciones</td><td><span class="badge b-silver">Silver</span></td><td>Valladolid</td><td class="num">—</td><td class="num">~10</td><td class="num"><strong>499 €</strong></td><td class="num">499 €</td><td>B47572417</td><td><a href="https://gualda.com">gualda.com</a></td><td>983 100 995</td><td>info@gualda.com</td></tr>
+        <tr><td>19</td><td>BG Mobile (BG Group)</td><td><span class="badge b-silver">Silver</span></td><td>Sant Cugat del Vallès (BCN)</td><td class="num">—</td><td class="num">~10</td><td class="num"><strong>499 €</strong></td><td class="num">499 €</td><td>B66257072</td><td><a href="https://bggroup.es">bggroup.es</a></td><td>93 729 90 39</td><td>bggroup@bggroup.es</td></tr>
+        <tr><td>20</td><td>Vodared Telecom</td><td><span class="badge b-silver">Silver</span></td><td>Getafe (Madrid)</td><td class="num">1-10</td><td class="num">~10</td><td class="num"><strong>499 €</strong></td><td class="num">499 €</td><td>B02749661</td><td><a href="https://www.vodared.tel">vodared.tel</a></td><td>—</td><td>info@vodared.tel</td></tr>
+        <tr><td>21</td><td>Vodatel Comunicaciones</td><td><span class="badge b-silver">Silver</span></td><td>n/d</td><td class="num">—</td><td class="num">~10</td><td class="num"><strong>499 €</strong></td><td class="num">499 €</td><td>n/d</td><td><a href="http://vodatel-comunicaciones.com">vodatel-comunicaciones.com</a></td><td>—</td><td>—</td></tr>
+        <tr><td>22</td><td>Digitec Inversiones</td><td><span class="badge b-silver">Silver</span></td><td>Avilés (Asturias)</td><td class="num">—</td><td class="num">~10</td><td class="num"><strong>499 €</strong></td><td class="num">499 €</td><td>B74321423</td><td>web caída</td><td>—</td><td>—</td></tr>
+        <tr><td>23</td><td>Unfourtel</td><td><span class="badge b-silver">Silver</span></td><td>Córdoba</td><td class="num">—</td><td class="num">~10</td><td class="num"><strong>499 €</strong></td><td class="num">499 €</td><td>B19471085</td><td><a href="https://www.unfourtel.es">unfourtel.es</a></td><td>—</td><td>—</td></tr>
+        <tr><td>24</td><td>Vodarex Comunicaciones</td><td><span class="badge b-silver">Silver</span></td><td>Llerena (Badajoz) · 20 tiendas Extremadura+Córdoba</td><td class="num">—</td><td class="num">~12</td><td class="num"><strong>577 €</strong></td><td class="num">999 €</td><td>B06428544</td><td>sin web</td><td>924 871 082</td><td>—</td></tr>
+        <tr><td>25</td><td>Versia Cyber Shield</td><td><span class="badge b-silver">Silver</span></td><td>Barakaldo (Vizcaya) · 17 emp · ciber</td><td class="num">17</td><td class="num">~10</td><td class="num"><strong>499 €</strong></td><td class="num">499 €</td><td>B95935763</td><td>sin web indep.</td><td>—</td><td>—</td></tr>
+        <tr><td>26</td><td>Redfreecom</td><td><span class="badge b-silver">Silver</span></td><td>Granada + Loja</td><td class="num">—</td><td class="num">~10</td><td class="num"><strong>499 €</strong></td><td class="num">499 €</td><td>B18449207</td><td>sin web</td><td>958 137 952</td><td>—</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<section style="background:#050505;">
+  <div class="container">
+    <h2>Grupos empresariales (decisor único, multi-CIF)</h2>
+    <p>4 grupos permiten <strong>1 negociación → 2-3 contratos.</strong> ARR combinado: ~170 k€.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Grupo</th><th>Entidades</th><th class="num">Cuota combinada/mes</th><th class="num">ARR combinado</th><th>Estrategia</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Grupo Bonatel</strong> (Catarroja)</td><td>Grupo Bonatel + Bonatel Business</td><td class="num"><strong>3.533-3.728 €</strong></td><td class="num">42-45 k€</td><td>Decisor único. <strong>Wave 1 Levante.</strong></td></tr>
+        <tr><td><strong>Moviten</strong> (Canarias)</td><td>Mederos Moviten + Moviten Atlántico</td><td class="num"><strong>3.143-3.923 €</strong></td><td class="num">38-47 k€</td><td>Mismo email admin.</td></tr>
+        <tr><td><strong>Grupo MGC</strong> (Barcelona)</td><td>Ondas System + MKTel</td><td class="num"><strong>1.973-2.363 €</strong></td><td class="num">24-28 k€</td><td>Misma sede.</td></tr>
+        <tr><td><strong>Duarizan</strong> (Norte)</td><td>Grupo Duatel + Arizan</td><td class="num"><strong>1.973 €</strong></td><td class="num">24 k€</td><td>Galicia + País Vasco.</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Plan de ataque comercial</h2>
+    <div class="waves">
+      <div class="wave-card"><div class="num">Wave 1</div><h4>Levante (mes 1-2)</h4><ul><li>Grupo Bonatel + Bonatel Business (Catarroja)</li><li>Agentis (Alicante)</li><li>Synergy Telecom (Alicante)</li><li>Testimonios Penta+GMC en mano</li></ul></div>
+      <div class="wave-card"><div class="num">Wave 2</div><h4>Grupos nacionales (mes 2-3)</h4><ul><li>Red Chain (Madrid)</li><li>Moviten + Moviten Atlántico (Canarias)</li><li>Grupo MGC (Ondas + MKTel, Barcelona)</li></ul></div>
+      <div class="wave-card"><div class="num">Wave 3</div><h4>Individuales grandes (mes 3-5)</h4><ul><li>Axafone (Málaga)</li><li>Servitel XXI (Sevilla)</li><li>Ceblanal (A Coruña)</li><li>Grupo Duatel (Galicia)</li></ul></div>
+      <div class="wave-card"><div class="num">Wave 4</div><h4>Long tail (mes 5+)</h4><ul><li>Resto Tier Silver</li><li>Outbound nominal + LinkedIn</li><li>Conversión esperada baja</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container-narrow">
+    <p>VodaControl · Fenix IA Solutions · Documento interno · Datos a 17 mayo 2026</p>
+    <p style="margin-top:8px;">Fuentes: Excel propio + LinkedIn/Indeed/einforma 2024-2025 + Acciones Comerciales UNE-CI Q1 FY2627 (Vodafone). Cuotas estimadas no contractuales.</p>
+    <p style="margin-top:16px;"><a href="../">← Volver al resumen</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

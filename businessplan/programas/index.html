@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow">
+  <title>VodaControl · Posicionamiento vs Acciones Comerciales Vodafone FY2627</title>
+  <meta name="description" content="Los 7 programas comisionables Vodafone y cómo VodaControl ayuda a maximizar el pago en cada uno. Pitch por tier Platinum/Gold/Silver.">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../../brand/icon_32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../brand/icon_16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../brand/icon_180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../../brand/icon_192.png">
+
+  <style>
+    :root {
+      --bg: #000000; --bg-elev: #0F0F0F; --bg-card: #141414;
+      --border: #1F1F1F; --border-hi: #2a2a2a;
+      --text: #F5F5F5; --text-mute: #9CA3AF; --text-dim: #646464;
+      --accent: #D60000; --accent-hover: #B30000;
+      --ok: #16A34A; --ok-hi: #4ADE80;
+      --info: #2563EB; --warn: #F59E0B;
+      --platinum: #b00020; --gold: #d97706; --silver: #64748b;
+      --pitch: #be185d;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 16px; line-height: 1.6; }
+    a { color: var(--text); text-decoration: none; }
+    a:hover { color: var(--ok-hi); }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+    .container-narrow { max-width: 800px; margin: 0 auto; padding: 0 24px; }
+    section { padding: 60px 0; border-bottom: 1px solid var(--border); }
+    section:last-of-type { border-bottom: 0; }
+    h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; }
+    h1 { font-size: clamp(32px, 4.5vw, 48px); margin-bottom: 16px; }
+    h2 { font-size: clamp(24px, 3vw, 32px); margin-bottom: 24px; }
+    h3 { font-size: 22px; margin-bottom: 14px; color: var(--ok-hi); }
+    h4 { font-size: 16px; font-weight: 600; margin-bottom: 10px; color: var(--text); }
+    p { margin-bottom: 14px; color: var(--text-mute); }
+    p strong { color: var(--text); font-weight: 600; }
+    .lede { font-size: 18px; line-height: 1.5; }
+    ul.bullet { list-style: none; padding: 0; margin: 0 0 16px 0; }
+    ul.bullet li { padding: 6px 0 6px 22px; position: relative; color: var(--text-mute); font-size: 15px; }
+    ul.bullet li::before { content: "▸"; position: absolute; left: 0; color: var(--ok-hi); }
+
+    header { position: sticky; top: 0; z-index: 10; background: rgba(0,0,0,0.85); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
+    header .nav { display: flex; align-items: center; justify-content: space-between; padding: 16px 24px; max-width: 1400px; margin: 0 auto; flex-wrap: wrap; gap: 16px; }
+    header .brand { display: flex; align-items: center; gap: 12px; }
+    header .brand img { width: 32px; height: 32px; }
+    header .brand span { font-weight: 600; }
+    header .tabs { display: flex; gap: 4px; flex-wrap: wrap; }
+    header .tabs a { padding: 6px 12px; border-radius: 6px; font-size: 13px; font-weight: 500; color: var(--text-mute); transition: all 0.15s; }
+    header .tabs a:hover { background: var(--bg-elev); color: var(--text); }
+    header .tabs a.active { background: var(--bg-card); color: var(--text); border: 1px solid var(--border-hi); }
+    header .actions a.cta { padding: 8px 16px; border-radius: 8px; font-size: 14px; font-weight: 500; background: var(--ok); color: #fff; }
+    header .actions a.cta:hover { background: #15803d; color: #fff; }
+
+    .hero { padding: 60px 0 40px; text-align: center; background: radial-gradient(ellipse at top, #0F172A 0%, #000000 60%); }
+    .eyebrow { display: inline-block; padding: 6px 14px; border-radius: 20px; background: var(--bg-card); border: 1px solid var(--border-hi); font-size: 12px; font-weight: 600; color: var(--ok-hi); letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 20px; }
+
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; color: #fff; letter-spacing: 0.02em; }
+    .b-platinum { background: var(--platinum); }
+    .b-gold { background: var(--gold); }
+    .b-silver { background: var(--silver); }
+
+    /* Tier pitch cards */
+    .tier-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 20px; }
+    @media (max-width: 720px) { .tier-grid { grid-template-columns: 1fr; } }
+    .tier-card { background: var(--bg-card); border-radius: 12px; padding: 24px; border-left: 4px solid; }
+    .tier-card.silver { border-left-color: var(--silver); }
+    .tier-card.gold { border-left-color: var(--gold); }
+    .tier-card.platinum { border-left-color: var(--platinum); }
+    .tier-card h4 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px; }
+    .tier-card .head-silver { color: var(--silver); }
+    .tier-card .head-gold { color: var(--gold); }
+    .tier-card .head-platinum { color: var(--platinum); }
+    .tier-card p { font-size: 14px; line-height: 1.5; margin: 0; }
+
+    /* Program cards */
+    .program-card { background: var(--bg-card); border-radius: 14px; padding: 32px; margin-bottom: 24px; border: 1px solid var(--border-hi); }
+    .program-card .num { display: inline-block; padding: 4px 10px; border-radius: 6px; background: var(--accent); color: #fff; font-size: 12px; font-weight: 700; letter-spacing: 0.04em; margin-bottom: 12px; }
+    .program-card h3 { margin-bottom: 16px; }
+    .program-card .meca { background: rgba(255,255,255,0.02); padding: 14px 18px; border-radius: 8px; border-left: 3px solid var(--info); margin: 14px 0; font-size: 14px; }
+    .program-card .meca h4 { color: var(--info); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px; }
+    .program-card .pitch { background: rgba(190, 24, 93, 0.08); padding: 14px 18px; border-radius: 8px; border-left: 3px solid var(--pitch); margin: 14px 0; font-size: 14px; }
+    .program-card .pitch h4 { color: var(--pitch); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px; }
+    .program-card .module { background: rgba(37, 99, 235, 0.06); padding: 14px 18px; border-radius: 8px; border-left: 3px solid var(--info); margin: 14px 0; font-size: 14px; }
+    .program-card .module h4 { color: #60a5fa; font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px; }
+    .program-card .upside { background: rgba(22, 163, 74, 0.08); padding: 14px 18px; border-radius: 8px; border-left: 3px solid var(--ok); margin: 14px 0; font-size: 14px; }
+    .program-card .upside h4 { color: var(--ok-hi); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px; }
+
+    /* Summary table */
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 700px; }
+    th, td { border-bottom: 1px solid var(--border); padding: 12px 14px; text-align: left; vertical-align: top; }
+    th { background: var(--bg-elev); color: var(--text-mute); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
+    td.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+    tr.total td { background: rgba(22, 163, 74, 0.06); font-weight: 700; color: var(--ok-hi); }
+
+    /* ROI cards */
+    .roi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 24px; }
+    @media (max-width: 720px) { .roi-grid { grid-template-columns: 1fr; } }
+    .roi-card { background: var(--bg-card); border-radius: 12px; padding: 24px; border: 1px solid var(--border-hi); }
+    .roi-card h4 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); margin-bottom: 8px; }
+    .roi-card .name { font-size: 18px; font-weight: 700; color: var(--text); margin-bottom: 12px; }
+    .roi-card .roi { font-size: 36px; font-weight: 700; color: var(--ok-hi); line-height: 1; margin: 12px 0 6px; }
+    .roi-card p { font-size: 13px; margin: 0; }
+
+    footer { background: #000; padding: 40px 0 60px; text-align: center; border-top: 1px solid var(--border); }
+    footer p { font-size: 13px; color: var(--text-dim); }
+    footer a { color: var(--text-mute); margin: 0 8px; }
+    footer a:hover { color: var(--text); }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a href="/" class="brand">
+      <img src="../../brand/icon-mono-white_512.png" alt="VodaControl">
+      <span>VodaControl</span>
+    </a>
+    <div class="tabs">
+      <a href="../">Resumen</a>
+      <a href="../pipeline/">Pipeline</a>
+      <a href="../programas/" class="active">Programas Vodafone</a>
+      <a href="../catalogo/">Catálogo</a>
+    </div>
+    <div class="actions">
+      <a href="../#contacto" class="cta">Solicitar demo</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container-narrow">
+    <span class="eyebrow">Posicionamiento técnico · FY2627</span>
+    <h1>VodaControl × Acciones Comerciales Vodafone</h1>
+    <p class="lede">Cómo VodaControl ayuda a los Agentes Vodafone a maximizar comisiones en los <strong>7 programas comisionables oficiales</strong>. Pitch diferenciado por tier. Upside agregado típico: <strong>+15-30% del pago anual</strong>.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container-narrow">
+    <h2>Tesis central</h2>
+    <p class="lede">
+      El modelo Vodafone <strong>NO premia volumen</strong> de ventas, sino <strong>consecución de objetivos</strong> ponderada por <strong>multiplicadores discretos</strong>: tier, tabla de pago elegida, % consecución, tasa de bajas.
+    </p>
+    <p>
+      Pequeñas diferencias en la métrica disparan grandes diferencias en el pago. Un Agente que opera <em>a ciegas</em> (sin cuadro de mando trimestral) deja entre <strong>10% y 25% del pago en la mesa</strong> cada Q.
+    </p>
+    <p><strong style="color:var(--ok-hi);font-size:18px">VodaControl es exactamente el cuadro de mando que necesitan.</strong></p>
+  </div>
+</section>
+
+<section style="background:#050505;">
+  <div class="container-narrow">
+    <h2>Pitch diferenciado por tier</h2>
+    <div class="tier-grid">
+      <div class="tier-card silver"><h4 class="head-silver">A Silver (long tail)</h4><p><strong>Subir a Gold</strong> = de €124/GA a €149/GA (+20%). Con VodaControl alertas tempranas para llegar a 1.000 GA en H1 y disparar el unitario.</p></div>
+      <div class="tier-card gold"><h4 class="head-gold">A Gold (mediano-grande)</h4><p><strong>Salto a Platinum</strong> = de €149/GA a €176/GA en tramo alto. Sobre 2.000 GA = <strong>54.000 €/Q de upside</strong>. Control 3 métricas (GA + NN + Tasa Bajas).</p></div>
+      <div class="tier-card platinum"><h4 class="head-platinum">A Platinum (top — GMC, Axafone)</h4><p>Mantener Platinum exige cartera <strong>Permanece ≥200k €/mes</strong> + Tasa Bajas ≤3%. VodaControl monitoriza renovaciones, churn temprano y Permanece. <strong>Perder Platinum cuesta 5 dígitos al Q.</strong></p></div>
+    </div>
+    <p style="margin-top:20px;font-size:14px;text-align:center;">
+      <strong>Universal:</strong> Simulador Tabla 1 vs Tabla 2 — elegir mal la tabla al cierre cuesta hasta <strong>15% del pago trimestral</strong>.
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Los 7 programas comisionables</h2>
+
+    <div class="program-card">
+      <span class="num">PROGRAMA 1</span>
+      <h3>Prima Gross Adds (PGA)</h3>
+      <div class="meca">
+        <h4>Mecánica oficial</h4>
+        <ul class="bullet">
+          <li>Objetivo trimestral de Gross Adds (altas Voz/Datos móviles + fibra)</li>
+          <li>Base = objetivo × unitario (unitario depende del tier; tramo alto: Plat €176 / Gold €149 / Silver €124)</li>
+          <li>% pago = consecución sobre Tabla 1 (default, 50% mínimo) o Tabla 2 (opcional, bolsa minorada 12%, arranca al 25%)</li>
+          <li>Anticipos: 35% al M1 si ≥25% obj · 70% al M2 si ≥50% acumulado</li>
+        </ul>
+      </div>
+      <div class="pitch">
+        <h4>Pitch VodaControl</h4>
+        <p>"El Agente que elige mal la tabla pierde 5-15% del pago Q. Nuestro simulador proyecta el cierre 30 días antes y te dice si conviene Tabla 1 o Tabla 2 según tu velocidad. Sobre 500.000 € de pago Q, errar la tabla = <strong>25-75 k€/trimestre que dejas en la mesa</strong>."</p>
+      </div>
+      <div class="module">
+        <h4>Módulo app-vdf</h4>
+        <p>Dashboard <em>Pulso Comisiones</em> — objetivo Q, realizado, % consecución, pago estimado Tabla 1 vs 2, anticipos cobrados/pendientes. Datos del bot Callidus + módulo Activaciones.</p>
+      </div>
+    </div>
+
+    <div class="program-card">
+      <span class="num">PROGRAMA 2</span>
+      <h3>Programa Start (low-pyme)</h3>
+      <div class="meca">
+        <h4>Mecánica oficial</h4>
+        <ul class="bullet">
+          <li>Solo Agentes con Programa Ayuda Desarrollo Empresarial LOW PYME firmado</li>
+          <li>Rappel: 1.750 €/bloque de 25 GA Netas activadas/mes</li>
+          <li>Complemento Valor: +40 €/GA si cliente nuevo + ≥4 móviles + 1 fibra activados mismo mes (vivos a fin de mes, máx 15 móviles/cliente)</li>
+          <li>Retrocesión si baja antes de 180 días</li>
+        </ul>
+      </div>
+      <div class="pitch">
+        <h4>Pitch VodaControl</h4>
+        <p>"Te avisamos cuando un cliente está a 1-2 servicios de cumplir el Complemento Valor — diferencia entre Rappel solo (1.750€/bloque) y Rappel+Valor (+200€/cliente). En un mes de 549 GA Netas = <strong>+8.800 € solo de Complemento Valor</strong>."</p>
+      </div>
+      <div class="module">
+        <h4>Módulo app-vdf</h4>
+        <p>"Oportunidades Cross-Sell" — sobre cliente con 3 servicios en mes en curso, alerta al comercial "añade 1 móvil + 1 fibra antes de fin de mes para activar Complemento Valor (+200 €)".</p>
+      </div>
+    </div>
+
+    <div class="program-card">
+      <span class="num">PROGRAMA 3</span>
+      <h3>Prima Nuevos Negocios (PNN)</h3>
+      <div class="meca">
+        <h4>Mecánica oficial</h4>
+        <ul class="bullet">
+          <li>Objetivo trimestral PNN = suma SVA (Apps, M365, Google, IoT, Soporte IT) + SCA (Conectividad Avanzada, Cisco, IPVPN, Internet Simétrico)</li>
+          <li>Cada producto trae "Equivalencia" en puntos (+400 códigos catalogados — IAgente Paquete = 1.602 equiv; Soporte IT 100 = 74; Agro Enterprise = 4.409)</li>
+          <li>Unitario tramo alto: Plat €0,59 · Gold €0,50 · Silver €0,41 por equivalencia</li>
+          <li>SCA: 18% upfront del AOV incremental</li>
+          <li><strong>Modulador Auditoría + SOC:</strong> objetivo 250 equiv por CCE Cartera A (mín 1.000). Si &lt;100% → <strong>−10% al pago PNN entero</strong></li>
+        </ul>
+      </div>
+      <div class="pitch">
+        <h4>Pitch VodaControl</h4>
+        <p>"El modulador es trampa silenciosa: haces SVA todo el Q pero dejas Auditoría/SOC sin cumplir → -10% al pago entero. Sobre 100k€ de PNN = <strong>10k€ menos</strong>. Te alertamos en M1 + proponemos producto foco (Auditoría Ciberseg 474626, equivalencia 630)."</p>
+      </div>
+      <div class="module">
+        <h4>Módulo app-vdf</h4>
+        <p>"PNN Tracker" con desglose por familia (APP / Cloud / Seguridad / Soporte IT / IPVPN / M2M / One Net / SSDD), proyección cierre Q, alerta modulador. Catálogo cargado desde Acciones Comerciales (>400 SKUs con equivalencia oficial).</p>
+      </div>
+    </div>
+
+    <div class="program-card">
+      <span class="num">PROGRAMA 4</span>
+      <h3>Prima Productos Estratégicos</h3>
+      <div class="meca">
+        <h4>Mecánica oficial</h4>
+        <ul class="bullet">
+          <li>Subconjunto de SVAs que Vodafone elige cada Q como "estratégicos" (cambia trimestralmente)</li>
+          <li>Misma tabla 1/2 que PGA aplicada solo sobre productos foco</li>
+          <li>Recuperador trimestral: si fallaste un producto Q anterior, recuperable en Q actual</li>
+        </ul>
+      </div>
+      <div class="pitch">
+        <h4>Pitch VodaControl</h4>
+        <p>"Productos Estratégicos cambian cada Q — sin sistema, el comercial sigue vendiendo lo de siempre. Te marcamos los códigos foco del Q al inicio + recuperador del Q anterior si quedó pendiente."</p>
+      </div>
+    </div>
+
+    <div class="program-card">
+      <span class="num">PROGRAMA 5</span>
+      <h3>Programa de Bajas <span style="color:var(--ok-hi);font-size:14px;font-weight:500;">— el más rentable</span></h3>
+      <div class="meca">
+        <h4>Mecánica oficial</h4>
+        <ul class="bullet">
+          <li>Mide Tasa de Bajas Valor Core &amp; NN trimestral</li>
+          <li>Tabla 1: tasa ≤0,84% → <strong>145% pago</strong>. 1,68%-1,85% = 100%. ≥3,36% = 0%</li>
+          <li>Tabla 2: tasa ≤1,02% → 135%. 1,86%-2,05% = 100%. ≥3,72% = 0%</li>
+          <li>Soporte Fidelización Platinum para mantener tasas bajas</li>
+        </ul>
+      </div>
+      <div class="upside">
+        <h4>El más rentable del catálogo</h4>
+        <p>Bajar la tasa de 1,85% a 1,68% pasa multiplicador <strong>100% → 110%</strong>. De 2,46% a 2,10% pasa 60% → 85%. <strong>Decimales = miles de € por trimestre</strong>.</p>
+      </div>
+      <div class="pitch">
+        <h4>Pitch VodaControl</h4>
+        <p>"Nuestra <strong>Cartera Inteligente (CI)</strong> es exactamente lo que Vodafone te pide para Platinum: retención + fidelización + evitar bajas. Alertas 30-60 días antes del fin de permanencia con scoring de riesgo. <strong>Cada 0,1% que bajas la tasa vale 5-10% más del pago en la bolsa de retención.</strong>"</p>
+      </div>
+      <div class="module">
+        <h4>Módulo app-vdf</h4>
+        <p><strong>Cartera Inteligente (CI)</strong> — alertas churn, scoring riesgo, calendario fin permanencias, soporte Permanece ≥200k para Platinum. Tabla <code>clients_ci_periods</code> por trimestre. <strong>Coincide al milímetro con el diseño del Programa 5.</strong></p>
+      </div>
+    </div>
+
+    <div class="program-card">
+      <span class="num">PROGRAMA 6</span>
+      <h3>Red Coins (GIN) — Dilución</h3>
+      <div class="meca">
+        <h4>Mecánica oficial</h4>
+        <ul class="bullet">
+          <li>Tabla % Dilución: mide pérdida de facturación cartera (rango -100% a +18%) → multiplicador 0%-127%</li>
+          <li>Tabla % Redención: 25%-55% → multiplicador 0-120%</li>
+          <li>23 servicios excluidos de la métrica (centralitas, roaming datos, One Net APIs)</li>
+        </ul>
+      </div>
+      <div class="pitch">
+        <h4>Pitch VodaControl</h4>
+        <p>"Dilución se mide sobre TODA la cartera — un downgrade en un cliente grande hunde la métrica del Q entero. Te avisamos antes del downgrade y proponemos cross-sell para compensar."</p>
+      </div>
+    </div>
+
+    <div class="program-card">
+      <span class="num">PROGRAMA 7</span>
+      <h3>Programa Renovaciones</h3>
+      <div class="meca">
+        <h4>Mecánica oficial</h4>
+        <ul class="bullet">
+          <li>Objetivo de Renovaciones trimestral (cartera con permanencia que vence)</li>
+          <li>Bolsa Q sobre base de cálculo (cartera elegible)</li>
+          <li>Si NN incluidos en renovación NO se instalan en 180 días → recálculo del pago Q excluyendo esos servicios</li>
+        </ul>
+      </div>
+      <div class="pitch">
+        <h4>Pitch VodaControl</h4>
+        <p>"Renovaciones es donde cobras DOS veces: por renovar el contrato base + por meterle NN. Pero si los NN no se instalan en 180 días = retrocesión. Te llevamos calendario fin permanencia + ticket de instalación de NN renovados para que no se retroceda nada."</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#050505;">
+  <div class="container-narrow">
+    <h2>Resumen valor económico</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Programa</th><th>Palanca</th><th>Upside típico</th></tr></thead>
+      <tbody>
+        <tr><td>1. PGA</td><td>Tabla 1 vs 2, anticipos, tier</td><td><strong>+5-15% pago Q</strong></td></tr>
+        <tr><td>2. Start</td><td>Complemento Valor +40€/GA</td><td><strong>+200 €/cliente</strong></td></tr>
+        <tr><td>3. PNN</td><td>Modulador Auditoría+SOC</td><td><strong>+10% pago PNN</strong></td></tr>
+        <tr><td>4. Productos Estratégicos</td><td>Foco + recuperador Q anterior</td><td><strong>+5-10%</strong></td></tr>
+        <tr><td>5. Bajas</td><td>Multiplicador 0%-145%</td><td><strong>+10-45%</strong></td></tr>
+        <tr><td>6. Red Coins (Dilución)</td><td>Multiplicador 0%-127%</td><td><strong>+5-25%</strong></td></tr>
+        <tr><td>7. Renovaciones</td><td>Evitar retrocesión 180d en NN</td><td><strong>0% retrocesión</strong></td></tr>
+        <tr class="total"><td colspan="2">UPSIDE ANUAL AGREGADO MEDIO</td><td>+15-30% pago anual</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>ROI por tipo de cliente</h2>
+    <div class="roi-grid">
+      <div class="roi-card">
+        <h4>Silver ~14 com.</h4>
+        <div class="name">Penta</div>
+        <p>Pago Vodafone anual ~300-400 k€. <strong>+15% = 45-60 k€/año</strong>. Cuota VodaControl 655 €/mes = 7.860 €/año.</p>
+        <div class="roi">6-8×</div>
+        <p style="color:var(--ok-hi)">ROI año 1</p>
+      </div>
+      <div class="roi-card">
+        <h4>Platinum 80 com.</h4>
+        <div class="name">GMC</div>
+        <p>Pago Vodafone anual ~2-4 M€. <strong>+15% = 300-600 k€/año</strong>. Cuota VodaControl 3.229 €/mes = 38.748 €/año.</p>
+        <div class="roi">8-15×</div>
+        <p style="color:var(--ok-hi)">ROI año 1</p>
+      </div>
+      <div class="roi-card">
+        <h4>Platinum/Gold mediano</h4>
+        <div class="name">Bonatel / Red Chain</div>
+        <p>Pago Vodafone anual ~1-2 M€. <strong>+15-20% = 150-400 k€/año</strong>. Cuota combinada ~3.500-4.000 €/mes.</p>
+        <div class="roi">4-8×</div>
+        <p style="color:var(--ok-hi)">ROI año 1</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container-narrow">
+    <p>VodaControl · Fenix IA Solutions · Documento interno · 17 mayo 2026</p>
+    <p style="margin-top:8px;">Fuente: <strong>Acciones Comerciales UNE-CI Q1 FY2627</strong> (Vodafone Business España, marzo 2026, 88 págs). Cuotas y upsides estimados, no contractuales.</p>
+    <p style="margin-top:16px;"><a href="../">← Volver al resumen</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
