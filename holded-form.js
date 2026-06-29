@@ -1,17 +1,22 @@
-// Conecta el form de la landing al worker fenix-leads-proxy -> Holded CRM.
+// Conecta el form de la landing al CRM Fenixia (módulo Lead público).
 // Funciona con cualquier form .cta-form que renderice el bundler React,
 // independientemente de cuando aparezca en el DOM.
 //
-// Worker: https://fenix-leads-proxy.proveedores-702.workers.dev (CF Workers)
+// Endpoint: https://crm.fenixia.tech/api/public/leads (embudo de leads del CRM).
+// El lead entra en el proyecto Vodacontrol (resuelto por el token), en la etapa
+// inicial del pipeline, con tipo de origen "Formulario landing". Reemplaza el
+// envío anterior al worker fenix-leads-proxy -> Holded.
+//
 // Fallback historico: el form llevaba action a formspree.io con placeholder
 // REPLACE_WITH_FORMSPREE_ID. Lo interceptamos antes de que se dispare.
 
 (function () {
   'use strict';
 
-  var ENDPOINT = 'https://fenix-leads-proxy.proveedores-702.workers.dev';
-  var SOURCE = 'vodacontrol.com';
-  var PRODUCT = 'vodacontrol';
+  var ENDPOINT = 'https://crm.fenixia.tech/api/public/leads';
+  // Token de captación del proyecto "Vodacontrol" en el CRM. Es público por
+  // diseño: el endpoint tiene rate-limit, honeypot y deduplicación.
+  var LEAD_TOKEN = 'n7rer3TlRYubMNPT0hKfEwGKrfW7tUonT5WuYvAa43ZvFrvQ';
 
   function isLeadForm(el) {
     if (!el || el.tagName !== 'FORM') return false;
@@ -68,41 +73,47 @@
     var name = fieldValue(form, ['nombre', 'name']);
     var company = fieldValue(form, ['empresa', 'company']);
     var email = fieldValue(form, ['email']);
+    var phone = fieldValue(form, ['telefono', 'phone', 'tel']);
     var activaciones = fieldValue(form, ['activaciones', 'activations']);
+    // Honeypot: campo oculto que solo rellenan los bots.
+    var honeypot = fieldValue(form, ['website']);
 
-    if (!name || !email) {
-      showFeedback(form, 'error', 'Falta nombre o email.');
+    if (!name || (!email && !phone)) {
+      showFeedback(form, 'error', 'Falta nombre y un email o teléfono de contacto.');
       return;
     }
 
+    // El CRM guarda el dato de activaciones/mes en el mensaje del lead para que
+    // el comercial lo tenga al cualificar.
+    var mensaje = activaciones
+      ? 'Activaciones/mes: ' + activaciones
+      : null;
+
     var payload = {
-      name: name,
-      company: company,
+      token: LEAD_TOKEN,
+      nombre: name,
+      empresa: company,
       email: email,
-      source: SOURCE,
-      product: PRODUCT,
-      privacy_accepted: true,
-      privacy_accepted_at: new Date().toISOString(),
-      // El worker mete `note` desde su propia plantilla; mandamos
-      // activaciones/mes como campo extra para que quede en tags y
-      // (si en el futuro modificamos el worker) en notes.
-      activaciones: activaciones,
+      telefono: phone,
+      mensaje: mensaje,
+      origen: 'vodacontrol.com',
+      website: honeypot,
     };
 
     setSubmitState(form, true);
     try {
       var res = await fetch(ENDPOINT, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(payload),
       });
       var data = null;
       try { data = await res.json(); } catch (e) { /* ignore */ }
-      if (res.ok && data && data.ok) {
+      if (res.ok) {
         showFeedback(form, 'success', 'Gracias. Te escribimos en menos de 24 horas.');
         form.reset();
       } else {
-        var err = (data && (data.error || data.message)) || ('HTTP ' + res.status);
+        var err = (data && (data.message || data.error)) || ('HTTP ' + res.status);
         showFeedback(form, 'error', 'No se pudo enviar (' + err + '). Escribe a hola@fenixia.tech.');
       }
     } catch (e) {
