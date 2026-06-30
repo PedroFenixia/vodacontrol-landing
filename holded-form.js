@@ -69,12 +69,28 @@
     return '';
   }
 
+  // El bundle exportado de la landing renderiza los inputs SIN atributo name
+  // (no se puede editar a mano con fiabilidad). Como fallback leemos por orden:
+  // el form es Nombre · Empresa · Email · Nº de usuarios. Solo se usa cuando el
+  // input no tiene name; si en el futuro el bundle añade names, prevalece fieldValue.
+  function byIndex(form) {
+    var inputs = form.querySelectorAll('input:not([type="hidden"])');
+    return {
+      nombre: inputs[0] ? (inputs[0].value || '').trim() : '',
+      empresa: inputs[1] ? (inputs[1].value || '').trim() : '',
+      email: inputs[2] ? (inputs[2].value || '').trim() : '',
+      usuarios: inputs[3] ? (inputs[3].value || '').trim() : '',
+    };
+  }
+
   async function handleSubmit(form) {
-    var name = fieldValue(form, ['nombre', 'name']);
-    var company = fieldValue(form, ['empresa', 'company']);
-    var email = fieldValue(form, ['email']);
+    var pos = byIndex(form);
+    var name = fieldValue(form, ['nombre', 'name']) || pos.nombre;
+    var company = fieldValue(form, ['empresa', 'company']) || pos.empresa;
+    var email = fieldValue(form, ['email']) || pos.email;
     var phone = fieldValue(form, ['telefono', 'phone', 'tel']);
-    var activaciones = fieldValue(form, ['activaciones', 'activations']);
+    // En esta landing el 4º campo es "Número de usuarios", no activaciones.
+    var activaciones = fieldValue(form, ['activaciones', 'activations', 'usuarios']) || pos.usuarios;
     // Honeypot: campo oculto que solo rellenan los bots.
     var honeypot = fieldValue(form, ['website']);
 
@@ -83,10 +99,10 @@
       return;
     }
 
-    // El CRM guarda el dato de activaciones/mes en el mensaje del lead para que
+    // El CRM guarda el dato de nº de usuarios en el mensaje del lead para que
     // el comercial lo tenga al cualificar.
     var mensaje = activaciones
-      ? 'Activaciones/mes: ' + activaciones
+      ? 'Número de usuarios (aprox.): ' + activaciones
       : null;
 
     var payload = {
