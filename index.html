@@ -64,6 +64,10 @@
       This page requires JavaScript to display.
     </div>
   </noscript>
+  <!-- Conecta el formulario .cta-form al CRM Fenixia. Se ejecuta en el shell del
+       bundler; registra un listener de submit en captura sobre `document`, que
+       sobrevive al swap del documentElement que hace el unpacker (línea ~182). -->
+  <script src="holded-form.js"></script>
 </head>
 <body>
   <div id="__bundler_thumbnail">
