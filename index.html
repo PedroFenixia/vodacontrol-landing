@@ -68,6 +68,9 @@
        bundler; registra un listener de submit en captura sobre `document`, que
        sobrevive al swap del documentElement que hace el unpacker (línea ~182). -->
   <script src="holded-form.js"></script>
+<!-- Analítica sin cookies (Umami · stats.fenixia.tech) -->
+<script defer src="https://stats.fenixia.tech/s.js" data-website-id="ca98b152-bd21-46c8-9674-a1511d43dba0" data-domains="vodacontrol.com,www.vodacontrol.com"></script>
+<script>(function(){function t(n,d){if(window.umami){window.umami.track(n,d)}}document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href]');if(!a){return}var h=a.getAttribute('href')||'',p={pagina:location.pathname};if(/^tel:/i.test(h)){t('telefono',p)}else if(/^mailto:/i.test(h)){t('email',p)}else if(/wa\.me|whatsapp\.com/i.test(h)){t('whatsapp',p)}else if(/^#contact/i.test(h)){p.texto=(a.textContent||'').trim().slice(0,40);t('cta_contacto',p)}else if(/^https?:/i.test(h)&&a.hostname!==location.hostname){p.destino=a.hostname;t('enlace_externo',p)}},true);document.addEventListener('submit',function(e){t('formulario',{pagina:location.pathname,form:e.target.id||e.target.getAttribute('name')||''})},true)})();</script>
 </head>
 <body>
   <div id="__bundler_thumbnail">
