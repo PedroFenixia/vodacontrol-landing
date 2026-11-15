@@ -101,9 +101,11 @@
 
     // El CRM guarda el dato de nº de usuarios en el mensaje del lead para que
     // el comercial lo tenga al cualificar.
-    var mensaje = activaciones
-      ? 'Número de usuarios (aprox.): ' + activaciones
-      : null;
+    var optinEl = form.querySelector('[name="optin"]');
+    var partes = [];
+    if (activaciones) partes.push('Número de usuarios (aprox.): ' + activaciones);
+    partes.push('Acepta información comercial por email: ' + (optinEl && optinEl.checked ? 'sí' : 'no'));
+    var mensaje = partes.join(' · ');
 
     var payload = {
       token: LEAD_TOKEN,
