@@ -2110,7 +2110,7 @@ h1.hero-title .h1-kw { display:block; font-size: clamp(15px, 1.35vw, 19px); line
 .cta-form .optin { display:flex; gap:10px; align-items:flex-start; text-transform:none; letter-spacing:0; font-family:inherit; font-size:13px; font-weight:500; line-height:1.4; margin:4px 0 14px; }
 .cta-form .optin input { width:auto; margin:2px 0 0; padding:0; }
 .video-section { padding: 120px 0; }
-.video-grid { display:grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 44px; }
+.video-grid { display:grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin-top: 44px; }
 .video-card { border:1px solid var(--line); border-radius:14px; overflow:hidden; background:var(--bg); box-shadow: 0 24px 60px -32px rgba(0,0,0,.35); }
 .video-card video { display:block; width:100%; height:auto; aspect-ratio:16/9; background:#000; }
 .video-card .vc-body { padding: 20px 22px 24px; }
