@@ -120,11 +120,10 @@
   ]
 }
   </script>
-  <script src="/holded-form.js"></script>
 <!-- Analítica sin cookies (Umami · stats.fenixia.tech) -->
 <script defer src="https://stats.fenixia.tech/s.js" data-website-id="ca98b152-bd21-46c8-9674-a1511d43dba0" data-domains="vodacontrol.com,www.vodacontrol.com"></script>
 <script>(function(){function t(n,d){if(window.umami){window.umami.track(n,d)}}var P=location.pathname;
-document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href]');if(!a){return}var h=a.getAttribute('href')||'',p={pagina:P};if(/^tel:/i.test(h)){t('telefono',p)}else if(/^mailto:/i.test(h)){t('email',p)}else if(/wa\.me|whatsapp\.com/i.test(h)){t('whatsapp',p)}else if(/#cta|#contact/i.test(h)){p.texto=(a.textContent||'').trim().slice(0,40);t('cta_demo',p)}else if(/^https?:/i.test(h)&&a.hostname!==location.hostname){p.destino=a.hostname;t('enlace_externo',p)}},true);
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href]');if(!a){return}var h=a.getAttribute('href')||'',p={pagina:P};if(/^tel:/i.test(h)){t('telefono',p)}else if(/^mailto:/i.test(h)){t('email',p)}else if(/wa\.me|whatsapp\.com/i.test(h)){t('whatsapp',p)}else if(/calendly\.com|#cta|#contact/i.test(h)){p.texto=(a.textContent||'').trim().slice(0,40);t('cta_demo',p)}else if(/^https?:/i.test(h)&&a.hostname!==location.hostname){p.destino=a.hostname;t('enlace_externo',p)}},true);
 document.addEventListener('submit',function(e){t('formulario',{pagina:P,form:e.target.id||''})},true);
 var hit={};function sc(){var d=document.documentElement,h=d.scrollHeight-innerHeight;if(h<=0)return;var pc=Math.round(100*scrollY/h);[25,50,75,100].forEach(function(m){if(pc>=m&&!hit[m]){hit[m]=1;t('scroll_'+m,{pagina:P})}})}addEventListener('scroll',sc,{passive:true});
 var t0=Date.now();[30,60,120,300].forEach(function(s){setTimeout(function(){if(document.visibilityState==='visible')t('tiempo_'+s+'s',{pagina:P})},s*1000)});
@@ -188,7 +187,7 @@ document.addEventListener('ended',function(e){var v=e.target;if(v.tagName==='VID
     </div>
     <div class="nav-cta">
       <a href="https://portal.vodacontrol.com" class="login">Acceder</a>
-      <a href="#cta" class="btn btn-primary">Solicitar demo</a>
+      <a href="https://calendly.com/vodacontrol/demo" target="_blank" rel="noopener" class="btn btn-primary">Reservar demo</a>
     </div>
   </div>
 </nav>
@@ -214,8 +213,8 @@ document.addEventListener('ended',function(e){var v=e.target;if(v.tagName==='VID
         </p>
 
         <div class="hero-ctas">
-          <a href="#cta" class="btn btn-primary btn-lg">
-            Solicitar demo
+          <a href="https://calendly.com/vodacontrol/demo" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+            Reservar demo
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
           </a>
           <a href="#preguntas" class="btn btn-ghost btn-lg">Explorar el producto</a>
@@ -705,8 +704,8 @@ document.addEventListener('ended',function(e){var v=e.target;if(v.tagName==='VID
             <div style="font-weight:700;">Sobre tus datos</div>
           </div>
           <div>
-            <div class="mono" style="font-size:11px; color:rgba(255,255,255,.5); text-transform:uppercase; letter-spacing:.06em; margin-bottom:4px;">RESPUESTA</div>
-            <div style="font-weight:700;">&lt; 24h</div>
+            <div class="mono" style="font-size:11px; color:rgba(255,255,255,.5); text-transform:uppercase; letter-spacing:.06em; margin-bottom:4px;">RESERVA</div>
+            <div style="font-weight:700;">Al instante</div>
           </div>
           <div>
             <div class="mono" style="font-size:11px; color:rgba(255,255,255,.5); text-transform:uppercase; letter-spacing:.06em; margin-bottom:4px;">EXPERIENCIA</div>
@@ -715,23 +714,16 @@ document.addEventListener('ended',function(e){var v=e.target;if(v.tagName==='VID
         </div>
       </div>
 
-      <form class="cta-form" id="form-demo" novalidate>
-        <label for="f-nombre">Nombre</label>
-        <input id="f-nombre" name="nombre" type="text" placeholder="María González" required="">
-        <label for="f-empresa">Empresa</label>
-        <input id="f-empresa" name="empresa" type="text" placeholder="Telecom Levante S.L." required="">
-        <label for="f-email">Email corporativo</label>
-        <input id="f-email" name="email" type="email" placeholder="maria@telecomlevante.com" required="">
-        <label for="f-usuarios">Número de usuarios (aprox.)</label>
-        <input id="f-usuarios" name="usuarios" type="text" placeholder="≈ 25" required="">
-        <button type="submit" class="btn btn-primary">
-          Solicitar demo
+      <div class="cta-form cta-reserva">
+        <div class="mono" style="font-size:11px; color:rgba(255,255,255,.6); text-transform:uppercase; letter-spacing:.06em;">RESERVA DIRECTA</div>
+        <h3 style="margin:8px 0 10px; font-size:24px; line-height:1.25;">Elige día y hora para tu demo</h3>
+        <p style="margin:0 0 20px; color:rgba(255,255,255,.75); line-height:1.55;">Sin formularios: escoges un hueco en la agenda y te llega la invitación de Microsoft Teams al momento.</p>
+        <a href="https://calendly.com/vodacontrol/demo" target="_blank" rel="noopener" class="btn btn-primary btn-lg" style="width:100%; justify-content:center;">
+          Reservar demo de 30 minutos
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
-        </button>
-        <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
-          <label class="optin"><input type="checkbox" name="optin" value="si"> Quiero recibir información comercial de FENIX IA sobre VodaControl por email (opcional).</label>
-          <p class="small">Responsable: FENIX IA SOLUTIONS SL. Usamos tus datos para contestar a tu solicitud de demo y, solo si marcas la casilla, para enviarte información comercial. Más información en la <a href="/privacidad.html" style="color:rgba(255,255,255,.7); text-decoration: underline;">política de privacidad</a> de FENIX IA SOLUTIONS SL.</p>
-      </form>
+        </a>
+        <p class="small" style="margin-top:16px;">¿Prefieres que te escribamos? <a href="mailto:contacto@vodacontrol.com?subject=Demo%20VodaControl" style="color:rgba(255,255,255,.85); text-decoration: underline;">contacto@vodacontrol.com</a>. La reserva se gestiona con Calendly; más información en la <a href="/privacidad.html" style="color:rgba(255,255,255,.7); text-decoration: underline;">política de privacidad</a>.</p>
+      </div>
     </div>
   </div>
 </section>

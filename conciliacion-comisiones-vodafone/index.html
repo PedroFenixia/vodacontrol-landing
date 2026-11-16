@@ -98,11 +98,10 @@
   ]
 }
   </script>
-  <script src="/holded-form.js"></script>
 <!-- Analítica sin cookies (Umami · stats.fenixia.tech) -->
 <script defer src="https://stats.fenixia.tech/s.js" data-website-id="ca98b152-bd21-46c8-9674-a1511d43dba0" data-domains="vodacontrol.com,www.vodacontrol.com"></script>
 <script>(function(){function t(n,d){if(window.umami){window.umami.track(n,d)}}var P=location.pathname;
-document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href]');if(!a){return}var h=a.getAttribute('href')||'',p={pagina:P};if(/^tel:/i.test(h)){t('telefono',p)}else if(/^mailto:/i.test(h)){t('email',p)}else if(/wa\.me|whatsapp\.com/i.test(h)){t('whatsapp',p)}else if(/#cta|#contact/i.test(h)){p.texto=(a.textContent||'').trim().slice(0,40);t('cta_demo',p)}else if(/^https?:/i.test(h)&&a.hostname!==location.hostname){p.destino=a.hostname;t('enlace_externo',p)}},true);
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href]');if(!a){return}var h=a.getAttribute('href')||'',p={pagina:P};if(/^tel:/i.test(h)){t('telefono',p)}else if(/^mailto:/i.test(h)){t('email',p)}else if(/wa\.me|whatsapp\.com/i.test(h)){t('whatsapp',p)}else if(/calendly\.com|#cta|#contact/i.test(h)){p.texto=(a.textContent||'').trim().slice(0,40);t('cta_demo',p)}else if(/^https?:/i.test(h)&&a.hostname!==location.hostname){p.destino=a.hostname;t('enlace_externo',p)}},true);
 document.addEventListener('submit',function(e){t('formulario',{pagina:P,form:e.target.id||''})},true);
 var hit={};function sc(){var d=document.documentElement,h=d.scrollHeight-innerHeight;if(h<=0)return;var pc=Math.round(100*scrollY/h);[25,50,75,100].forEach(function(m){if(pc>=m&&!hit[m]){hit[m]=1;t('scroll_'+m,{pagina:P})}})}addEventListener('scroll',sc,{passive:true});
 var t0=Date.now();[30,60,120,300].forEach(function(s){setTimeout(function(){if(document.visibilityState==='visible')t('tiempo_'+s+'s',{pagina:P})},s*1000)});
@@ -130,7 +129,7 @@ document.addEventListener('ended',function(e){var v=e.target;if(v.tagName==='VID
     </div>
     <div class="nav-cta">
       <a href="https://portal.vodacontrol.com" class="login">Acceder</a>
-      <a href="/#cta" class="btn btn-primary">Solicitar demo</a>
+      <a href="https://calendly.com/vodacontrol/demo" target="_blank" rel="noopener" class="btn btn-primary">Reservar demo</a>
     </div>
   </div>
 </nav>
@@ -142,7 +141,7 @@ document.addEventListener('ended',function(e){var v=e.target;if(v.tagName==='VID
     <div class="section-meta">CONCILIACIÓN DE COMISIONES</div>
     <h1>Conciliación de comisiones Vodafone, <span style="color:var(--red);">producto a producto</span>.</h1>
     <p class="lede">VodaControl cruza cada oferta de tu distribución con la liquidación de comisiones de Vodafone y con la tabla vigente en su fecha de activación. Concilia hasta un 95% de tu actividad de forma automática y te deja a la vista solo lo que hay que revisar o reclamar.</p>
-    <div class="hero-ctas"><a href="/#cta" class="btn btn-primary btn-lg">Solicitar demo</a> <a href="#video-conciliacion" class="btn btn-ghost btn-lg">Ver el vídeo</a></div>
+    <div class="hero-ctas"><a href="https://calendly.com/vodacontrol/demo" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Reservar demo</a> <a href="#video-conciliacion" class="btn btn-ghost btn-lg">Ver el vídeo</a></div>
   </div>
 </header>
 
@@ -212,7 +211,7 @@ document.addEventListener('ended',function(e){var v=e.target;if(v.tagName==='VID
       <h2>Menos hojas de cálculo, más comisiones cobradas</h2>
       <p>Sin un sistema propio, la conciliación de comisiones acaba en hojas de cálculo que se cruzan a mano cada mes. VodaControl hace ese cruce cada día con los ficheros que ya recibes de Vodafone, guarda el histórico y te avisa antes de cerrar el periodo.</p>
       <p>Y como incluye el CRM, el configurador de ofertas y el control de la actividad comercial, la oferta, la activación y la comisión están en el mismo sitio. Es posiblemente el software más completo para distribuidores de Vodafone Empresas.</p>
-      <p><a class="section-link" href="/#cta" style="color:var(--red);font-weight:700;">Pide una demo de 30 minutos sobre tus datos →</a></p>
+      <p><a class="section-link" href="https://calendly.com/vodacontrol/demo" target="_blank" rel="noopener" style="color:var(--red);font-weight:700;">Reserva una demo de 30 minutos sobre tus datos →</a></p>
     </div>
     <div class="app-shot"><div class="bar"><i></i><i></i><i></i></div><span class="tag">Vista de la app</span><img src="/brand/screens/app-primas-gross-adds-detalle.png" alt="Detalle de equivalencias de la prima Gross Adds por cliente, producto y línea en VodaControl" width="1700" height="1060" loading="lazy"></div>
   </div>
@@ -223,7 +222,7 @@ document.addEventListener('ended',function(e){var v=e.target;if(v.tagName==='VID
     <div class="section-meta" style="justify-content:center;">DEMO</div>
     <h2 class="section-title" style="margin-left:auto;margin-right:auto;">Mira tu propia conciliación en 30 minutos.</h2>
     <p class="section-lede" style="margin:0 auto 28px;">Desde 499 € al mes, sin IVA. Y si el primer mes no quedas satisfecho, te devolvemos la cuota.</p>
-    <a href="/#cta" class="btn btn-primary btn-lg">Solicitar demo</a>
+    <a href="https://calendly.com/vodacontrol/demo" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Reservar demo</a>
   </div>
 </section>
 </main>
